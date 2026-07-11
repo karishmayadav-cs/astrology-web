@@ -1,0 +1,29 @@
+# Environment Variables (MOST IMPORTANT - Never push API keys)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Node Modules (Never push this - very large folder)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+.next/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+.npm/

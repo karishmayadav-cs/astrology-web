@@ -646,3 +646,12 @@ STRUCTURED DATA: {"lagna":{"lon":65.41935336882406,"rashi":2,"deg":5.41935336882
 INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Considering your Mithuna lagna and planetary placements, the 7th house lord is Jupiter in Mithuna at 15.7°. Jupiter's placement in the 1st house suggests a strong and confident partner with a philosophical and ...
 ========================================
 
+
+========================================
+TIMESTAMP: 2026-07-11T17:13:41.110Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Sunil baghel","dob":"2004-09-02","tob":"02:00","pob":"Ballabgarh "}
+STRUCTURED DATA: {"lagna":{"lon":83.56432042132161,"rashi":2,"deg":23.56432042132161},"planets":{"Sun":{"lon":135.80124591959273,"rashi":4,"deg":15.80124591959273,"retro":false,"house":3},"Moon":{"lon":351.05752479442833,"rashi":11,"deg":21.057524794428332,"retro":false,"house":10},"Mars":{"lon":140.3358705711256,"rashi":4,"deg":20.33587057112561,"retro":false,"house":3},"Mercury":{"lon":121.85025534995161,"rashi":4,"deg":1.8502553499516097,"retro":true,"house":3},"Jupiter":{"lon":151.07408858786528,"rashi":5,"deg":1.0740885878652762,"retro":false,"house":4},"Venus":{"lon":90.69883175891638,"rashi":3,"deg":0.6988317589163842,"retro":false,"house":2},"Saturn":{"lon":89.58516056358445,"rashi":2,"deg":29.585160563584452,"retro":false,"house":1},"Rahu":{"lon":9.448654997832955,"rashi":0,"deg":9.448654997832955,"retro":true,"house":11},"Ketu":{"lon":189.44865499783296,"rashi":6,"deg":9.44865499783296,"retro":true,"house":5}},"nakshatra":{"idx":26,"pada":2,"name":"Revati","lord":"Mercury","deity":"Pushan","symbol":"🐟","nature":"Soft","desc":"Represents nourishment and safe journeys. Revati natives are compassionate, spiritual, and nurturing."},"dasha":{"mahadasha":{"lord":"Venus","start":"2023-01-27T04:54:52.292Z","end":"2043-01-27T04:54:52.292Z"},"antardasha":{"lord":"Sun","start":"2026-05-28T16:54:52.292Z","end":"2027-05-28T22:54:52.292Z"},"pratyantardasha":{"lord":"Moon","start":"2026-06-15T23:12:52.291Z","end":"2026-07-16T09:42:52.291Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Sunil Baghel's 7th house lord is Vrishabha (Taurus), indicating a spouse who values stability, loyalty, and sensuality. The placement of Venus in Karka (Cancer) in the 2nd house and Mars in Simha (Leo) in the 3...
+========================================
+

@@ -1141,6 +1141,21 @@
         "deg": 5.419353368824062
       },
       "lastActive": "2026-07-11T08:20:56.233Z"
+    },
+    "a14fbfa44348ca0adcf58bdaa3ec63d8": {
+      "name": "Sunil baghel",
+      "dob": "2004-09-02",
+      "tob": "02:00",
+      "pob": "Ballabgarh ",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 83.56432042132161,
+        "rashi": 2,
+        "deg": 23.56432042132161
+      },
+      "lastActive": "2026-07-11T17:13:41.117Z"
     }
   }
 }

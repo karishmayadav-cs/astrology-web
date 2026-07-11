@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CosmicSoul — Vedic Astrology &amp; Numerology</title>
+  <meta name="description" content="Discover your cosmic blueprint. Get accurate Vedic astrology readings, numerology insights, planetary positions, and life predictions based on your birth details." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Raleway:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Canvas Background -->
+<canvas id="cosmos-canvas"></canvas>
+
+<!-- Nebula Blobs -->
+<div class="nebula-blob nb1"></div>
+<div class="nebula-blob nb2"></div>
+<div class="nebula-blob nb3"></div>
+
+<!-- Loading Overlay -->
+<div class="loading-overlay" id="loading-overlay">
+  <div class="cosmic-spinner"></div>
+  <div class="loading-text">Reading the stars for you…</div>
+</div>
+
+<div class="page-wrapper">
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo-orbit">
+      <span class="logo-icon">🔮</span>
+    </div>
+    <h1 class="site-title">CosmicSoul</h1>
+    <p class="site-tagline">Your Vedic Astrology &amp; Numerology Oracle</p>
+    <div class="header-divider"></div>
+  </header>
+
+  <!-- INPUT FORM -->
+  <section class="input-section">
+    <div class="glass-card">
+      <h2 class="section-title">✦ Enter Your Birth Details ✦</h2>
+      <form id="astro-form" novalidate>
+        <div class="form-grid">
+          <div class="form-group form-full">
+            <label class="form-label" for="fullname">👤 Full Name</label>
+            <input type="text" id="fullname" class="form-input" placeholder="e.g. Aarav Sharma" autocomplete="name" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="dob">📅 Date of Birth</label>
+            <input type="date" id="dob" class="form-input" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="tob">⏰ Time of Birth</label>
+            <input type="time" id="tob" class="form-input" required />
+          </div>
+          <div class="form-group form-full" style="flex-direction:row;align-items:center;gap:10px;margin-top:-6px;">
+            <input type="checkbox" id="approx-time" style="width:20px;height:20px;cursor:pointer;" />
+            <label class="form-label" for="approx-time" style="cursor:pointer;color:var(--text-secondary);text-transform:none;letter-spacing:0;font-size:0.85rem;">My birth time is approximate / unknown</label>
+          </div>
+          <div class="form-group form-full">
+            <label class="form-label" for="pob">📍 Place of Birth</label>
+            <input type="text" id="pob" class="form-input" placeholder="e.g. Mumbai, Maharashtra, India" required />
+          </div>
+          <div class="form-group form-full">
+            <label class="form-label" for="current-location">📍 Current Location (For Daily Horoscope)</label>
+            <input type="text" id="current-location" class="form-input" placeholder="e.g. Pune, Maharashtra, India" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="gender">⚧ Gender</label>
+            <select id="gender" class="form-select">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other / Prefer not to say</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="timezone">🌐 Timezone (Auto-detect option)</label>
+            <select id="timezone" class="form-select">
+              <option value="auto">Auto-detect from coordinates (Recommended)</option>
+              <option value="5.5">IST +5:30</option>
+              <option value="0">UTC +0:00</option>
+              <option value="1">CET +1:00</option>
+              <option value="5">PKT +5:00</option>
+              <option value="-5">EST -5:00</option>
+              <option value="-8">PST -8:00</option>
+            </select>
+          </div>
+        </div>
+        <div class="error-msg" id="form-error">⚠️ Please fill all required fields.</div>
+        <div class="form-group" style="margin-top:24px;">
+          <button type="submit" class="btn-cosmic" id="reveal-btn">✨ Reveal My Cosmic Blueprint ✨</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="results-section">
+
+    <!-- Confidence Warning Banner -->
+    <div class="confidence-banner" id="confidence-banner">
+      <span style="font-size:1.4rem;">⚠️</span>
+      <div>
+        <strong>Approximate Birth Time Configured:</strong> House cusps, Dashas, and career/marriage timing predictions are calculated with lower confidence. For maximum precision, update with an exact birth certificate time.
+      </div>
+    </div>
+
+    <div class="results-header reveal">
+      <div class="user-greeting" id="greeting-text">🌟 Cosmic Blueprint of …</div>
+      <div class="user-subtitle" id="subtitle-text">Born on … at … in …</div>
+      <div class="header-divider" style="margin-top:16px;"></div>
+    </div>
+
+    <!-- NUMEROLOGY NUMBERS -->
+    <div class="num-grid reveal" id="num-grid"></div>
+
+    <!-- NAKSHATRA -->
+    <div class="nakshatra-card reveal" id="nakshatra-card"></div>
+
+    <!-- TABS -->
+    <div class="tabs-wrapper reveal">
+      <div class="tabs-nav" id="tabs-nav">
+        <button class="tab-btn active" data-tab="planets">🪐 Planets &amp; Houses</button>
+        <button class="tab-btn" data-tab="love">💞 Love &amp; Marriage</button>
+        <button class="tab-btn" data-tab="career">💼 Career &amp; Finance</button>
+        <button class="tab-btn" data-tab="health">🌿 Health &amp; Wellness</button>
+        <button class="tab-btn" data-tab="dasha">⏳ Dasha Periods</button>
+        <button class="tab-btn" data-tab="lucky">🍀 Lucky Elements</button>
+        <button class="tab-btn" data-tab="daily">📅 Daily Horoscope</button>
+        <button class="tab-btn" data-tab="palm">✋ Palm Reading</button>
+        <button class="tab-btn" data-tab="face">👤 Face Reading</button>
+        <button class="tab-btn" data-tab="journey">📖 My Journey</button>
+        <button class="tab-btn" data-tab="future">🔮 Future Prediction</button>
+      </div>
+
+      <!-- Planets & Houses -->
+      <div class="tab-content active" id="tab-planets">
+        <div class="glass-card">
+          <div class="planet-table-wrapper">
+            <table class="planet-table" id="planet-table">
+              <thead>
+                <tr>
+                  <th>Planet</th>
+                  <th>D1 Rashi</th>
+                  <th>D1 House</th>
+                  <th>D9 Navamsa Rashi</th>
+                  <th>D9 House</th>
+                  <th>Degree</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="planet-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Love & Marriage -->
+      <div class="tab-content" id="tab-love">
+        <div class="predictions-grid" id="love-grid"></div>
+        
+        <!-- Basis expandable details -->
+        <details class="basis-details" style="margin-top:24px;border:1px solid var(--glass-border);border-radius:12px;padding:12px;background:rgba(255,255,255,0.02);">
+          <summary style="cursor:pointer;font-family:'Cinzel',serif;color:var(--gold);font-size:0.85rem;letter-spacing:0.05em;outline:none;">✦ Basis of This Reading (Astrological Factors Used)</summary>
+          <div class="basis-content" id="love-basis-content" style="margin-top:12px;font-size:0.82rem;color:var(--text-secondary);line-height:1.6;">
+          </div>
+        </details>
+
+        <div class="feedback-container" style="margin-top:20px;display:flex;align-items:center;gap:12px;font-size:0.85rem;border-top:1px solid rgba(255,255,255,0.05);padding-top:12px;">
+          <span>Was this prediction accurate?</span>
+          <button class="feedback-btn" onclick="submitFeedback('marriage', 'accurate', this)">👍 Yes</button>
+          <button class="feedback-btn" onclick="submitFeedback('marriage', 'inaccurate', this)">👎 No</button>
+        </div>
+      </div>
+
+      <!-- Career & Finance -->
+      <div class="tab-content" id="tab-career">
+        <div class="predictions-grid" id="career-grid"></div>
+
+        <!-- Basis expandable details -->
+        <details class="basis-details" style="margin-top:24px;border:1px solid var(--glass-border);border-radius:12px;padding:12px;background:rgba(255,255,255,0.02);">
+          <summary style="cursor:pointer;font-family:'Cinzel',serif;color:var(--gold);font-size:0.85rem;letter-spacing:0.05em;outline:none;">✦ Basis of This Reading (Astrological Factors Used)</summary>
+          <div class="basis-content" id="career-basis-content" style="margin-top:12px;font-size:0.82rem;color:var(--text-secondary);line-height:1.6;">
+          </div>
+        </details>
+
+        <div class="feedback-container" style="margin-top:20px;display:flex;align-items:center;gap:12px;font-size:0.85rem;border-top:1px solid rgba(255,255,255,0.05);padding-top:12px;">
+          <span>Was this prediction accurate?</span>
+          <button class="feedback-btn" onclick="submitFeedback('career', 'accurate', this)">👍 Yes</button>
+          <button class="feedback-btn" onclick="submitFeedback('career', 'inaccurate', this)">👎 No</button>
+        </div>
+      </div>
+
+      <!-- Health & Wellness -->
+      <div class="tab-content" id="tab-health">
+        <div class="predictions-grid" id="health-grid"></div>
+
+        <!-- Basis expandable details -->
+        <details class="basis-details" style="margin-top:24px;border:1px solid var(--glass-border);border-radius:12px;padding:12px;background:rgba(255,255,255,0.02);">
+          <summary style="cursor:pointer;font-family:'Cinzel',serif;color:var(--gold);font-size:0.85rem;letter-spacing:0.05em;outline:none;">✦ Basis of This Reading (Astrological Factors Used)</summary>
+          <div class="basis-content" id="health-basis-content" style="margin-top:12px;font-size:0.82rem;color:var(--text-secondary);line-height:1.6;">
+          </div>
+        </details>
+
+        <div class="feedback-container" style="margin-top:20px;display:flex;align-items:center;gap:12px;font-size:0.85rem;border-top:1px solid rgba(255,255,255,0.05);padding-top:12px;">
+          <span>Was this prediction accurate?</span>
+          <button class="feedback-btn" onclick="submitFeedback('health', 'accurate', this)">👍 Yes</button>
+          <button class="feedback-btn" onclick="submitFeedback('health', 'inaccurate', this)">👎 No</button>
+        </div>
+      </div>
+
+      <!-- Dasha Periods -->
+      <div class="tab-content" id="tab-dasha">
+        <div class="glass-card">
+          <h3 style="font-family:'Cinzel',serif;color:var(--gold);margin-bottom:20px;font-size:1rem;letter-spacing:.08em;">Vimshottari Mahadasha Periods</h3>
+          <div class="dasha-list" id="dasha-list"></div>
+        </div>
+      </div>
+
+      <!-- Lucky Elements -->
+      <div class="tab-content" id="tab-lucky">
+        <div class="predictions-grid" id="lucky-grid"></div>
+      </div>
+
+      <!-- Daily Horoscope -->
+      <div class="tab-content" id="tab-daily">
+        <div class="glass-card">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:10px;">
+            <h3 style="font-family:'Cinzel',serif;color:var(--gold);font-size:1rem;letter-spacing:.08em;">Daily Transit Horoscope</h3>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <input type="date" id="daily-date-input" class="form-input" style="padding:6px 12px;width:auto;font-size:0.85rem;" />
+              <button class="tab-btn" id="refresh-daily-btn" style="padding:6px 14px;font-size:0.8rem;">🔄 Recalculate</button>
+            </div>
+          </div>
+          
+          <div id="daily-loading" style="display:none;text-align:center;padding:30px;">
+            <div class="cosmic-spinner" style="width:40px;height:40px;margin:0 auto 10px;"></div>
+            <div style="font-size:0.85rem;color:var(--text-muted);">Consulting today's transits...</div>
+          </div>
+          
+          <div id="daily-content" style="display:none;">
+            <div style="background:rgba(255,255,255,0.02);border:1px solid var(--glass-border);padding:18px;border-radius:12px;margin-bottom:24px;">
+              <h4 style="font-family:'Cinzel',serif;color:var(--accent-teal);font-size:0.95rem;margin-bottom:8px;">Daily Alignment Summary</h4>
+              <p id="daily-summary-text" style="font-size:0.9rem;line-height:1.6;color:var(--text-primary);"></p>
+            </div>
+            
+            <!-- Ups & Downs highlights -->
+            <div id="daily-highlights-container" style="display:none; margin-bottom:24px; background:rgba(255,255,255,0.02); border:1px solid var(--glass-border); padding:16px; border-radius:12px;">
+              <h4 style="font-family:'Cinzel',serif; color:var(--gold); font-size:0.9rem; margin-bottom:10px; letter-spacing:0.05em;">📈 Today's Transit Highlights (Ups & Downs)</h4>
+              <div id="daily-highlights-list" style="display:flex; flex-direction:column; gap:8px; font-size:0.85rem;"></div>
+            </div>
+
+            <!-- Cosmic Index meters -->
+            <div id="daily-scores-container" style="display:none; margin-bottom:24px;">
+              <h4 style="font-family:'Cinzel',serif; color:var(--gold); font-size:0.9rem; margin-bottom:10px; letter-spacing:0.05em;">🪐 Cosmic Index for Today</h4>
+              <div id="daily-scores-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:10px;"></div>
+            </div>
+            
+            <div class="predictions-grid">
+              <div class="pred-card spiritual">
+                <div class="pred-header"><span class="pred-icon">🧠</span><span class="pred-title">General Mood</span></div>
+                <div class="pred-body" id="daily-mood-body"></div>
+              </div>
+              <div class="pred-card career">
+                <div class="pred-header"><span class="pred-icon">💼</span><span class="pred-title">Career &amp; Focus</span></div>
+                <div class="pred-body" id="daily-career-body"></div>
+              </div>
+              <div class="pred-card finance">
+                <div class="pred-header"><span class="pred-icon">💵</span><span class="pred-title">Money &amp; Spending</span></div>
+                <div class="pred-body" id="daily-finance-body"></div>
+              </div>
+              <div class="pred-card love">
+                <div class="pred-header"><span class="pred-icon">💞</span><span class="pred-title">Love &amp; Attraction</span></div>
+                <div class="pred-body" id="daily-love-body"></div>
+              </div>
+              <div class="pred-card health" style="grid-column: 1 / -1;">
+                <div class="pred-header"><span class="pred-icon">🌿</span><span class="pred-title">Vitality &amp; Health</span></div>
+                <div class="pred-body" id="daily-health-body"></div>
+              </div>
+            </div>
+            
+            <details class="basis-details" style="margin-top:24px;border:1px solid var(--glass-border);border-radius:12px;padding:12px;background:rgba(255,255,255,0.02);">
+              <summary style="cursor:pointer;font-family:'Cinzel',serif;color:var(--gold);font-size:0.85rem;letter-spacing:0.05em;outline:none;">✦ Daily Transit Factors</summary>
+              <div class="basis-content" id="daily-basis-content" style="margin-top:12px;font-size:0.82rem;color:var(--text-secondary);line-height:1.6;">
+              </div>
+            </details>
+            
+            <div class="feedback-container" style="margin-top:20px;display:flex;align-items:center;gap:12px;font-size:0.85rem;border-top:1px solid rgba(255,255,255,0.05);padding-top:12px;">
+              <span>Was today's prediction accurate?</span>
+              <button class="feedback-btn" onclick="submitFeedback('daily', 'accurate', this)">👍 Yes</button>
+              <button class="feedback-btn" onclick="submitFeedback('daily', 'inaccurate', this)">👎 No</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Palm Reading -->
+      <div class="tab-content" id="tab-palm">
+        <div class="glass-card">
+          <h3 style="font-family:'Cinzel',serif;color:var(--gold);margin-bottom:20px;font-size:1.1rem;letter-spacing:.08em;text-align:center;">✋ Palm Reading (Chiromancy)</h3>
+          <p style="text-align:center;font-size:0.9rem;color:var(--text-secondary);margin-bottom:24px;max-width:600px;margin-left:auto;margin-right:auto;">
+            Upload a clear, well-lit photo of your active palm (dominant hand) to trace your Life, Head, Heart, and Fate lines.
+          </p>
+          
+          <div style="display:flex;flex-direction:column;align-items:center;gap:20px;">
+            <div class="upload-zone" id="palm-upload-zone">
+              <input type="file" id="palm-file-input" accept="image/*" style="display:none;" />
+              <div id="palm-prompt-view" style="display:flex;flex-direction:column;align-items:center;gap:12px;padding:40px;cursor:pointer;width:100%;text-align:center;">
+                <span style="font-size:3rem;">📸</span>
+                <span style="font-weight:600;color:var(--gold-light);">Click to Select or Drop Palm Image</span>
+                <span style="font-size:0.75rem;color:var(--text-muted);">Supports PNG, JPG (Max 5MB)</span>
+              </div>
+              <div id="palm-preview-view" style="display:none;position:relative;width:100%;max-width:320px;">
+                <img id="palm-preview-img" style="width:100%;border-radius:12px;border:1px solid var(--glass-border);display:block;" />
+                <div class="scan-line" id="palm-scan-line"></div>
+                <button id="palm-remove-btn" class="tab-btn" style="position:absolute;top:10px;right:10px;background:rgba(255,64,129,0.8);color:white;padding:4px 8px;font-size:0.75rem;border-radius:6px;border:none;cursor:pointer;">✕ Remove</button>
+              </div>
+            </div>
+            
+            <button class="btn-cosmic" id="palm-submit-btn" style="max-width:320px;display:none;">✨ Analyze My Palm ✨</button>
+            
+            <div id="palm-loading" style="display:none;text-align:center;padding:20px;">
+              <div class="cosmic-spinner" style="width:45px;height:45px;margin:0 auto 12px;"></div>
+              <div class="loading-text" style="font-size:0.85rem;color:var(--silver);">Scanning lines and mounts…</div>
+            </div>
+            
+            <div id="palm-result-card" class="pred-card" style="width:100%;margin-top:20px;display:none;">
+              <div class="pred-header">
+                <span class="pred-icon">🔮</span>
+                <span class="pred-title">Your Palmistry Reading</span>
+              </div>
+              <div class="pred-body" id="palm-result-text" style="font-size:0.95rem;line-height:1.8;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Face Reading -->
+      <div class="tab-content" id="tab-face">
+        <div class="glass-card">
+          <h3 style="font-family:'Cinzel',serif;color:var(--gold);margin-bottom:20px;font-size:1.1rem;letter-spacing:.08em;text-align:center;">👤 Face Reading (Physiognomy)</h3>
+          <p style="text-align:center;font-size:0.9rem;color:var(--text-secondary);margin-bottom:24px;max-width:600px;margin-left:auto;margin-right:auto;">
+            Upload a clear, front-facing portrait to analyze your facial proportions based on the traditional Chinese Mian Xiang system.
+          </p>
+          
+          <div style="display:flex;flex-direction:column;align-items:center;gap:20px;">
+            <div class="upload-zone" id="face-upload-zone">
+              <input type="file" id="face-file-input" accept="image/*" style="display:none;" />
+              <div id="face-prompt-view" style="display:flex;flex-direction:column;align-items:center;gap:12px;padding:40px;cursor:pointer;width:100%;text-align:center;">
+                <span style="font-size:3rem;">📷</span>
+                <span style="font-weight:600;color:var(--gold-light);">Click to Select or Drop Portrait</span>
+                <span style="font-size:0.75rem;color:var(--text-muted);">Your photo is processed in-memory and discarded</span>
+              </div>
+              <div id="face-preview-view" style="display:none;position:relative;width:100%;max-width:320px;">
+                <img id="face-preview-img" style="width:100%;border-radius:12px;border:1px solid var(--glass-border);display:block;" />
+                <div class="scan-line" id="face-scan-line"></div>
+                <button id="face-remove-btn" class="tab-btn" style="position:absolute;top:10px;right:10px;background:rgba(255,64,129,0.8);color:white;padding:4px 8px;font-size:0.75rem;border-radius:6px;border:none;cursor:pointer;">✕ Remove</button>
+              </div>
+            </div>
+            
+            <button class="btn-cosmic" id="face-submit-btn" style="max-width:320px;display:none;">✨ Read My Face ✨</button>
+            
+            <div id="face-loading" style="display:none;text-align:center;padding:20px;">
+              <div class="cosmic-spinner" style="width:45px;height:45px;margin:0 auto 12px;"></div>
+              <div class="loading-text" style="font-size:0.85rem;color:var(--silver);">Analyzing features and regions…</div>
+            </div>
+            
+            <div id="face-result-card" class="pred-card" style="width:100%;margin-top:20px;display:none;">
+              <div class="pred-header">
+                <span class="pred-icon">🔮</span>
+                <span class="pred-title">Your Face Reading Interpretation</span>
+              </div>
+              <div class="pred-body" id="face-result-text" style="font-size:0.95rem;line-height:1.8;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Journey History -->
+      <div class="tab-content" id="tab-journey">
+        <div class="glass-card">
+          <h3 style="font-family:'Cinzel',serif;color:var(--gold);margin-bottom:20px;font-size:1.1rem;letter-spacing:.08em;">📖 My Journey (Horoscope History)</h3>
+          <p style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:24px;">
+            View your previously calculated daily horoscopes and track their accuracy feedback logs.
+          </p>
+          
+          <div id="journey-loading" style="display:none;text-align:center;padding:30px;">
+            <div class="cosmic-spinner" style="width:40px;height:40px;margin:0 auto 10px;"></div>
+            <div style="font-size:0.85rem;color:var(--text-muted);">Loading your record...</div>
+          </div>
+          
+          <div id="journey-empty" style="text-align:center;padding:40px;color:var(--text-muted);font-style:italic;">
+            No daily horoscopes found. Submit your details and check "Daily Horoscope" tab to start tracking!
+          </div>
+          
+          <div id="journey-content" style="display:none;display:flex;flex-direction:column;gap:20px;">
+            <div class="planet-table-wrapper">
+              <table class="planet-table" style="width:100%;">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Current Location</th>
+                    <th>Overall Summary</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="journey-tbody"></tbody>
+              </table>
+            </div>
+            
+            <div id="journey-history-details" class="pred-card" style="display:none;border-color:var(--gold);">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+                <h4 id="journey-details-date" style="font-family:'Cinzel',serif;color:var(--gold);font-size:1rem;margin:0;">Reading for date ...</h4>
+                <button class="tab-btn" onclick="document.getElementById('journey-history-details').style.display='none'" style="padding:4px 10px;font-size:0.75rem;">✕ Close</button>
+              </div>
+              <div id="journey-details-body" class="pred-body"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Future Prediction -->
+      <div class="tab-content" id="tab-future">
+        <div class="glass-card">
+          <h3 style="font-family:'Cinzel',serif;color:var(--gold);margin-bottom:20px;font-size:1.1rem;letter-spacing:.08em;text-align:center;">🔮 Future Prediction Oracle</h3>
+          <p style="text-align:center;font-size:0.9rem;color:var(--text-secondary);margin-bottom:24px;max-width:600px;margin-left:auto;margin-right:auto;">
+            Consult the Groq-powered Vedic and Western Oracle. Ask a specific question about your future or request a general life guide based on your birth coordinates.
+          </p>
+          
+          <div style="display:flex;flex-direction:column;align-items:center;gap:20px;">
+            <div class="form-group form-full" style="width:100%;max-width:600px;">
+              <label class="form-label" for="future-question">💬 State Your Question or Topic of Focus (Optional)</label>
+              <textarea id="future-question" class="form-input" style="height:100px;resize:vertical;padding:12px;" placeholder="e.g., What does my career look like in the next 12 months? Will I find stability in my relationships? Or leave blank for general guidance."></textarea>
+            </div>
+            
+            <button class="btn-cosmic" id="future-submit-btn" style="max-width:320px;">✨ Generate Future Predictions ✨</button>
+            
+            <div id="future-loading" style="display:none;text-align:center;padding:20px;">
+              <div class="cosmic-spinner" style="width:45px;height:45px;margin:0 auto 12px;"></div>
+              <div class="loading-text" style="font-size:0.85rem;color:var(--silver);">Reading transit overlays and calculating dasha periods…</div>
+            </div>
+            
+            <div id="future-result-card" class="pred-card" style="width:100%;margin-top:20px;display:none;">
+              <div class="pred-header">
+                <span class="pred-icon">🔮</span>
+                <span class="pred-title">Your Future Predictions</span>
+              </div>
+              <div class="pred-body" id="future-result-text" style="font-size:0.95rem;line-height:1.8;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p>✦ CosmicSoul — Vedic Astrology &amp; Numerology ✦</p>
+    <p style="margin-top:6px;">For spiritual guidance only. Calculations based on Vedic (Sidereal) tradition.</p>
+  </footer>
+
+</div><!-- end page-wrapper -->
+
+<script src="script.js"></script>
+</body>
+</html>

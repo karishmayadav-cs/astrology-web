@@ -1,0 +1,1146 @@
+{
+  "dailyReadings": {
+    "0f0fd8a8277be1d4dc9dacfe1059991b": {
+      "2026-07-07": {
+        "date": "2026-07-07",
+        "currentLocation": "Pune, India",
+        "transitHouses": {
+          "Sun": {
+            "lon": 80.95101381879937,
+            "rashi": 2,
+            "deg": 20.951013818799368,
+            "house": 1
+          },
+          "Moon": {
+            "lon": 344.21790621391386,
+            "rashi": 11,
+            "deg": 14.217906213913864,
+            "house": 10
+          },
+          "Mars": {
+            "lon": 41.76744575965786,
+            "rashi": 1,
+            "deg": 11.76744575965786,
+            "house": 12
+          },
+          "Mercury": {
+            "lon": 89.97393914326723,
+            "rashi": 2,
+            "deg": 29.97393914326723,
+            "house": 1
+          },
+          "Jupiter": {
+            "lon": 97.28455688070686,
+            "rashi": 3,
+            "deg": 7.284556880706859,
+            "house": 2
+          },
+          "Venus": {
+            "lon": 123.03048811030818,
+            "rashi": 4,
+            "deg": 3.030488110308184,
+            "house": 3
+          },
+          "Saturn": {
+            "lon": 350.19540406978604,
+            "rashi": 11,
+            "deg": 20.195404069786036,
+            "house": 10
+          }
+        },
+        "horoscope": {
+          "summary": "Today's planetary transits are activating your birth chart houses, encouraging growth in career and relationship areas.",
+          "breakdown": {
+            "mood": "With the transit Moon currently moving through your natal 10th house, you feel emotionally active, analytical, and highly organized.",
+            "career": "Transit Saturn in your 10th house suggests critical opportunities and tasks require your complete discipline.",
+            "finance": "Jupiter is currently transiting your 2th house, suggesting lucrative periods for financial expansion or budgeting.",
+            "love": "Venus transiting your 3th house indicates joyful discussions within your home or family domain.",
+            "health": "Transit Mars in your 12th house warns against overworking. Get sound sleep tonight."
+          }
+        },
+        "isAIEnhanced": false
+      },
+      "2026-07-08-puneindia": {
+        "date": "2026-07-08",
+        "currentLocation": "Pune, India",
+        "transitHouses": {
+          "Sun": {
+            "lon": 81.90451615585646,
+            "rashi": 2,
+            "deg": 21.904516155856456,
+            "house": 1
+          },
+          "Moon": {
+            "lon": 357.7079175002089,
+            "rashi": 11,
+            "deg": 27.707917500208907,
+            "house": 10
+          },
+          "Mars": {
+            "lon": 42.47139713461311,
+            "rashi": 1,
+            "deg": 12.471397134613113,
+            "house": 12
+          },
+          "Mercury": {
+            "lon": 89.43950123476888,
+            "rashi": 2,
+            "deg": 29.439501234768883,
+            "house": 1
+          },
+          "Jupiter": {
+            "lon": 97.50187324415849,
+            "rashi": 3,
+            "deg": 7.501873244158489,
+            "house": 2
+          },
+          "Venus": {
+            "lon": 124.14915146438652,
+            "rashi": 4,
+            "deg": 4.14915146438652,
+            "house": 3
+          },
+          "Saturn": {
+            "lon": 350.2275392690224,
+            "rashi": 11,
+            "deg": 20.227539269022373,
+            "house": 10
+          }
+        },
+        "horoscope": {
+          "summary": "Today's transits spotlight your 10th house, driving shifts in your professional activity and personal drive.",
+          "scores": {
+            "mood": 70,
+            "career": 60,
+            "love": 70,
+            "finance": 90,
+            "health": 75
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "🟢 Jupiter in 2nd House: Excellent period for wisdom, wealth gains, and new career networks."
+            },
+            {
+              "type": "down",
+              "text": "🔴 Saturn in 10th House: High pressure at work. Demands patience, hard work, and discipline."
+            },
+            {
+              "type": "down",
+              "text": "🔴 Mars in 12th House: High stress or fatigue. Avoid heavy physical risks and keep hydrated."
+            }
+          ],
+          "breakdown": {
+            "mood": "With the transit Moon in your 10th house today, you feel emotionally aligned with career progress and public authority. A great day to meet bosses/clients.",
+            "career": "Transit Saturn in your 10th house suggests critical opportunities and tasks require your complete discipline and focus.",
+            "finance": "Jupiter is currently transiting your 2nd house, suggesting lucrative periods for financial expansion, salary negotiation, or budgeting.",
+            "love": "Venus transiting your 3rd house indicates joyful discussions within your home or family domain.",
+            "health": "Transit Mars in your 12th house warns against overworking. Get sound sleep tonight to recover your vitality."
+          }
+        },
+        "isAIEnhanced": false
+      }
+    },
+    "6c9a22acca162db9d486c12de921d46a": {
+      "2026-07-07": {
+        "date": "2026-07-07",
+        "currentLocation": "Haryana (Ballabgarh)",
+        "transitHouses": {
+          "Sun": {
+            "lon": 80.95101381879937,
+            "rashi": 2,
+            "deg": 20.951013818799368,
+            "house": 8
+          },
+          "Moon": {
+            "lon": 344.21790621391386,
+            "rashi": 11,
+            "deg": 14.217906213913864,
+            "house": 5
+          },
+          "Mars": {
+            "lon": 41.76744575965786,
+            "rashi": 1,
+            "deg": 11.76744575965786,
+            "house": 7
+          },
+          "Mercury": {
+            "lon": 89.97393914326723,
+            "rashi": 2,
+            "deg": 29.97393914326723,
+            "house": 8
+          },
+          "Jupiter": {
+            "lon": 97.28455688070686,
+            "rashi": 3,
+            "deg": 7.284556880706859,
+            "house": 9
+          },
+          "Venus": {
+            "lon": 123.03048811030818,
+            "rashi": 4,
+            "deg": 3.030488110308184,
+            "house": 10
+          },
+          "Saturn": {
+            "lon": 350.19540406978604,
+            "rashi": 11,
+            "deg": 20.195404069786036,
+            "house": 5
+          }
+        },
+        "horoscope": {
+          "summary": "Today's planetary transits are activating your birth chart houses, encouraging growth in career and relationship areas.",
+          "breakdown": {
+            "mood": "With the transit Moon currently moving through your natal 5th house, you feel emotionally introspective, creative, and intuitive.",
+            "career": "Transit Saturn in your 5th house suggests steady progress, keep organizing your projects.",
+            "finance": "Jupiter is currently transiting your 9th house, suggesting stabilized savings, avoid speculative investments today.",
+            "love": "Venus transiting your 10th house indicates joyful discussions within your home or family domain.",
+            "health": "Transit Mars in your 7th house warns against overworking. Get sound sleep tonight."
+          }
+        },
+        "isAIEnhanced": false
+      },
+      "2026-07-08-haryanaballabgarh": {
+        "date": "2026-07-08",
+        "currentLocation": "Haryana (Ballabgarh)",
+        "transitHouses": {
+          "Sun": {
+            "lon": 81.90451615585646,
+            "rashi": 2,
+            "deg": 21.904516155856456,
+            "house": 8
+          },
+          "Moon": {
+            "lon": 357.7079175002089,
+            "rashi": 11,
+            "deg": 27.707917500208907,
+            "house": 5
+          },
+          "Mars": {
+            "lon": 42.47139713461311,
+            "rashi": 1,
+            "deg": 12.471397134613113,
+            "house": 7
+          },
+          "Mercury": {
+            "lon": 89.43950123476888,
+            "rashi": 2,
+            "deg": 29.439501234768883,
+            "house": 8
+          },
+          "Jupiter": {
+            "lon": 97.50187324415849,
+            "rashi": 3,
+            "deg": 7.501873244158489,
+            "house": 9
+          },
+          "Venus": {
+            "lon": 124.14915146438652,
+            "rashi": 4,
+            "deg": 4.14915146438652,
+            "house": 10
+          },
+          "Saturn": {
+            "lon": 350.2275392690224,
+            "rashi": 11,
+            "deg": 20.227539269022373,
+            "house": 5
+          }
+        },
+        "horoscope": {
+          "summary": "Today's transits spotlight your 5th house, driving shifts in your inner emotional peace and relationship networks.",
+          "scores": {
+            "mood": 85,
+            "career": 70,
+            "love": 55,
+            "finance": 70,
+            "health": 75
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "🟢 Jupiter in 9th House: Excellent period for wisdom, wealth gains, and new career networks."
+            },
+            {
+              "type": "up",
+              "text": "🟢 Saturn in 5th House: Promotes steady build-up of assets and long-term career foundation."
+            },
+            {
+              "type": "up",
+              "text": "🟢 Mars in 7th House: Inspires high motivation, personal drive, and active project execution."
+            }
+          ],
+          "breakdown": {
+            "mood": "With the transit Moon in your 5th house today, creative pursuits, romantic encounters, and children bring joy. Speculative choices are favored but stay logical.",
+            "career": "Transit Saturn in your 5th house suggests steady progress, keep organizing your long-term career systems.",
+            "finance": "Jupiter is currently transiting your 9th house, suggesting stabilized savings, avoid speculative investments today and track expenses.",
+            "love": "Venus transiting your 10th house indicates joyful discussions within your home or family domain.",
+            "health": "Transit Mars in your 7th house warns against overworking. Get sound sleep tonight to recover your vitality."
+          }
+        },
+        "isAIEnhanced": false
+      },
+      "2026-07-09-haryanaballabgarh": {
+        "date": "2026-07-09",
+        "currentLocation": "Haryana (Ballabgarh)",
+        "transitHouses": {
+          "Sun": {
+            "lon": 82.85812808840907,
+            "rashi": 2,
+            "deg": 22.858128088409075,
+            "house": 8
+          },
+          "Moon": {
+            "lon": 11.602891255352844,
+            "rashi": 0,
+            "deg": 11.602891255352844,
+            "house": 6
+          },
+          "Mars": {
+            "lon": 43.174273457721974,
+            "rashi": 1,
+            "deg": 13.174273457721974,
+            "house": 7
+          },
+          "Mercury": {
+            "lon": 88.86364800742068,
+            "rashi": 2,
+            "deg": 28.86364800742068,
+            "house": 8
+          },
+          "Jupiter": {
+            "lon": 97.7195935846464,
+            "rashi": 3,
+            "deg": 7.719593584646404,
+            "house": 9
+          },
+          "Venus": {
+            "lon": 125.26542706524404,
+            "rashi": 4,
+            "deg": 5.26542706524404,
+            "house": 10
+          },
+          "Saturn": {
+            "lon": 350.2580359181158,
+            "rashi": 11,
+            "deg": 20.25803591811581,
+            "house": 5
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Karishma, you'll experience a mix of energetic and emotional moments, with a focus on relationships and personal growth. Be prepared for unexpected events that may challenge your patience and communication skills.",
+          "mood": "<p>Emotions may run high today, as the Moon transits through Mesha, amplifying your natural intensity and passion. You might feel a strong desire for independence and self-expression, which could lead to impulsive decisions if not balanced with rational thinking.</p>",
+          "career": "<p>With Mars transiting through Vrishabha, your professional life may require careful navigation, as you might encounter stubbornness or resistance from others. Focus on building strong relationships and finding mutually beneficial solutions to overcome challenges and achieve your goals.</p>",
+          "finance": "<p>Venus, transiting through Simha, brings a favorable influence on your financial sector, indicating potential gains and increased wealth. However, be cautious of unnecessary expenses, especially related to luxury items or entertainment, to maintain a balanced budget.</p>",
+          "love": "<p>Your romantic relationships may experience a boost, thanks to Venus' transit, which can enhance your charm and attractiveness. Nevertheless, be mindful of your emotional responses, as the Moon's transit through Mesha can sometimes lead to mood swings and conflict in personal connections.</p>",
+          "health": "<p>Today, prioritize your physical and mental well-being by engaging in relaxing activities, such as meditation or yoga, to cope with potential stress and anxiety. The transit of Jupiter through Karka can support your overall health, but it's essential to maintain a balanced lifestyle to fully benefit from this positive influence.</p>"
+        },
+        "isAIEnhanced": true
+      },
+      "2026-07-10-haryanaballabgarh": {
+        "date": "2026-07-10",
+        "currentLocation": "Haryana (Ballabgarh)",
+        "transitHouses": {
+          "Sun": {
+            "lon": 83.81185677741618,
+            "rashi": 2,
+            "deg": 23.811856777416182,
+            "house": 8
+          },
+          "Moon": {
+            "lon": 25.90615038643441,
+            "rashi": 0,
+            "deg": 25.90615038643441,
+            "house": 6
+          },
+          "Mars": {
+            "lon": 43.876063288994565,
+            "rashi": 1,
+            "deg": 13.876063288994565,
+            "house": 7
+          },
+          "Mercury": {
+            "lon": 88.25532470634528,
+            "rashi": 2,
+            "deg": 28.255324706345277,
+            "house": 8
+          },
+          "Jupiter": {
+            "lon": 97.93769912007137,
+            "rashi": 3,
+            "deg": 7.937699120071372,
+            "house": 9
+          },
+          "Venus": {
+            "lon": 126.37927080724144,
+            "rashi": 4,
+            "deg": 6.37927080724144,
+            "house": 10
+          },
+          "Saturn": {
+            "lon": 350.2868836357831,
+            "rashi": 11,
+            "deg": 20.286883635783113,
+            "house": 5
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Karishma, you may experience a mix of energies, with a focus on transformation and communication. Be prepared for unexpected events and opportunities that can shape your future.",
+          "mood": "<p>With the Moon transiting through the 6th house, you may feel a sense of restlessness and agitation, but this can also bring a spark of creativity and determination. As the Sun and Mercury transit through the 8th house, you may be drawn to mysterious and intense topics, and your intuition can be sharp, helping you navigate complex situations.</p>",
+          "career": "<p>Your professional life can see a significant boost today, as Venus transits through the 10th house, bringing recognition and appreciation for your hard work. However, with Mars transiting through the 7th house, be cautious of conflicts or disagreements with partners or colleagues, and try to find a balance between your needs and others' expectations.</p>",
+          "finance": "<p>Today, you may need to be careful with your expenses, as Jupiter transiting through the 9th house can bring a tendency to overspend on luxuries or long-distance travel. Nevertheless, the transit of Venus through the 10th house can also bring new opportunities for income and financial growth, so stay focused and make wise decisions.</p>",
+          "love": "<p>In your relationships, the transit of Venus through the 10th house can bring a sense of romance and passion, but also a need for independence and personal space. With Saturn transiting through the 5th house, you may feel a sense of responsibility or duty towards your loved ones, and it's essential to find a balance between your emotional needs and your commitments.</p>",
+          "health": "<p>Today, you may need to pay attention to your energy levels, as the transit of the Sun and Mercury through the 8th house can bring a sense of fatigue or burnout. Make sure to take breaks, practice self-care, and engage in activities that nourish your mind, body, and spirit. With the Moon transiting through the 6th house, you may also need to watch out for minor health issues or accidents, so be careful and stay alert.</p>"
+        },
+        "isAIEnhanced": true
+      },
+      "2026-07-11-haryanaballabgarh": {
+        "date": "2026-07-11",
+        "currentLocation": "Haryana (Ballabgarh)",
+        "transitHouses": {
+          "Sun": {
+            "lon": 84.76570451552247,
+            "rashi": 2,
+            "deg": 24.765704515522472,
+            "house": 8
+          },
+          "Moon": {
+            "lon": 40.57884585712426,
+            "rashi": 1,
+            "deg": 10.578845857124257,
+            "house": 7
+          },
+          "Mars": {
+            "lon": 44.576753151377964,
+            "rashi": 1,
+            "deg": 14.576753151377964,
+            "house": 7
+          },
+          "Mercury": {
+            "lon": 87.62430685762494,
+            "rashi": 2,
+            "deg": 27.624306857624944,
+            "house": 8
+          },
+          "Jupiter": {
+            "lon": 98.15617019862712,
+            "rashi": 3,
+            "deg": 8.156170198627123,
+            "house": 9
+          },
+          "Venus": {
+            "lon": 127.4906336625162,
+            "rashi": 4,
+            "deg": 7.490633662516203,
+            "house": 10
+          },
+          "Saturn": {
+            "lon": 350.3140724340574,
+            "rashi": 11,
+            "deg": 20.31407243405738,
+            "house": 5
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Karishma, you can expect a dynamic day with a mix of opportunities and challenges, particularly in your career and relationships. Your Scorpio intuition will guide you through complex situations.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "⭐️ Venus in 1st House and Jupiter in 9th House: Favorable time for personal and professional growth, with increased charm and persuasive abilities."
+            },
+            {
+              "type": "down",
+              "text": "⚠️ Saturn in 5th House: Be cautious with impulsive decisions and creative pursuits, as they may not yield the desired results."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Karishma, your mood will be influenced by the Moon in 7th House, indicating a strong desire for harmony and balance in relationships. Your emotions may be sensitive, but your intuition will help you navigate through challenging situations.</p>",
+            "career": "<p>Your career is poised for growth, with the Sun and Mercury in 8th House, indicating new opportunities and recognition. Your hard work and determination will pay off, but be prepared to adapt to changing circumstances.</p>",
+            "finance": "<p>Financially, you may experience a mix of gains and expenses. Venus in 10th House suggests increased income, but be mindful of unnecessary expenditures. Budgeting and planning will be essential to maintain stability.</p>",
+            "love": "<p>In the realm of love and relationships, Mars and Moon in 7th House may create tension and emotional turmoil. However, your charm and charisma, amplified by Venus in 1st House, will help you navigate through difficult conversations and strengthen your bonds.</p>",
+            "health": "<p>Your health and energy levels will be influenced by the Saturn in 5th House, indicating a need for discipline and self-care. Engage in physical activities, meditation, and healthy habits to maintain your well-being and resilience.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      }
+    },
+    "fb8143e13bfccb5654565a95c59e44c7": {
+      "2026-07-08-haryanaballabgarh": {
+        "date": "2026-07-08",
+        "currentLocation": "Haryana (Ballabgarh)",
+        "transitHouses": {
+          "Sun": {
+            "lon": 81.90451615585646,
+            "rashi": 2,
+            "deg": 21.904516155856456,
+            "house": 1
+          },
+          "Moon": {
+            "lon": 357.7079175002089,
+            "rashi": 11,
+            "deg": 27.707917500208907,
+            "house": 10
+          },
+          "Mars": {
+            "lon": 42.47139713461311,
+            "rashi": 1,
+            "deg": 12.471397134613113,
+            "house": 12
+          },
+          "Mercury": {
+            "lon": 89.43950123476888,
+            "rashi": 2,
+            "deg": 29.439501234768883,
+            "house": 1
+          },
+          "Jupiter": {
+            "lon": 97.50187324415849,
+            "rashi": 3,
+            "deg": 7.501873244158489,
+            "house": 2
+          },
+          "Venus": {
+            "lon": 124.14915146438652,
+            "rashi": 4,
+            "deg": 4.14915146438652,
+            "house": 3
+          },
+          "Saturn": {
+            "lon": 350.2275392690224,
+            "rashi": 11,
+            "deg": 20.227539269022373,
+            "house": 10
+          }
+        },
+        "horoscope": {
+          "summary": "Today, you'll experience a mix of energies, with a focus on self-expression and communication, while also navigating through emotional and professional challenges. Be adaptable and open to new opportunities.",
+          "mood": "<p>You may feel a sense of restlessness and unpredictability, as the transiting Sun and Mercury in your Lagna can make you more sensitive and communicative. However, with Saturn's aspect, you might also feel a sense of responsibility and seriousness, so try to balance your emotions and stay focused.</p>",
+          "career": "<p>Professionally, you're likely to receive recognition and appreciation for your creative efforts, thanks to the transiting Moon in the 10th house. However, Mars in the 12th house can indicate some hidden challenges or conflicts, so be cautious and strategic in your approach to work and tasks.</p>",
+          "finance": "<p>Your financial situation may experience some fluctuations, as Jupiter transiting through the 2nd house can bring both gains and expenses. Be mindful of your spending habits and try to save for the future, as Venus in the 3rd house can also indicate some unexpected expenses or financial commitments.</p>",
+          "love": "<p>In matters of the heart, you may feel a strong desire for emotional connection and intimacy, as the transiting Moon in the 10th house can highlight your emotional needs. However, with Rahu in the 11th house, you might also feel a sense of detachment or uncertainty, so communicate openly with your partner and prioritize building trust and understanding.</p>",
+          "health": "<p>Take care of your physical and mental well-being, as the transiting Saturn in the 10th house can indicate some stress or anxiety. Practice self-care, engage in relaxing activities, and prioritize your sleep and nutrition to maintain your overall health and energy levels.</p>"
+        },
+        "isAIEnhanced": true
+      }
+    },
+    "3854458cc7514175cbb8eeb46e2a825c": {
+      "2026-07-10-newyork": {
+        "date": "2026-07-10",
+        "currentLocation": "New York",
+        "transitHouses": {
+          "Sun": {
+            "lon": 84.1894073166158,
+            "rashi": 2,
+            "deg": 24.1894073166158,
+            "house": 1
+          },
+          "Moon": {
+            "lon": 31.673682712183894,
+            "rashi": 1,
+            "deg": 1.6736827121838935,
+            "house": 12
+          },
+          "Mars": {
+            "lon": 44.153552032021466,
+            "rashi": 1,
+            "deg": 14.153552032021466,
+            "house": 12
+          },
+          "Mercury": {
+            "lon": 88.00769252114917,
+            "rashi": 2,
+            "deg": 28.007692521149167,
+            "house": 1
+          },
+          "Jupiter": {
+            "lon": 98.02413467116288,
+            "rashi": 3,
+            "deg": 8.024134671162884,
+            "house": 2
+          },
+          "Venus": {
+            "lon": 126.81948484820158,
+            "rashi": 4,
+            "deg": 6.819484848201583,
+            "house": 3
+          },
+          "Saturn": {
+            "lon": 350.29784477074486,
+            "rashi": 11,
+            "deg": 20.29784477074486,
+            "house": 10
+          }
+        },
+        "horoscope": {
+          "summary": "Today, John Doe, you'll experience a dynamic interplay of energies that can enhance your self-expression and communication, despite potential emotional turbulence. This is a day to focus on personal growth and seizing new opportunities.",
+          "mood": "<p>Emotionally, you may feel a bit restless and indecisive due to the Moon's transit through the 12th house, which can make you more introspective and possibly melancholic. However, with the Sun and Mercury in your 1st house, your natural charm and communicative skills are amplified, helping you navigate through challenging conversations and emotional landscapes.</p>",
+          "career": "<p>Your career and professional life are looking promising, especially with Venus transiting through the 3rd house, which can bring about new opportunities and recognition for your skills and talents. This is an excellent time to network, communicate your ideas, and take bold steps towards your professional goals, leveraging the energetic support of Mars in the 12th house to drive your ambitions.</p>",
+          "finance": "<p>Financially, this period suggests a need for careful planning and management. Jupiter's transit through the 2nd house can bring about an increase in income, but Saturn's sobering influence in the 10th house reminds you to be cautious with expenses and investments. It's a good time to review your financial strategies and make wise, long-term decisions.</p>",
+          "love": "<p>In the realm of love and relationships, the transit of Venus through the 3rd house can spark exciting and romantic connections, possibly through social events or meetings with friends. However, the presence of Rahu in the 5th house and Ketu in the 11th house suggests that emotional stability and trust are crucial. Nurture your relationships with empathy and honesty to build stronger bonds.</p>",
+          "health": "<p>Health-wise, the current planetary positions advise you to take care of your emotional and mental well-being, as they can significantly impact your physical health. Engage in activities that promote relaxation and stress reduction, such as meditation or yoga, to balance your energies. With Saturn in the 10th house, maintaining a disciplined routine and a healthy lifestyle is key to overall wellness.</p>"
+        },
+        "isAIEnhanced": true
+      }
+    },
+    "7725c2ed03ee30a57f9fd728310a6a66": {
+      "2026-07-10-haryana": {
+        "date": "2026-07-10",
+        "currentLocation": "Haryana",
+        "transitHouses": {
+          "Sun": {
+            "lon": 83.81185677741618,
+            "rashi": 2,
+            "deg": 23.811856777416182,
+            "house": 8
+          },
+          "Moon": {
+            "lon": 25.90615038643441,
+            "rashi": 0,
+            "deg": 25.90615038643441,
+            "house": 6
+          },
+          "Mars": {
+            "lon": 43.876063288994565,
+            "rashi": 1,
+            "deg": 13.876063288994565,
+            "house": 7
+          },
+          "Mercury": {
+            "lon": 88.25532470634528,
+            "rashi": 2,
+            "deg": 28.255324706345277,
+            "house": 8
+          },
+          "Jupiter": {
+            "lon": 97.93769912007137,
+            "rashi": 3,
+            "deg": 7.937699120071372,
+            "house": 9
+          },
+          "Venus": {
+            "lon": 126.37927080724144,
+            "rashi": 4,
+            "deg": 6.37927080724144,
+            "house": 10
+          },
+          "Saturn": {
+            "lon": 350.2868836357831,
+            "rashi": 11,
+            "deg": 20.286883635783113,
+            "house": 5
+          }
+        },
+        "horoscope": {
+          "summary": "Karishma, today you'll have to navigate through a mix of emotions and challenges at work, but your determination and charisma will help you overcome them, paving the way for a successful day.",
+          "mood": "<p>With the Moon transiting through your 6th house, you might feel restless and agitated, but your Venus in the 1st house will help you stay calm and composed. Your mood will be a mix of intensity and introspection.</p>",
+          "career": "<p>As the Sun transits through your 8th house, you may face obstacles at work, but your Mars in the 6th house will give you the courage and motivation to tackle them head-on. Focus on your tasks and stay organized to achieve your goals.</p>",
+          "finance": "<p>With the Saturn transit through your 5th house, you may feel a slight dip in your finances, but your Jupiter in the 12th house will help you find ways to make the most of what you have. Be cautious with your expenses and look for opportunities to save.</p>",
+          "love": "<p>As Venus transits through your 10th house, you may feel a strong desire to express your love and affection, but be patient and let things unfold naturally. Your romantic relationships may see a new phase of growth and understanding.</p>",
+          "health": "<p>With the Saturn transit through your 5th house, you may feel a bit drained and tired, so make sure to get plenty of rest and stay hydrated. Take care of your physical and mental health to maintain your energy levels.</p>"
+        },
+        "isAIEnhanced": true
+      }
+    },
+    "a1d491ff685812e43d9be4101c2a68ff": {
+      "2026-07-11-mumbai": {
+        "date": "2026-07-11",
+        "currentLocation": "Mumbai",
+        "transitHouses": {
+          "Sun": {
+            "lon": 84.76570451552247,
+            "rashi": 2,
+            "deg": 24.765704515522472,
+            "house": 5
+          },
+          "Moon": {
+            "lon": 40.57884585712426,
+            "rashi": 1,
+            "deg": 10.578845857124257,
+            "house": 4
+          },
+          "Mars": {
+            "lon": 44.576753151377964,
+            "rashi": 1,
+            "deg": 14.576753151377964,
+            "house": 4
+          },
+          "Mercury": {
+            "lon": 87.62430685762494,
+            "rashi": 2,
+            "deg": 27.624306857624944,
+            "house": 5
+          },
+          "Jupiter": {
+            "lon": 98.15617019862712,
+            "rashi": 3,
+            "deg": 8.156170198627123,
+            "house": 6
+          },
+          "Venus": {
+            "lon": 127.4906336625162,
+            "rashi": 4,
+            "deg": 7.490633662516203,
+            "house": 7
+          },
+          "Saturn": {
+            "lon": 350.3140724340574,
+            "rashi": 11,
+            "deg": 20.31407243405738,
+            "house": 2
+          }
+        },
+        "horoscope": {
+          "summary": "Today is a day of mixed energies with a strong focus on career advancements and financial stability, but also beware of potential emotional turbulence. Expect a generally positive day with opportunities for growth and new connections.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "🟢 Venus in 7th House: Excellent period for forming new connections and strengthening existing relationships, potentially leading to new opportunities."
+            },
+            {
+              "type": "down",
+              "text": "🔴 Moon in 4th House: Emotional fluctuations may impact your decision-making; practice self-care and patience."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Today, your mood may oscillate due to the Moon's transit through the 4th house. You might feel a strong connection to your emotions and family, but also be prepared for mood swings. Practice mindfulness and meditation to stabilize your emotions.</p>",
+            "career": "<p>Your career is highlighted today, with Jupiter's transit through the 6th house indicating success and recognition in your profession. Your hard work and dedication will pay off, and new opportunities may arise. Stay focused and keep working towards your goals.</p>",
+            "finance": "<p>Financially, today looks stable, with your income likely to increase due to Venus's favorable position. However, be cautious of unnecessary expenses, as Mars in the 4th house may tempt you to indulge in impulsive purchases. Plan your expenses wisely.</p>",
+            "love": "<p>In the realm of love and relationships, the day may bring mixed results. With Venus in the 7th house, you may attract someone special, but the Moon's position in the 4th house could also create emotional ups and downs. Communicate openly with your partner and focus on nurturing your relationship.</p>",
+            "health": "<p>Health-wise, today you may feel a surge in energy, thanks to the Sun's transit through the 5th house. Engage in physical activities and outdoor exercises to maintain your physical and mental well-being. Also, be mindful of your diet and get enough rest to avoid fatigue.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      }
+    },
+    "9cde639938e58f2143840aef0346ec70": {
+      "2026-07-11-mumbai": {
+        "date": "2026-07-11",
+        "currentLocation": "Mumbai",
+        "transitHouses": {
+          "Sun": {
+            "lon": 84.76570451552247,
+            "rashi": 2,
+            "deg": 24.765704515522472,
+            "house": 1
+          },
+          "Moon": {
+            "lon": 40.57884585712426,
+            "rashi": 1,
+            "deg": 10.578845857124257,
+            "house": 12
+          },
+          "Mars": {
+            "lon": 44.576753151377964,
+            "rashi": 1,
+            "deg": 14.576753151377964,
+            "house": 12
+          },
+          "Mercury": {
+            "lon": 87.62430685762494,
+            "rashi": 2,
+            "deg": 27.624306857624944,
+            "house": 1
+          },
+          "Jupiter": {
+            "lon": 98.15617019862712,
+            "rashi": 3,
+            "deg": 8.156170198627123,
+            "house": 2
+          },
+          "Venus": {
+            "lon": 127.4906336625162,
+            "rashi": 4,
+            "deg": 7.490633662516203,
+            "house": 3
+          },
+          "Saturn": {
+            "lon": 350.3140724340574,
+            "rashi": 11,
+            "deg": 20.31407243405738,
+            "house": 10
+          }
+        },
+        "horoscope": {
+          "summary": "A productive day ahead with a mix of professional growth and domestic challenges. Stay focused and maintain a healthy work-life balance.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": " Jupiter in 1st House: Excellent period for wisdom, wealth gains, and new career networks."
+            },
+            {
+              "type": "down",
+              "text": " Saturn in 12th House: High pressure at work. Demands patience, hard work, and discipline."
+            },
+            {
+              "type": "up",
+              "text": " Mercury in 1st House: Quick and agile thinking will help in your daily tasks and communication with others."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Your mood will be influenced by the <strong>Transiting Moon in 12th House, Vrishabha</strong> creating a sense of emotional withdrawal and introspection. However, the <strong>Jupiter in 1st House transit is highly beneficial</strong> for mental clarity and confidence.</p>",
+            "career": "<p>With <strong>Jupiter transiting in 2nd House, Karka</strong>, new opportunities for professional growth and increased reputation are on the horizon. Focus on your skills development and networking to capitalize on these trends.</p>",
+            "finance": "<p>The <strong>Venus transit in 3rd House, Simha</strong> brings a sense of luxury and extravagance. However, beware of unnecessary expenses and maintain a balanced approach to your financial decisions.</p>",
+            "love": "<p>The <strong>Transiting Moon in 12th House, Vrishabha</strong> may create some emotional detachment in your relationships. However, the <strong>Jupiter in 1st House transit can bring new love interests or strengthen existing bonds</strong> with a deepening emotional connection.</p>",
+            "health": "<p>With <strong>Mars transiting in 12th House, Vrishabha</strong>, you may experience some physical fatigue. Prioritize self-care, rest when needed, and maintain a healthy diet to maintain your physical and mental energy.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      }
+    }
+  },
+  "feedback": {
+    "0f0fd8a8277be1d4dc9dacfe1059991b": [
+      {
+        "timestamp": "2026-07-07T15:47:41.177Z",
+        "type": "daily",
+        "rating": "accurate",
+        "detail": "Very precise transits!",
+        "date": null
+      },
+      {
+        "timestamp": "2026-07-07T15:53:13.779Z",
+        "type": "daily",
+        "rating": "accurate",
+        "detail": "Very precise transits!",
+        "date": null
+      },
+      {
+        "timestamp": "2026-07-07T16:21:45.882Z",
+        "type": "daily",
+        "rating": "accurate",
+        "detail": "Very precise transits!",
+        "date": null
+      },
+      {
+        "timestamp": "2026-07-08T09:09:40.322Z",
+        "type": "daily",
+        "rating": "accurate",
+        "detail": "Very precise transits!",
+        "date": null
+      },
+      {
+        "timestamp": "2026-07-08T09:21:14.097Z",
+        "type": "daily",
+        "rating": "accurate",
+        "detail": "Very precise transits!",
+        "date": null
+      },
+      {
+        "timestamp": "2026-07-08T09:33:33.834Z",
+        "type": "daily",
+        "rating": "accurate",
+        "detail": "Very precise transits!",
+        "date": null
+      }
+    ],
+    "6c9a22acca162db9d486c12de921d46a": [
+      {
+        "timestamp": "2026-07-08T08:47:39.671Z",
+        "type": "career",
+        "rating": "inaccurate",
+        "detail": "",
+        "date": null
+      },
+      {
+        "timestamp": "2026-07-08T08:47:41.497Z",
+        "type": "career",
+        "rating": "inaccurate",
+        "detail": "",
+        "date": null
+      },
+      {
+        "timestamp": "2026-07-08T08:47:44.994Z",
+        "type": "career",
+        "rating": "accurate",
+        "detail": "",
+        "date": null
+      },
+      {
+        "timestamp": "2026-07-08T08:47:46.164Z",
+        "type": "career",
+        "rating": "inaccurate",
+        "detail": "",
+        "date": null
+      }
+    ]
+  },
+  "profiles": {
+    "0f0fd8a8277be1d4dc9dacfe1059991b": {
+      "name": "Aarav Sharma",
+      "dob": "1995-05-15",
+      "tob": "08:30",
+      "pob": "Mumbai, Maharashtra, India",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 65.15662937876384,
+        "rashi": 2,
+        "deg": 5.156629378763839
+      },
+      "lastActive": "2026-07-08T09:33:33.816Z"
+    },
+    "6c9a22acca162db9d486c12de921d46a": {
+      "name": "karishma",
+      "dob": "2005-10-18",
+      "tob": "10:00",
+      "pob": "Uttar Pradesh  (Etah) ,sakeet",
+      "tz": 5.5,
+      "gender": "female",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 229.84484307335055,
+        "rashi": 7,
+        "deg": 19.844843073350546
+      },
+      "lastActive": "2026-07-11T08:05:44.757Z"
+    },
+    "664f42b1119b92d28e5abb3a2a8baceb": {
+      "name": "Aman",
+      "dob": "2003-04-23",
+      "tob": "02:00",
+      "pob": "Uttar Pradesh  (Etah) ,sakeet",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 292.89798345703014,
+        "rashi": 9,
+        "deg": 22.897983457030136
+      },
+      "lastActive": "2026-07-08T15:24:47.817Z"
+    },
+    "5651c749d2e41ed8c5095d95867e960a": {
+      "name": "sanjana",
+      "dob": "2008-09-14",
+      "tob": "01:00",
+      "pob": "Haryana ( Ballabgarh)",
+      "tz": 5.5,
+      "gender": "female",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 80.74287662940183,
+        "rashi": 2,
+        "deg": 20.742876629401835
+      },
+      "lastActive": "2026-07-08T14:48:35.235Z"
+    },
+    "fb8143e13bfccb5654565a95c59e44c7": {
+      "name": "sunil",
+      "dob": "2004-09-02",
+      "tob": "02:00",
+      "pob": "Haryana ( Ballabgarh)",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 83.56432042132161,
+        "rashi": 2,
+        "deg": 23.56432042132161
+      },
+      "lastActive": "2026-07-08T14:29:48.911Z"
+    },
+    "d0c07e235e7442367d131eb33b4bc376": {
+      "name": "Aryan",
+      "dob": "2004-06-24",
+      "tob": "11:45",
+      "pob": "Uttar Pradesh (Aligarh)",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 151.32012167204687,
+        "rashi": 5,
+        "deg": 1.3201216720468665
+      },
+      "lastActive": "2026-07-08T14:41:32.705Z"
+    },
+    "268adb49e6bb1a4fcee66e5c5eeb2c8d": {
+      "name": "sanjana",
+      "dob": "2008-09-14",
+      "tob": "20:00",
+      "pob": "Haryana ( Ballabgarh)",
+      "tz": 5.5,
+      "gender": "female",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 1.433477891406202,
+        "rashi": 0,
+        "deg": 1.433477891406202
+      },
+      "lastActive": "2026-07-08T15:02:24.240Z"
+    },
+    "028cf1e2ccf28cc67d1da034ac5b5ecd": {
+      "name": "Ovendar",
+      "dob": "1972-07-15",
+      "tob": "02:00",
+      "pob": "Uttar Pradesh  (Etah) ,sakeet",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 35.69691540239036,
+        "rashi": 1,
+        "deg": 5.69691540239036
+      },
+      "lastActive": "2026-07-08T16:16:34.195Z"
+    },
+    "cc556e70dda0d4e19b8337681abf58be": {
+      "name": "Shashi",
+      "dob": "2004-06-12",
+      "tob": "03:00",
+      "pob": "Uttar Pradesh",
+      "tz": 5.5,
+      "gender": "female",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 21.10297631871313,
+        "rashi": 0,
+        "deg": 21.10297631871313
+      },
+      "lastActive": "2026-07-08T16:28:01.445Z"
+    },
+    "0d0c4e030b185a904d880aef12cac6a6": {
+      "name": "vanshaj",
+      "dob": "2005-11-29",
+      "tob": "07:00",
+      "pob": "Uttar Pradesh (Firozabad)",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 224.92852205554095,
+        "rashi": 7,
+        "deg": 14.928522055540952
+      },
+      "lastActive": "2026-07-08T17:19:36.894Z"
+    },
+    "61368d83d9761047c773fec6110c79a3": {
+      "name": "Aarav Sharma",
+      "dob": "50515-09-19",
+      "tob": "08:30",
+      "pob": "Mumbai, India",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 315.32040285241595,
+        "rashi": 10,
+        "deg": 15.320402852415953
+      },
+      "lastActive": "2026-07-10T11:51:07.770Z"
+    },
+    "b6e22ed2f26ad304e8b9d49b5974b7cd": {
+      "name": "Aarav Sharma",
+      "dob": "1995-09-19",
+      "tob": "10:30",
+      "pob": "Mumbai, Maharashtra, India",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 207.64154263654936,
+        "rashi": 6,
+        "deg": 27.64154263654936
+      },
+      "lastActive": "2026-07-10T11:57:04.418Z"
+    },
+    "3854458cc7514175cbb8eeb46e2a825c": {
+      "name": "John Doe",
+      "dob": "1995-05-15",
+      "tob": "08:30",
+      "pob": "New York",
+      "tz": -4,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 73.50217359803463,
+        "rashi": 2,
+        "deg": 13.50217359803463
+      },
+      "lastActive": "2026-07-10T12:36:20.293Z"
+    },
+    "7725c2ed03ee30a57f9fd728310a6a66": {
+      "name": "karishma",
+      "dob": "2005-10-18",
+      "tob": "10:00",
+      "pob": "Uttar pradesh",
+      "tz": 5.5,
+      "gender": "female",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 230.2723870445633,
+        "rashi": 7,
+        "deg": 20.27238704456329
+      },
+      "lastActive": "2026-07-10T12:55:54.205Z"
+    },
+    "a1d491ff685812e43d9be4101c2a68ff": {
+      "name": "Test",
+      "dob": "1995-01-15",
+      "tob": "10:30",
+      "pob": "Mumbai",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 326.04561485636805,
+        "rashi": 10,
+        "deg": 26.045614856368047
+      },
+      "lastActive": "2026-07-11T08:11:07.634Z"
+    },
+    "845626f16e88876ff7d860f78c7e8056": {
+      "name": "Test User",
+      "dob": "1995-01-15",
+      "tob": "10:30",
+      "pob": "Mumbai",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 326.04561485636805,
+        "rashi": 10,
+        "deg": 26.045614856368047
+      },
+      "lastActive": "2026-07-11T07:38:47.082Z"
+    },
+    "9cde639938e58f2143840aef0346ec70": {
+      "name": "John Doe",
+      "dob": "1990-05-15",
+      "tob": "08:30",
+      "pob": "Mumbai",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 65.41935336882406,
+        "rashi": 2,
+        "deg": 5.419353368824062
+      },
+      "lastActive": "2026-07-11T08:20:56.233Z"
+    }
+  }
+}

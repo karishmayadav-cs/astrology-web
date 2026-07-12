@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
+    "dev": "nodemon --ignore database.json --ignore logs/ --ignore features/logs/ server.js",
     "postinstall": "node -e \"const fs = require('fs'); const path = require('path'); const src = path.join('node_modules', '@fusionstrings', 'swiss-eph', 'wasm', 'swiss_eph.wasm'); const destDir = path.join('node_modules', '@fusionstrings', 'swiss-eph', 'lib', 'wasi'); const dest = path.join(destDir, 'swiss_eph.wasm'); if (fs.existsSync(src)) { fs.mkdirSync(destDir, { recursive: true }); fs.copyFileSync(src, dest); console.log('Fixed Swiss Ephemeris WASM path'); }\""
   },
   "dependencies": {

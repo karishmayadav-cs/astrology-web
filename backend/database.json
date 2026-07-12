@@ -808,6 +808,160 @@
         },
         "isAIEnhanced": true
       }
+    },
+    "a14fbfa44348ca0adcf58bdaa3ec63d8": {
+      "2026-07-12-ballabgarh": {
+        "date": "2026-07-12",
+        "currentLocation": "Ballabgarh ",
+        "transitHouses": {
+          "Sun": {
+            "lon": 85.71966839569555,
+            "rashi": 2,
+            "deg": 25.71966839569555,
+            "house": 1
+          },
+          "Moon": {
+            "lon": 55.5336262710322,
+            "rashi": 1,
+            "deg": 25.533626271032198,
+            "house": 12
+          },
+          "Mars": {
+            "lon": 45.27632791270074,
+            "rashi": 1,
+            "deg": 15.276327912700737,
+            "house": 12
+          },
+          "Mercury": {
+            "lon": 86.98103339922838,
+            "rashi": 2,
+            "deg": 26.98103339922838,
+            "house": 1
+          },
+          "Jupiter": {
+            "lon": 98.37498617689407,
+            "rashi": 3,
+            "deg": 8.374986176894069,
+            "house": 2
+          },
+          "Venus": {
+            "lon": 128.59946014555595,
+            "rashi": 4,
+            "deg": 8.599460145555952,
+            "house": 3
+          },
+          "Saturn": {
+            "lon": 350.3395929490448,
+            "rashi": 11,
+            "deg": 20.3395929490448,
+            "house": 10
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Sunil, you can expect a dynamic and potentially rewarding day with opportunities for personal and professional growth, despite some challenges. Your natural charisma and communication skills will be highlighted.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "🟢 Venus in 3rd House: Enhances your creativity, charm, and ability to express yourself, making it a great day for artistic pursuits and social interactions."
+            },
+            {
+              "type": "down",
+              "text": "🔴 Moon in 12th House: You might feel a bit emotionally withdrawn or sensitive, so be sure to take time for self-care and reflection."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Today, your mood will be generally upbeat, with a strong desire for social interaction and communication. However, the Moon's transit through the 12th house may bring moments of emotional vulnerability, so prioritize self-care and mindfulness.</p>",
+            "career": "<p>Your career and professional life look very promising today, with Mercury and Sun in the 1st house amplifying your natural Gemini charm and intellectual agility. Expect recognition or new opportunities that align with your skills and interests.</p>",
+            "finance": "<p>Financially, the day suggests a balanced approach. With Jupiter transiting through the 2nd house from your Lagna, you may experience an increase in wealth or valuable resources. However, be cautious of unnecessary expenses, especially related to luxury items or impulsive purchases.</p>",
+            "love": "<p>In the realm of love and relationships, today might be a bit mixed. Venus in the 3rd house can enhance your charm and appeal, but the Moon's position in the 12th house could lead to emotional misunderstandings. Communicate openly and honestly with your partner to avoid misconceptions.</p>",
+            "health": "<p>Health-wise, you're entering a period of heightened energy and vitality, thanks to the Sun's transit through your Lagna. Nonetheless, be mindful of your emotional health, as the sensitive Moon can sometimes affect your physical well-being. Engage in activities that promote mental and physical harmony.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      },
+      "2026-07-13-ballabgarh": {
+        "date": "2026-07-13",
+        "currentLocation": "Ballabgarh ",
+        "transitHouses": {
+          "Sun": {
+            "lon": 86.67374056991653,
+            "rashi": 2,
+            "deg": 26.673740569916532,
+            "house": 1
+          },
+          "Moon": {
+            "lon": 70.63897107170783,
+            "rashi": 2,
+            "deg": 10.638971071707829,
+            "house": 1
+          },
+          "Mars": {
+            "lon": 45.97477149498074,
+            "rashi": 1,
+            "deg": 15.974771494980743,
+            "house": 12
+          },
+          "Mercury": {
+            "lon": 86.33640640136464,
+            "rashi": 2,
+            "deg": 26.33640640136464,
+            "house": 1
+          },
+          "Jupiter": {
+            "lon": 98.59412539818969,
+            "rashi": 3,
+            "deg": 8.59412539818969,
+            "house": 2
+          },
+          "Venus": {
+            "lon": 129.7056869488249,
+            "rashi": 4,
+            "deg": 9.705686948824905,
+            "house": 3
+          },
+          "Saturn": {
+            "lon": 350.3634366996248,
+            "rashi": 11,
+            "deg": 20.3634366996248,
+            "house": 10
+          }
+        },
+        "horoscope": {
+          "summary": "Today, you'll experience a mix of energies, with a strong emphasis on communication, creativity, and relationships, but also be prepared for potential emotional ups and downs. Your natural charisma and charm will be highlighted, making it an excellent day for social interactions and career advancements.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "💫 Sun, Mercury, and Moon in 1st House: Enhanced communication skills, increased confidence, and a strong desire for self-expression, making it ideal for pursuing your passions and creative interests."
+            },
+            {
+              "type": "down",
+              "text": "⚠️ Saturn in 10th House: Be cautious of emotional turmoil and potential setbacks in your professional life, which may affect your mood and overall well-being."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>With the Sun, Mercury, and Moon transiting through your 1st house, you'll feel more confident and expressive, but be mindful of your emotions, as Saturn's presence in your 10th house may lead to feelings of anxiety or self-doubt.</p>",
+            "career": "<p>Your career is looking promising, with Jupiter's transit through your 2nd house indicating new opportunities and financial gains. However, Saturn's influence in your 10th house advises you to remain disciplined and patient in your professional pursuits.</p>",
+            "finance": "<p>Venus in your 3rd house suggests that you may receive financial support or gifts from siblings or close relatives. Be cautious with your expenses, as Jupiter's transit may also tempt you to overspend on luxuries.</p>",
+            "love": "<p>With Venus in your 3rd house, you'll have a strong desire for social interactions and communication in your relationships. However, Saturn's presence in your 10th house may create emotional distance or feelings of responsibility in your romantic life.</p>",
+            "health": "<p>Take care of your physical and mental well-being, as the Moon's transit through your 1st house may make you more sensitive to stress and emotions. Engage in relaxing activities and prioritize self-care to maintain your overall health and energy levels.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      }
     }
   },
   "feedback": {
@@ -1155,7 +1309,7 @@
         "rashi": 2,
         "deg": 23.56432042132161
       },
-      "lastActive": "2026-07-11T17:13:41.117Z"
+      "lastActive": "2026-07-12T02:59:48.985Z"
     }
   }
 }

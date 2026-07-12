@@ -655,3 +655,246 @@ STRUCTURED DATA: {"lagna":{"lon":83.56432042132161,"rashi":2,"deg":23.5643204213
 INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Sunil Baghel's 7th house lord is Vrishabha (Taurus), indicating a spouse who values stability, loyalty, and sensuality. The placement of Venus in Karka (Cancer) in the 2nd house and Mars in Simha (Leo) in the 3...
 ========================================
 
+
+========================================
+TIMESTAMP: 2026-07-11T17:21:42.379Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Test User","dob":"1995-05-15","tob":"12:00","pob":"Delhi"}
+STRUCTURED DATA: {"lagna":{"lon":118.87831557476159,"rashi":3,"deg":28.878315574761587},"planets":{"Sun":{"lon":30.183613896661136,"rashi":1,"deg":0.1836138966611358,"retro":false,"house":11},"Moon":{"lon":215.90690873079726,"rashi":7,"deg":5.906908730797255,"retro":false,"house":5},"Mars":{"lon":121.72452601623665,"rashi":4,"deg":1.724526016236652,"retro":false,"house":2},"Mercury":{"lon":51.2534812965636,"rashi":1,"deg":21.2534812965636,"retro":false,"house":11},"Jupiter":{"lon":228.83379165285353,"rashi":7,"deg":18.833791652853535,"retro":true,"house":5},"Venus":{"lon":4.14210681363381,"rashi":0,"deg":4.14210681363381,"retro":false,"house":10},"Saturn":{"lon":328.7960518498123,"rashi":10,"deg":28.796051849812272,"retro":false,"house":8},"Rahu":{"lon":191.77458864035796,"rashi":6,"deg":11.774588640357962,"retro":true,"house":4},"Ketu":{"lon":11.774588640357933,"rashi":0,"deg":11.774588640357933,"retro":true,"house":10}},"nakshatra":{"idx":16,"pada":1,"name":"Anuradha","lord":"Saturn","deity":"Mitra","symbol":"🌸","nature":"Soft","desc":"Represents friendship and devotion. Anuradha natives are disciplined, spiritual, and loyal."},"dasha":{"mahadasha":{"lord":"Mercury","start":"2010-09-13T06:03:12.851Z","end":"2027-09-13T12:03:12.851Z"},"antardasha":{"lord":"Saturn","start":"2025-01-03T08:54:12.849Z","end":"2027-09-13T12:03:12.849Z"},"pratyantardasha":{"lord":"Sun","start":"2026-06-03T12:21:26.349Z","end":"2026-07-22T16:06:53.349Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>The 7th house lord is Surya (Sun) in Vrishabha (Taurus), which indicates a strong sense of loyalty and commitment in the partner. Venus, the significator of love and relationships, is placed in Mesha (Aries) in...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:21:45.560Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Test User","dateStr":"2026-07-11","currentLocation":"Delhi"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":12},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":11},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":11},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":12},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":1},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":2},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":9}}
+INTERPRETATION PREVIEW: {"summary":"Today, Test User, you can expect a generally positive and uplifting day with opportunities for personal and professional growth, despite some potential challenges. Your mood and energy will be influenced by the positions of the planets, particularly Jupiter and Venus.","scores":{"mood":8...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:24:22.432Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Test User","dateStr":"2026-07-11","currentLocation":"Delhi"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":12},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":11},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":11},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":12},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":1},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":2},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":9}}
+INTERPRETATION PREVIEW: {"summary":"Today, Test User can expect a day filled with opportunities for growth and new connections, but also some challenges in their personal and professional life. With careful planning and a positive attitude, they can navigate these complexities and come out stronger.","scores":{"mood":85,"c...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:32:12.137Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Sunil baghel","dob":"2004-09-02","tob":"02:00","pob":"Ballabgarh "}
+STRUCTURED DATA: {"lagna":{"lon":83.56432042132161,"rashi":2,"deg":23.56432042132161},"planets":{"Sun":{"lon":135.80124591959273,"rashi":4,"deg":15.80124591959273,"retro":false,"house":3},"Moon":{"lon":351.05752479442833,"rashi":11,"deg":21.057524794428332,"retro":false,"house":10},"Mars":{"lon":140.3358705711256,"rashi":4,"deg":20.33587057112561,"retro":false,"house":3},"Mercury":{"lon":121.85025534995161,"rashi":4,"deg":1.8502553499516097,"retro":true,"house":3},"Jupiter":{"lon":151.07408858786528,"rashi":5,"deg":1.0740885878652762,"retro":false,"house":4},"Venus":{"lon":90.69883175891638,"rashi":3,"deg":0.6988317589163842,"retro":false,"house":2},"Saturn":{"lon":89.58516056358445,"rashi":2,"deg":29.585160563584452,"retro":false,"house":1},"Rahu":{"lon":9.448654997832955,"rashi":0,"deg":9.448654997832955,"retro":true,"house":11},"Ketu":{"lon":189.44865499783296,"rashi":6,"deg":9.44865499783296,"retro":true,"house":5}},"nakshatra":{"idx":26,"pada":2,"name":"Revati","lord":"Mercury","deity":"Pushan","symbol":"🐟","nature":"Soft","desc":"Represents nourishment and safe journeys. Revati natives are compassionate, spiritual, and nurturing."},"dasha":{"mahadasha":{"lord":"Venus","start":"2023-01-27T04:54:52.292Z","end":"2043-01-27T04:54:52.292Z"},"antardasha":{"lord":"Sun","start":"2026-05-28T16:54:52.292Z","end":"2027-05-28T22:54:52.292Z"},"pratyantardasha":{"lord":"Moon","start":"2026-06-15T23:12:52.291Z","end":"2026-07-16T09:42:52.291Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Sunil Baghel's 7th house lord is Vrishabha (Taurus), indicating a preference for a spouse who is dependable, practical, and sensual. The 7th house is aspected by Jupiter in the 4th house, suggesting a potential...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:41:07.072Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Sunil baghel","dob":"2004-09-02","tob":"02:00","pob":"Ballabgarh "}
+STRUCTURED DATA: {"lagna":{"lon":83.56432042132161,"rashi":2,"deg":23.56432042132161},"planets":{"Sun":{"lon":135.80124591959273,"rashi":4,"deg":15.80124591959273,"retro":false,"house":3},"Moon":{"lon":351.05752479442833,"rashi":11,"deg":21.057524794428332,"retro":false,"house":10},"Mars":{"lon":140.3358705711256,"rashi":4,"deg":20.33587057112561,"retro":false,"house":3},"Mercury":{"lon":121.85025534995161,"rashi":4,"deg":1.8502553499516097,"retro":true,"house":3},"Jupiter":{"lon":151.07408858786528,"rashi":5,"deg":1.0740885878652762,"retro":false,"house":4},"Venus":{"lon":90.69883175891638,"rashi":3,"deg":0.6988317589163842,"retro":false,"house":2},"Saturn":{"lon":89.58516056358445,"rashi":2,"deg":29.585160563584452,"retro":false,"house":1},"Rahu":{"lon":9.448654997832955,"rashi":0,"deg":9.448654997832955,"retro":true,"house":11},"Ketu":{"lon":189.44865499783296,"rashi":6,"deg":9.44865499783296,"retro":true,"house":5}},"nakshatra":{"idx":26,"pada":2,"name":"Revati","lord":"Mercury","deity":"Pushan","symbol":"🐟","nature":"Soft","desc":"Represents nourishment and safe journeys. Revati natives are compassionate, spiritual, and nurturing."},"dasha":{"mahadasha":{"lord":"Venus","start":"2023-01-27T04:54:52.292Z","end":"2043-01-27T04:54:52.292Z"},"antardasha":{"lord":"Sun","start":"2026-05-28T16:54:52.292Z","end":"2027-05-28T22:54:52.292Z"},"pratyantardasha":{"lord":"Moon","start":"2026-06-15T23:12:52.291Z","end":"2026-07-16T09:42:52.291Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Sunil Baghel's 7th house lord is Vrishchika (Scorpio), and its placement in the D1 chart is not directly visible since whole sign houses are considered. However, analyzing the Navamsa chart, the 7th lord from V...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:44:15.848Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Aarav Sharma","dateStr":"2026-07-11","currentLocation":"Mumbai, Maharashtra, India"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":1},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":12},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":12},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":1},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":2},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":3},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":10}}
+INTERPRETATION PREVIEW: {"summary":"Today, Aarav Sharma, with the Sun and Mercury transiting through your 1st house, you'll experience a boost in communication skills and confidence, while Venus in the 3rd house may bring creative and social opportunities. However, be cautious of the Moon and Mars in the 12th house, which ...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:44:20.533Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"karishma","dateStr":"2026-07-11","currentLocation":"Uttar Pradesh  (Etah) ,sakeet"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":8},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":7},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":7},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":8},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":9},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":10},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":5}}
+INTERPRETATION PREVIEW: {"summary":"Today, Karishma, you'll experience a dynamic mix of energies with opportunities for growth in career and finances, but also with challenges in relationships and health. Emotional balance and wise decision-making will be key to navigating these diverse influences.","scores":{"mood":85,"ca...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:44:23.501Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Aman","dateStr":"2026-07-11","currentLocation":"Uttar Pradesh  (Etah) ,sakeet"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":6},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":5},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":5},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":6},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":7},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":8},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":3}}
+INTERPRETATION PREVIEW: {"summary":"Today, Aman, you'll experience a mix of energies, with a strong focus on career growth and potential financial gains, but also beware of emotional fluctuations and health concerns. Overall, it's a day to stay focused and disciplined.","scores":{"mood":85,"career":90,"love":75,"finance":8...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:44:27.216Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"sanjana","dateStr":"2026-07-11","currentLocation":"Haryana ( Ballabgarh)"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":1},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":12},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":12},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":1},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":2},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":3},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":10}}
+INTERPRETATION PREVIEW: {"summary":"Today, Sanjana, you'll experience a mix of energies, with a strong focus on personal growth, career advancements, and social interactions, but also be mindful of potential emotional fluctuations and financial discipline. Your natural Gemini charm and adaptability will be your greatest as...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:44:41.981Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"sunil","dateStr":"2026-07-11","currentLocation":"Haryana ( Ballabgarh)"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":1},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":12},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":12},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":1},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":2},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":3},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":10}}
+INTERPRETATION PREVIEW: {"summary":"Expect a day filled with new opportunities and challenges, Sunil. Make wise decisions in your career and finances.","scores":{"mood":82,"career":92,"love":78,"finance":88,"health":88},"highlights":[{"type":"up","text":"🟢 Jupiter in 2nd House: Excellent period for financial gains, wealth...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:44:58.045Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Aryan","dateStr":"2026-07-11","currentLocation":"Uttar Pradesh (Aligarh)"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":10},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":9},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":9},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":10},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":11},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":12},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":7}}
+INTERPRETATION PREVIEW: {"summary":"Today, Aryan's day is marked by excellent opportunities in career and finance, but he may face challenges at work that demand patience and hard work.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85},"highlights":[{"type":"up","text":"🟢 Jupiter in 1st House: Excellent...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:45:13.151Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"sanjana","dateStr":"2026-07-11","currentLocation":"Haryana ( Ballabgarh)"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":3},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":2},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":2},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":3},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":4},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":5},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":12}}
+INTERPRETATION PREVIEW: {"summary":"Today, Sanjana's dynamic energy and creativity shine bright as the transit Sun and Mercury in the 3rd House of Communication and Networking, coupled with Jupiter's expansive influence in the 1st House of Self, make it an excellent day for networking, learning, and gaining new wisdom. How...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:45:25.505Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Ovendar","dateStr":"2026-07-11","currentLocation":"Uttar Pradesh  (Etah) ,sakeet"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":2},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":1},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":1},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":2},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":3},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":4},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":11}}
+INTERPRETATION PREVIEW: {"summary":"A mixed bag of energies today, Ovendar, with auspicious planetary transits and some challenging aspects to navigate.","scores":{"mood":70,"career":85,"love":60,"finance":80,"health":90},"highlights":[{"type":"up","text":"🟢 Sun in 2nd House: Financial growth opportunities, creative spend...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:45:59.729Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Shashi","dateStr":"2026-07-11","currentLocation":"Uttar Pradesh"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":3},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":2},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":2},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":3},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":4},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":5},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":12}}
+INTERPRETATION PREVIEW: {"summary":"A transformative day ahead with multiple opportunities for career growth and financial gains, but requires discipline and hard work to overcome challenges.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85},"highlights":[{"type":"up","text":"🟢 Jupiter in 4th House: Exc...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:46:11.046Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"vanshaj","dateStr":"2026-07-11","currentLocation":"Uttar Pradesh (Firozabad)"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":8},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":7},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":7},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":8},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":9},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":10},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":5}}
+INTERPRETATION PREVIEW: {"summary":"Today Vanshaj, with Jupiter's transit in the 9th House, you are poised for a brilliant period of wisdom, career growth, and financial prosperity. However, Saturn in the 12th House reminds you to exercise patience and discipline, particularly at work.","scores":{"mood":85,"career":90,"lov...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:46:24.343Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Aarav Sharma","dateStr":"2026-07-11","currentLocation":"Mumbai, India"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":5},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":4},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":4},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":5},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":6},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":7},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":2}}
+INTERPRETATION PREVIEW: {"summary":"Aarav, have a productive day tackling work-related challenges, but also make time for personal growth and self-care. Relationships may require more effort than usual, but it's a great time for networking and establishing professional connections.","scores":{"mood":78,"career":92,"love":6...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:46:33.179Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Aarav Sharma","dateStr":"2026-07-11","currentLocation":"Mumbai, Maharashtra, India"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":9},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":8},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":8},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":9},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":10},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":11},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":6}}
+INTERPRETATION PREVIEW: {"summary":"Today is a mixed bag for Aarav Sharma, with opportunities for career growth and wealth gains, but also increased work pressure and demands for hard work and discipline.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85},"highlights":[{"type":"up","text":"🟢 Jupiter in 1...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:46:44.699Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"John Doe","dateStr":"2026-07-11","currentLocation":"New York"}
+STRUCTURED DATA: {"Sun":{"lon":85.14330166389988,"rashi":2,"deg":25.143301663899877,"house":1},"Moon":{"lon":46.47117184976409,"rashi":1,"deg":16.47117184976409,"house":12},"Mars":{"lon":44.85380238182582,"rashi":1,"deg":14.853802381825822,"house":12},"Mercury":{"lon":87.37054472645991,"rashi":2,"deg":27.37054472645991,"house":1},"Jupiter":{"lon":98.24274479839173,"rashi":3,"deg":8.242744798391726,"house":2},"Venus":{"lon":127.92985076645324,"rashi":4,"deg":7.929850766453242,"house":3},"Saturn":{"lon":350.32437428334407,"rashi":11,"deg":20.32437428334407,"house":10}}
+INTERPRETATION PREVIEW: {"summary":"Be cautious of work-related pressures today, but use your intelligence and strategic thinking to overcome them. Your social life and relationships will flourish, but don't ignore the warning signs of potential conflicts.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:46:55.710Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"karishma","dateStr":"2026-07-11","currentLocation":"Uttar pradesh"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":8},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":7},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":7},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":8},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":9},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":10},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":5}}
+INTERPRETATION PREVIEW: {"summary":"It's a dynamic day for Karishma with increased career opportunities and wisdom, but high pressure at work and mixed relationships.","scores":{"mood":83,"career":91,"love":72,"finance":79,"health":86},"highlights":[{"type":"up","text":"🟢 Jupiter in 1st House: Excellent period for wisdom,...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:47:06.200Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Test","dateStr":"2026-07-11","currentLocation":"Mumbai"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":5},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":4},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":4},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":5},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":6},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":7},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":2}}
+INTERPRETATION PREVIEW: {"summary":"Today is a dynamic day with both exciting opportunities and challenging obstacles. You can expect a boost in your career and wealth but will need to work hard to achieve your goals.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85},"highlights":[{"type":"up","text":"🟢...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:47:14.648Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Test User","dateStr":"2026-07-11","currentLocation":"Mumbai"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":5},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":4},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":4},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":5},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":6},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":7},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":2}}
+INTERPRETATION PREVIEW: {"summary":"Expect a productive day with opportunities to grow professionally and financially, but also expect some tension in your personal life.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85},"highlights":[{"type":"up","text":"<i class='fa fa-star'></i> Jupiter in 10th House:...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:47:27.095Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"John Doe","dateStr":"2026-07-11","currentLocation":"Mumbai"}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":1},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":12},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":12},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":1},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":2},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":3},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":10}}
+INTERPRETATION PREVIEW: {"summary":"Today, John Doe will experience a mix of positive and challenging influences. Jupiter's presence in the 1st House brings opportunities for knowledge, wealth, and new connections, but Saturn's transit in the 12th House demands patience, discipline, and hard work at work.","scores":{"mood"...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-11T17:47:37.512Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Sunil baghel","dateStr":"2026-07-11","currentLocation":"Ballabgarh "}
+STRUCTURED DATA: {"Sun":{"lon":84.76570451552247,"rashi":2,"deg":24.765704515522472,"house":1},"Moon":{"lon":40.57884585712426,"rashi":1,"deg":10.578845857124257,"house":12},"Mars":{"lon":44.576753151377964,"rashi":1,"deg":14.576753151377964,"house":12},"Mercury":{"lon":87.62430685762494,"rashi":2,"deg":27.624306857624944,"house":1},"Jupiter":{"lon":98.15617019862712,"rashi":3,"deg":8.156170198627123,"house":2},"Venus":{"lon":127.4906336625162,"rashi":4,"deg":7.490633662516203,"house":3},"Saturn":{"lon":350.3140724340574,"rashi":11,"deg":20.31407243405738,"house":10}}
+INTERPRETATION PREVIEW: {"summary":"Today, a busy and dynamic Mithuna lagna individual like you, Sunil, will face a mix of challenges and opportunities. Expect a fulfilling day with a chance to shine in your career and relationships, but also be prepared to tackle some work-related stress.","scores":{"mood":80,"career":92,...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T02:48:55.699Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Sunil baghel","dob":"2004-09-02","tob":"02:00","pob":"Ballabgarh "}
+STRUCTURED DATA: {"lagna":{"lon":83.56432042132161,"rashi":2,"deg":23.56432042132161},"planets":{"Sun":{"lon":135.80124591959273,"rashi":4,"deg":15.80124591959273,"retro":false,"house":3},"Moon":{"lon":351.05752479442833,"rashi":11,"deg":21.057524794428332,"retro":false,"house":10},"Mars":{"lon":140.3358705711256,"rashi":4,"deg":20.33587057112561,"retro":false,"house":3},"Mercury":{"lon":121.85025534995161,"rashi":4,"deg":1.8502553499516097,"retro":true,"house":3},"Jupiter":{"lon":151.07408858786528,"rashi":5,"deg":1.0740885878652762,"retro":false,"house":4},"Venus":{"lon":90.69883175891638,"rashi":3,"deg":0.6988317589163842,"retro":false,"house":2},"Saturn":{"lon":89.58516056358445,"rashi":2,"deg":29.585160563584452,"retro":false,"house":1},"Rahu":{"lon":9.448654997832955,"rashi":0,"deg":9.448654997832955,"retro":true,"house":11},"Ketu":{"lon":189.44865499783296,"rashi":6,"deg":9.44865499783296,"retro":true,"house":5}},"nakshatra":{"idx":26,"pada":2,"name":"Revati","lord":"Mercury","deity":"Pushan","symbol":"🐟","nature":"Soft","desc":"Represents nourishment and safe journeys. Revati natives are compassionate, spiritual, and nurturing."},"dasha":{"mahadasha":{"lord":"Venus","start":"2023-01-27T04:54:52.292Z","end":"2043-01-27T04:54:52.292Z"},"antardasha":{"lord":"Sun","start":"2026-05-28T16:54:52.292Z","end":"2027-05-28T22:54:52.292Z"},"pratyantardasha":{"lord":"Moon","start":"2026-06-15T23:12:52.291Z","end":"2026-07-16T09:42:52.291Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Sunil Baghel's 7th house lord is Vrishabha (Taurus), and its natural significator Venus is placed in the 2nd house in Karka (Cancer), indicating a strong inclination towards a partner who values emotional secur...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T02:50:56.081Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Sunil baghel","dateStr":"2026-07-12","currentLocation":"Ballabgarh "}
+STRUCTURED DATA: {"Sun":{"lon":85.71966839569555,"rashi":2,"deg":25.71966839569555,"house":1},"Moon":{"lon":55.5336262710322,"rashi":1,"deg":25.533626271032198,"house":12},"Mars":{"lon":45.27632791270074,"rashi":1,"deg":15.276327912700737,"house":12},"Mercury":{"lon":86.98103339922838,"rashi":2,"deg":26.98103339922838,"house":1},"Jupiter":{"lon":98.37498617689407,"rashi":3,"deg":8.374986176894069,"house":2},"Venus":{"lon":128.59946014555595,"rashi":4,"deg":8.599460145555952,"house":3},"Saturn":{"lon":350.3395929490448,"rashi":11,"deg":20.3395929490448,"house":10}}
+INTERPRETATION PREVIEW: {"summary":"Today, Sunil, you can expect a dynamic and potentially rewarding day with opportunities for personal and professional growth, despite some challenges. Your natural charisma and communication skills will be highlighted.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85},...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T02:53:18.018Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Sunil baghel","dateStr":"2026-07-13","currentLocation":"Ballabgarh "}
+STRUCTURED DATA: {"Sun":{"lon":86.67374056991653,"rashi":2,"deg":26.673740569916532,"house":1},"Moon":{"lon":70.63897107170783,"rashi":2,"deg":10.638971071707829,"house":1},"Mars":{"lon":45.97477149498074,"rashi":1,"deg":15.974771494980743,"house":12},"Mercury":{"lon":86.33640640136464,"rashi":2,"deg":26.33640640136464,"house":1},"Jupiter":{"lon":98.59412539818969,"rashi":3,"deg":8.59412539818969,"house":2},"Venus":{"lon":129.7056869488249,"rashi":4,"deg":9.705686948824905,"house":3},"Saturn":{"lon":350.3634366996248,"rashi":11,"deg":20.3634366996248,"house":10}}
+INTERPRETATION PREVIEW: {"summary":"Today, you'll experience a mix of energies, with a strong emphasis on communication, creativity, and relationships, but also be prepared for potential emotional ups and downs. Your natural charisma and charm will be highlighted, making it an excellent day for social interactions and care...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T02:59:48.977Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Sunil baghel","dob":"2004-09-02","tob":"02:00","pob":"Ballabgarh "}
+STRUCTURED DATA: {"lagna":{"lon":83.56432042132161,"rashi":2,"deg":23.56432042132161},"planets":{"Sun":{"lon":135.80124591959273,"rashi":4,"deg":15.80124591959273,"retro":false,"house":3},"Moon":{"lon":351.05752479442833,"rashi":11,"deg":21.057524794428332,"retro":false,"house":10},"Mars":{"lon":140.3358705711256,"rashi":4,"deg":20.33587057112561,"retro":false,"house":3},"Mercury":{"lon":121.85025534995161,"rashi":4,"deg":1.8502553499516097,"retro":true,"house":3},"Jupiter":{"lon":151.07408858786528,"rashi":5,"deg":1.0740885878652762,"retro":false,"house":4},"Venus":{"lon":90.69883175891638,"rashi":3,"deg":0.6988317589163842,"retro":false,"house":2},"Saturn":{"lon":89.58516056358445,"rashi":2,"deg":29.585160563584452,"retro":false,"house":1},"Rahu":{"lon":9.448654997832955,"rashi":0,"deg":9.448654997832955,"retro":true,"house":11},"Ketu":{"lon":189.44865499783296,"rashi":6,"deg":9.44865499783296,"retro":true,"house":5}},"nakshatra":{"idx":26,"pada":2,"name":"Revati","lord":"Mercury","deity":"Pushan","symbol":"🐟","nature":"Soft","desc":"Represents nourishment and safe journeys. Revati natives are compassionate, spiritual, and nurturing."},"dasha":{"mahadasha":{"lord":"Venus","start":"2023-01-27T04:54:52.292Z","end":"2043-01-27T04:54:52.292Z"},"antardasha":{"lord":"Sun","start":"2026-05-28T16:54:52.292Z","end":"2027-05-28T22:54:52.292Z"},"pratyantardasha":{"lord":"Moon","start":"2026-06-15T23:12:52.291Z","end":"2026-07-16T09:42:52.291Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Sunil Baghel's 7th house lord is Vrishabha (Taurus), indicating a strong connection with a life partner who values stability and sensuality. The placement of Venus in the 2nd house in the D1 chart suggests a st...
+========================================
+

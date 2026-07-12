@@ -519,7 +519,7 @@ export default function App() {
               </div>
             )}
 
-            <div className="results-header reveal show">
+            <div className="results-header reveal revealed show">
               <div className="user-greeting" id="greeting-text">
                 🌟 Cosmic Blueprint of <strong>{activeProfile.name}</strong>
               </div>
@@ -530,7 +530,7 @@ export default function App() {
             </div>
 
             {/* Numerology Numbers Grid */}
-            <div className="num-grid reveal show" id="num-grid">
+            <div className="num-grid reveal revealed show" id="num-grid">
               {[
                 { val: activeProfile.mulank, label: 'Mulank', desc: `Root Number — ${MULANK_DATA[activeProfile.mulank]?.title || ''}` },
                 { val: activeProfile.bhagyank, label: 'Bhagyank', desc: 'Destiny Number — Your life path & fortune' },
@@ -548,7 +548,7 @@ export default function App() {
             </div>
 
             {/* Nakshatra Card */}
-            <div className="nakshatra-card reveal show" id="nakshatra-card">
+            <div className="nakshatra-card reveal revealed show" id="nakshatra-card">
               <div className="nakshatra-symbol">{activeProfile.nakshatra.symbol}</div>
               <div className="nakshatra-info">
                 <h3>🌟 {activeProfile.nakshatra.name} Nakshatra — Pada {activeProfile.nakshatra.pada}</h3>
@@ -563,7 +563,7 @@ export default function App() {
             </div>
 
             {/* Main Tabs Navigation */}
-            <div className="tabs-wrapper reveal show">
+            <div className="tabs-wrapper reveal revealed show">
               <div className="tabs-nav" id="tabs-nav">
                 <button className={`tab-btn ${currentTab === 'planets' ? 'active' : ''}`} onClick={() => handleTabClick('planets')}>🪐 Planets &amp; Houses</button>
                 <button className={`tab-btn ${currentTab === 'love' ? 'active' : ''}`} onClick={() => handleTabClick('love')}>💞 Love &amp; Marriage</button>

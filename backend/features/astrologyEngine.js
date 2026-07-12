@@ -172,9 +172,15 @@ function guessCityCoords(place) {
 }
 
 async function geocodePlace(place) {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 5000); // 5s timeout
   try {
     const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(place)}&format=json&limit=1`;
-    const res = await fetch(url, { headers: { 'User-Agent': 'CosmicSoulAstrology/1.0' } });
+    const res = await fetch(url, { 
+      headers: { 'User-Agent': 'CosmicSoulAstrology/1.0' },
+      signal: controller.signal
+    });
+    clearTimeout(timeoutId);
     if (res.ok) {
       const data = await res.json();
       if (data && data.length > 0) {
@@ -187,6 +193,8 @@ async function geocodePlace(place) {
     }
   } catch (err) {
     console.warn("Nominatim Geocode failed, using local DB:", err.message);
+  } finally {
+    clearTimeout(timeoutId);
   }
   const coords = guessCityCoords(place);
   return { lat: coords[0], lon: coords[1], displayName: place };
@@ -1242,6 +1250,7 @@ Analyze the uploaded front-facing facial photo. Use the traditional Chinese Mian
 
 module.exports = {
   calculateBlueprint,
+  calculateBlueprintData,
   getDailyHoroscope,
   calculatePalmReading,
   calculateFaceReading

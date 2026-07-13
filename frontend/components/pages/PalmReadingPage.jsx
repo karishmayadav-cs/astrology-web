@@ -316,7 +316,7 @@ export default function PalmReadingPage({ userData }) {
           {activeTab === 'visual' && (
             <div className="tab-fade-in" style={{ display: 'flex', flexDirection: 'column', gap: '30px', alignItems: 'center' }}>
               <div style={{ background: 'rgba(255,255,255,0.01)', border: '1px solid rgba(255,255,255,0.03)', padding: '20px', borderRadius: '24px', width: '100%', maxWidth: '500px' }}>
-                <InteractivePalm linesData={result.lines} onLineClick={openLineDetails} />
+                <InteractivePalm linesData={result.lines} onLineClick={openLineDetails} uploadedImage={preview} />
               </div>
               <div style={{ width: '100%', maxWidth: '850px' }}>
                 <h4 style={{ fontFamily: "'Cinzel', serif", color: '#FFD700', textAlign: 'center', marginBottom: '10px', fontSize: '1rem', letterSpacing: '0.06em' }}>

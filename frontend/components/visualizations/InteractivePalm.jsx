@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
-export default function InteractivePalm({ onLineClick, linesData }) {
+export default function InteractivePalm({ onLineClick, linesData, uploadedImage }) {
   const [hoveredLine, setHoveredLine] = useState(null);
 
   // Line display names and icons
@@ -23,6 +23,8 @@ export default function InteractivePalm({ onLineClick, linesData }) {
       });
     }
   };
+
+  const handOutlinePath = "M 130 460 C 115 440, 95 380, 95 330 C 95 315, 80 300, 70 290 C 55 275, 30 260, 45 235 C 55 220, 85 245, 105 270 C 105 230, 110 160, 115 110 C 118 90, 142 90, 142 110 C 142 150, 145 200, 148 220 C 148 180, 158 100, 165 60 C 168 40, 192 40, 192 60 C 192 120, 195 200, 198 220 C 198 180, 215 100, 222 75 C 225 55, 248 55, 248 75 C 248 140, 248 200, 248 230 C 248 190, 268 120, 275 110 C 278 95, 300 100, 298 120 C 292 180, 282 250, 285 300 C 288 340, 310 380, 310 405 C 310 440, 290 460, 270 460 Z";
 
   return (
     <div className="interactive-palm-container" style={{ position: 'relative', width: '100%', maxWidth: '400px', margin: '0 auto' }}>
@@ -87,11 +89,15 @@ export default function InteractivePalm({ onLineClick, linesData }) {
             <stop offset="0%" stopColor="#1a113a" stopOpacity="0.8"/>
             <stop offset="100%" stopColor="#0b061d" stopOpacity="0.95"/>
           </radialGradient>
+
+          {/* Rounded Rect Clip path for user hand image */}
+          <clipPath id="rect-clip">
+            <rect x="10" y="10" width="380" height="480" rx="20" ry="20" />
+          </clipPath>
         </defs>
 
         <style>{`
           .hand-outline {
-            fill: url(#hand-grad);
             stroke: #d4af37;
             stroke-width: 2.5;
             stroke-linecap: round;
@@ -116,37 +122,64 @@ export default function InteractivePalm({ onLineClick, linesData }) {
             stroke-width: 9;
             opacity: 1 !important;
           }
+          @keyframes scanLineAnim {
+            0% { transform: translateY(20px); opacity: 0.2; }
+            50% { transform: translateY(480px); opacity: 0.8; }
+            100% { transform: translateY(20px); opacity: 0.2; }
+          }
+          .scan-line-svg {
+            animation: scanLineAnim 4s ease-in-out infinite;
+            filter: drop-shadow(0px 0px 6px #00e5ff);
+          }
         `}</style>
 
-        {/* Hand Outline Path */}
-        <path className="hand-outline" d="
-          M 130 460 
-          C 115 440, 95 380, 95 330 
-          C 95 315, 80 300, 70 290
-          C 55 275, 30 260, 45 235
-          C 55 220, 85 245, 105 270
-          C 105 230, 110 160, 115 110
-          C 118 90, 142 90, 142 110
-          C 142 150, 145 200, 148 220
-          C 148 180, 158 100, 165 60
-          C 168 40, 192 40, 192 60
-          C 192 120, 195 200, 198 220
-          C 198 180, 215 100, 222 75
-          C 225 55, 248 55, 248 75
-          C 248 140, 248 200, 248 230
-          C 248 190, 268 120, 275 110
-          C 278 95, 300 100, 298 120
-          C 292 180, 282 250, 285 300
-          C 288 340, 310 380, 310 405
-          C 310 440, 290 460, 270 460
-          Z" />
+        {/* User Uploaded Palm Image masked inside a nice Rounded Rect */}
+        {uploadedImage && (
+          <image
+            href={uploadedImage}
+            x="10"
+            y="10"
+            width="380"
+            height="480"
+            preserveAspectRatio="xMidYMid slice"
+            clipPath="url(#rect-clip)"
+            style={{ filter: 'brightness(0.9) contrast(1.1) saturate(1.1)' }}
+          />
+        )}
 
-        {/* Artistic details on palm */}
-        <path className="palm-creases" d="M 120 330 Q 150 360, 190 350" />
-        <path className="palm-creases" d="M 230 310 Q 255 330, 280 300" />
-        <path className="palm-creases" d="M 160 270 Q 180 290, 210 270" />
-        <path className="palm-creases" d="M 250 250 C 265 240, 270 210, 275 190" />
-        <path className="palm-creases" d="M 130 220 C 120 200, 115 170, 120 150" />
+        {/* Hand Outline Path - only show if NO image uploaded */}
+        {!uploadedImage && (
+          <path 
+            className="hand-outline" 
+            d={handOutlinePath} 
+            style={{ fill: 'url(#hand-grad)' }}
+          />
+        )}
+
+        {/* Animated Scanning Laser Line clipped to the Hand Shape */}
+        {uploadedImage && (
+          <line
+            className="scan-line-svg"
+            x1="30"
+            y1="0"
+            x2="370"
+            y2="0"
+            stroke="#00e5ff"
+            strokeWidth="3.5"
+            clipPath="url(#rect-clip)"
+          />
+        )}
+
+        {/* Artistic details on palm (Only show when NO uploaded image) */}
+        {!uploadedImage && (
+          <>
+            <path className="palm-creases" d="M 120 330 Q 150 360, 190 350" />
+            <path className="palm-creases" d="M 230 310 Q 255 330, 280 300" />
+            <path className="palm-creases" d="M 160 270 Q 180 290, 210 270" />
+            <path className="palm-creases" d="M 250 250 C 265 240, 270 210, 275 190" />
+            <path className="palm-creases" d="M 130 220 C 120 200, 115 170, 120 150" />
+          </>
+        )}
 
         {/* Life Line */}
         <path

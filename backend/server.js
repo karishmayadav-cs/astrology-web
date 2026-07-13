@@ -114,7 +114,12 @@ if (!fs.existsSync(logsDir)) {
 
 // Fallback index.html router for SPA behavior
 app.get('/*splat', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', 'frontend', 'dist', 'index.html'));
+  const indexPath = path.join(__dirname, '..', 'frontend', 'dist', 'index.html');
+  if (fs.existsSync(indexPath)) {
+    res.sendFile(indexPath);
+  } else {
+    res.status(404).send('Frontend build not found. Please run "npm run build" in the frontend directory.');
+  }
 });
 
 // Start Express Server

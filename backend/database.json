@@ -962,6 +962,416 @@
         },
         "isAIEnhanced": true
       }
+    },
+    "670d08c48224bac21d3cd63feee8a402": {
+      "2026-07-12-ballabgarh": {
+        "date": "2026-07-12",
+        "currentLocation": "Ballabgarh",
+        "transitHouses": {
+          "Sun": {
+            "lon": 85.71966839569555,
+            "rashi": 2,
+            "deg": 25.71966839569555,
+            "house": 1
+          },
+          "Moon": {
+            "lon": 55.5336262710322,
+            "rashi": 1,
+            "deg": 25.533626271032198,
+            "house": 12
+          },
+          "Mars": {
+            "lon": 45.27632791270074,
+            "rashi": 1,
+            "deg": 15.276327912700737,
+            "house": 12
+          },
+          "Mercury": {
+            "lon": 86.98103339922838,
+            "rashi": 2,
+            "deg": 26.98103339922838,
+            "house": 1
+          },
+          "Jupiter": {
+            "lon": 98.37498617689407,
+            "rashi": 3,
+            "deg": 8.374986176894069,
+            "house": 2
+          },
+          "Venus": {
+            "lon": 128.59946014555595,
+            "rashi": 4,
+            "deg": 8.599460145555952,
+            "house": 3
+          },
+          "Saturn": {
+            "lon": 350.3395929490448,
+            "rashi": 11,
+            "deg": 20.3395929490448,
+            "house": 10
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Vanshaj Sharma, you can expect a dynamic day with significant opportunities for growth and interaction, but also be prepared for challenges that require patience and resilience. Your natural charisma and communication skills will be highlighted.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "🟢 Sun and Mercury in 1st House: Excellent period for self-expression, communication, and intellectual pursuits, enhancing your overall presence and impact."
+            },
+            {
+              "type": "down",
+              "text": "🔴 Saturn in 10th House: Career pressures and responsibilities may weigh heavily on you, requiring extra effort and strategic planning to navigate successfully."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Today, your mood will be largely influenced by your interactions and the opportunities that come your way. With Sun and Mercury in your 1st house, you're likely to feel confident and expressive, but remember to balance your emotions with the challenges posed by Saturn's transit.</p>",
+            "career": "<p>Your career and professional life are poised for significant advancements, especially with Jupiter's favorable transit in your 2nd house, enhancing your financial and professional networks. However, Saturn's presence in your 10th house from the lagna of your natal chart suggests that hard work and perseverance are essential to overcoming current obstacles.</p>",
+            "finance": "<p>Financially, this period looks promising, with potential for new income sources and favorable financial transactions. Venus in the 3rd house indicates gains through communication, networking, or short trips. Be cautious with expenses, as Saturn's influence might suggest a need for budgeting and long-term financial planning.</p>",
+            "love": "<p>In matters of love and relationships, the position of Venus in the 3rd house can bring about opportunities for romantic connections through social events, travels, or siblings. However, the transit of Saturn might introduce a serious or committed tone to your relationships, requiring patience and understanding.</p>",
+            "health": "<p>Health-wise, you might experience some fluctuations due to the transit of the Moon in the 12th house, which could affect your emotional well-being. Practice relaxation techniques, and ensure you're getting enough rest to mitigate any potential health issues. The influence of Saturn suggests the importance of discipline in your health regime.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      }
+    },
+    "8e25ca11aa9e21d3021c61b1bc9077da": {
+      "2026-07-12-ballabgarh": {
+        "date": "2026-07-12",
+        "currentLocation": "Ballabgarh",
+        "transitHouses": {
+          "Sun": {
+            "lon": 85.71966839569555,
+            "rashi": 2,
+            "deg": 25.71966839569555,
+            "house": 8
+          },
+          "Moon": {
+            "lon": 55.5336262710322,
+            "rashi": 1,
+            "deg": 25.533626271032198,
+            "house": 7
+          },
+          "Mars": {
+            "lon": 45.27632791270074,
+            "rashi": 1,
+            "deg": 15.276327912700737,
+            "house": 7
+          },
+          "Mercury": {
+            "lon": 86.98103339922838,
+            "rashi": 2,
+            "deg": 26.98103339922838,
+            "house": 8
+          },
+          "Jupiter": {
+            "lon": 98.37498617689407,
+            "rashi": 3,
+            "deg": 8.374986176894069,
+            "house": 9
+          },
+          "Venus": {
+            "lon": 128.59946014555595,
+            "rashi": 4,
+            "deg": 8.599460145555952,
+            "house": 10
+          },
+          "Saturn": {
+            "lon": 350.3395929490448,
+            "rashi": 11,
+            "deg": 20.3395929490448,
+            "house": 5
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Anuj Dubey, you'll experience a mix of opportunities and challenges. Jupiter's influence can bring new career prospects and wealth gains, but you may need to work harder under Saturn's shadow.",
+          "scores": {
+            "mood": 72,
+            "career": 92,
+            "love": 78,
+            "finance": 85,
+            "health": 88
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "🟢 Jupiter in 9th House: Excellent period for new career networks, learning, and wisdom."
+            },
+            {
+              "type": "up",
+              "text": " 🟢 Venus in 10th House: Success in professional life, recognition, and prestige."
+            },
+            {
+              "type": "down",
+              "text": " 🔴 Saturn in 5th House: Emotional instability and financial strain due to unexpected expenses."
+            },
+            {
+              "type": "down",
+              "text": " 🔴 Saturn in 5th House: High pressure from family or domestic issues."
+            }
+          ],
+          "breakdown": {
+            "mood": "Your mood may be impacted by the emotional turmoil at home, Anuj. Emotional instability and mood swings may affect your relationships. <br><br>Try to remain calm, and practice <a href='https://en.wikipedia.org/wiki/Meditation'>meditation</a> to manage stress.",
+            "career": "With Jupiter's influence, your career prospects are excellent. Seize new opportunities and be prepared for challenges. <br><br>You might be recognized for your work, and prestige may increase. <br><br>However, you'll have to maintain a high level of discipline and hard work under Saturn's watchful eye.",
+            "finance": "Your finances may be strained due to unexpected expenses. Be cautious of overspending and maintain a <a href='https://en.wikipedia.org/wiki/Budgeting'>budget</a> to avoid financial strain.",
+            "love": "Your relationships may be impacted by the emotional turmoil at home, Anuj. Communication is key, and try to be understanding and empathetic towards your loved ones.",
+            "health": "Maintain a healthy lifestyle, Anuj, to combat the energy-draining effects of Saturn. Regular exercise, healthy eating, and sufficient sleep can help keep your energy levels stable."
+          }
+        },
+        "isAIEnhanced": true
+      }
+    },
+    "7e346290537173ad2d26837a1fefd461": {
+      "2026-07-12-ballabgarhharyana": {
+        "date": "2026-07-12",
+        "currentLocation": "Ballabgarh , Haryana",
+        "transitHouses": {
+          "Sun": {
+            "lon": 85.71966839569555,
+            "rashi": 2,
+            "deg": 25.71966839569555,
+            "house": 4
+          },
+          "Moon": {
+            "lon": 55.5336262710322,
+            "rashi": 1,
+            "deg": 25.533626271032198,
+            "house": 3
+          },
+          "Mars": {
+            "lon": 45.27632791270074,
+            "rashi": 1,
+            "deg": 15.276327912700737,
+            "house": 3
+          },
+          "Mercury": {
+            "lon": 86.98103339922838,
+            "rashi": 2,
+            "deg": 26.98103339922838,
+            "house": 4
+          },
+          "Jupiter": {
+            "lon": 98.37498617689407,
+            "rashi": 3,
+            "deg": 8.374986176894069,
+            "house": 5
+          },
+          "Venus": {
+            "lon": 128.59946014555595,
+            "rashi": 4,
+            "deg": 8.599460145555952,
+            "house": 6
+          },
+          "Saturn": {
+            "lon": 350.3395929490448,
+            "rashi": 11,
+            "deg": 20.3395929490448,
+            "house": 1
+          }
+        },
+        "horoscope": {
+          "summary": "Aryan, expect mixed energies today. While your work prospects are promising, you may face challenges at home and in your love life due to Saturn's transit in the 12th House.",
+          "scores": {
+            "mood": 60,
+            "career": 85,
+            "love": 40,
+            "finance": 60,
+            "health": 80
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "Excellent period for career growth with Jupiter in the 1st House and favorable transit through 5th House! "
+            },
+            {
+              "type": "down",
+              "text": "Tread with caution in relationships today! Saturn's transit in the 12th House may bring some stress and disagreements."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Avoid letting work pressures get to you today, Aryan. <br>Take some time to relax and prioritize self-care.</p>",
+            "career": "<p>Work prospects are looking up today with <span style='color:blue'>Jupiter in the 1st House</span>. This is an excellent time to network, learn new skills, and make connections that can help you grow professionally.</p>",
+            "finance": "<p>Financial matters may not be too smooth today. Try to avoid making any big purchases or investments until the situation stabilizes.</p>",
+            "love": "<p>Love life may be a bit strained today with <span style='color:red'>Saturn in the 12th House</span>. Try to communicate openly and honestly with your partner to resolve any misunderstandings.</p>",
+            "health": "<p>Take care of your physical and mental well-being today, Aryan. Engage in activities that bring you joy and help you relax.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      },
+      "2025-08-18-ballabgarhharyana": {
+        "date": "2025-08-18",
+        "currentLocation": "Ballabgarh , Haryana",
+        "transitHouses": {
+          "Sun": {
+            "lon": 121.36712450769241,
+            "rashi": 4,
+            "deg": 1.3671245076924095,
+            "house": 6
+          },
+          "Moon": {
+            "lon": 58.4350840766794,
+            "rashi": 1,
+            "deg": 28.435084076679402,
+            "house": 3
+          },
+          "Mars": {
+            "lon": 162.8821664582656,
+            "rashi": 5,
+            "deg": 12.882166458265601,
+            "house": 7
+          },
+          "Mercury": {
+            "lon": 102.88950010625678,
+            "rashi": 3,
+            "deg": 12.889500106256776,
+            "house": 5
+          },
+          "Jupiter": {
+            "lon": 81.06052652140222,
+            "rashi": 2,
+            "deg": 21.060526521402224,
+            "house": 4
+          },
+          "Venus": {
+            "lon": 86.97089996048054,
+            "rashi": 2,
+            "deg": 26.970899960480537,
+            "house": 4
+          },
+          "Saturn": {
+            "lon": 336.66956250030023,
+            "rashi": 11,
+            "deg": 6.669562500300231,
+            "house": 1
+          }
+        },
+        "horoscope": {
+          "summary": "Your intuition is heightened today, Aryan, as Jupiter transits your 1st House, amplifying your inner wisdom. However, Saturn's influence in the 12th House demands you manage your workload efficiently.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "\u001b[38;5;46m✨ Jupiter in 1st House: Excellent period for wisdom, wealth gains, and new career networks."
+            },
+            {
+              "type": "down",
+              "text": "\u001b[38;5;196m⚫️ Saturn in 12th House: High pressure at work. Demands patience, hard work, and discipline."
+            },
+            {
+              "type": "neutral",
+              "text": "\u001b[38;5;243m♂️ Mercury in 5th House: Good for creativity and self-expression, but may lead to restlessness."
+            },
+            {
+              "type": "neutral",
+              "text": "\u001b[38;5;45m♠️ Mars in 7th House: May cause conflicts with others. Practice self-control and empathy."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>With the Moon transiting your 3rd House, your emotions may be a bit scattered. Practice mindfulness and take time to connect with your inner self.</p>",
+            "career": "<p>Jupiter's transit in your 1st House is an excellent opportunity to expand your professional network, Aryan. Be open to new connections and collaborations.</p>",
+            "finance": "<p>Venus transiting your 4th House indicates a period of stability in your finances. Focus on long-term investments and saving strategies.</p>",
+            "love": "<p>The current transits suggest a mixed day for your love life, Aryan. Be patient and communicate openly with your partner to avoid misunderstandings.</p>",
+            "health": "<p>With Saturn transiting your 1st House, prioritize your work-life balance and take breaks to maintain your physical and mental well-being.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      },
+      "2025-08-17-ballabgarhharyana": {
+        "date": "2025-08-17",
+        "currentLocation": "Ballabgarh , Haryana",
+        "transitHouses": {
+          "Sun": {
+            "lon": 120.40533776213779,
+            "rashi": 4,
+            "deg": 0.4053377621377905,
+            "house": 6
+          },
+          "Moon": {
+            "lon": 44.336605060186216,
+            "rashi": 1,
+            "deg": 14.336605060186216,
+            "house": 3
+          },
+          "Mars": {
+            "lon": 162.24818946506815,
+            "rashi": 5,
+            "deg": 12.248189465068151,
+            "house": 7
+          },
+          "Mercury": {
+            "lon": 102.12567188414289,
+            "rashi": 3,
+            "deg": 12.12567188414289,
+            "house": 5
+          },
+          "Jupiter": {
+            "lon": 80.86227936530483,
+            "rashi": 2,
+            "deg": 20.86227936530483,
+            "house": 4
+          },
+          "Venus": {
+            "lon": 85.78799300313221,
+            "rashi": 2,
+            "deg": 25.787993003132215,
+            "house": 4
+          },
+          "Saturn": {
+            "lon": 336.72426948304013,
+            "rashi": 11,
+            "deg": 6.724269483040132,
+            "house": 1
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Aryan Kumar is poised for intellectual gains and opportunities for self-improvement, but must also contend with increased work pressure and a need for discipline.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "🟢 Jupiter in 1st House: Excellent period for wisdom, wealth gains, and new career networks."
+            },
+            {
+              "type": "down",
+              "text": "🔴 Saturn in 12th House: High pressure at work. Demands patience, hard work, and discipline."
+            },
+            {
+              "type": "up",
+              "text": "💡 Mercury in 5th House: Good for creative pursuits, learning, and communication skills."
+            },
+            {
+              "type": "down",
+              "text": "🔴 Mars in 7th House: Minor disputes with partner/friends. Manage emotions wisely."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Aryan, be prepared today for a sense of emotional intensity. Your emotional needs are being met, and your creativity is flowing.</p>",
+            "career": "<p>Your career is set for growth, with opportunities for wisdom and wealth gains emerging. Stay focused and adaptable to make the most of these developments.</p>",
+            "finance": "<p>Your financial situation is stable today, with a potential for gains from investments and savings.</p>",
+            "love": "<p>Relationships may be a bit challenging today, with some misunderstandings possible. Make an effort to communicate openly and honestly.</p>",
+            "health": "<p>Aryan, prioritize self-care today. Engage in activities that bring you joy and relaxation to maintain your physical and mental well-being.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      }
     }
   },
   "feedback": {
@@ -1309,7 +1719,52 @@
         "rashi": 2,
         "deg": 23.56432042132161
       },
-      "lastActive": "2026-07-12T02:59:48.985Z"
+      "lastActive": "2026-07-12T06:47:23.655Z"
+    },
+    "670d08c48224bac21d3cd63feee8a402": {
+      "name": "Vanshaj Sharma",
+      "dob": "2005-11-29",
+      "tob": "19:00",
+      "pob": "firozabad",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 68.2227836303879,
+        "rashi": 2,
+        "deg": 8.222783630387895
+      },
+      "lastActive": "2026-07-12T06:58:57.947Z"
+    },
+    "8e25ca11aa9e21d3021c61b1bc9077da": {
+      "name": "Anuj Dubey",
+      "dob": "2005-11-16",
+      "tob": "09:00",
+      "pob": "kosi",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 239.58040972663008,
+        "rashi": 7,
+        "deg": 29.58040972663008
+      },
+      "lastActive": "2026-07-12T07:12:28.716Z"
+    },
+    "7e346290537173ad2d26837a1fefd461": {
+      "name": "Aryan Kumar",
+      "dob": "2004-06-24",
+      "tob": "00:00",
+      "pob": "Aligarh , UP",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 333.10573810448017,
+        "rashi": 11,
+        "deg": 3.1057381044801673
+      },
+      "lastActive": "2026-07-12T07:22:31.397Z"
     }
   }
 }

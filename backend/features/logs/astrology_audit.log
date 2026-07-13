@@ -898,3 +898,102 @@ STRUCTURED DATA: {"lagna":{"lon":83.56432042132161,"rashi":2,"deg":23.5643204213
 INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Sunil Baghel's 7th house lord is Vrishabha (Taurus), indicating a strong connection with a life partner who values stability and sensuality. The placement of Venus in the 2nd house in the D1 chart suggests a st...
 ========================================
 
+
+========================================
+TIMESTAMP: 2026-07-12T06:47:23.644Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Sunil baghel","dob":"2004-09-02","tob":"02:00","pob":"Ballabgarh "}
+STRUCTURED DATA: {"lagna":{"lon":83.56432042132161,"rashi":2,"deg":23.56432042132161},"planets":{"Sun":{"lon":135.80124591959273,"rashi":4,"deg":15.80124591959273,"retro":false,"house":3},"Moon":{"lon":351.05752479442833,"rashi":11,"deg":21.057524794428332,"retro":false,"house":10},"Mars":{"lon":140.3358705711256,"rashi":4,"deg":20.33587057112561,"retro":false,"house":3},"Mercury":{"lon":121.85025534995161,"rashi":4,"deg":1.8502553499516097,"retro":true,"house":3},"Jupiter":{"lon":151.07408858786528,"rashi":5,"deg":1.0740885878652762,"retro":false,"house":4},"Venus":{"lon":90.69883175891638,"rashi":3,"deg":0.6988317589163842,"retro":false,"house":2},"Saturn":{"lon":89.58516056358445,"rashi":2,"deg":29.585160563584452,"retro":false,"house":1},"Rahu":{"lon":9.448654997832955,"rashi":0,"deg":9.448654997832955,"retro":true,"house":11},"Ketu":{"lon":189.44865499783296,"rashi":6,"deg":9.44865499783296,"retro":true,"house":5}},"nakshatra":{"idx":26,"pada":2,"name":"Revati","lord":"Mercury","deity":"Pushan","symbol":"🐟","nature":"Soft","desc":"Represents nourishment and safe journeys. Revati natives are compassionate, spiritual, and nurturing."},"dasha":{"mahadasha":{"lord":"Venus","start":"2023-01-27T04:54:52.292Z","end":"2043-01-27T04:54:52.292Z"},"antardasha":{"lord":"Sun","start":"2026-05-28T16:54:52.292Z","end":"2027-05-28T22:54:52.292Z"},"pratyantardasha":{"lord":"Moon","start":"2026-06-15T23:12:52.291Z","end":"2026-07-16T09:42:52.291Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Sunil Baghel's 7th house lord is Vrishabha (Taurus), indicating a spouse who values stability, luxury, and sensuality. With Venus, the 7th house karaka, placed in the 2nd house in Cancer, the spouse is likely t...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T06:58:57.940Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Vanshaj Sharma","dob":"2005-11-29","tob":"19:00","pob":"firozabad"}
+STRUCTURED DATA: {"lagna":{"lon":68.2227836303879,"rashi":2,"deg":8.222783630387895},"planets":{"Sun":{"lon":223.49236171703893,"rashi":7,"deg":13.492361717038932,"retro":false,"house":6},"Moon":{"lon":197.47513872902988,"rashi":6,"deg":17.47513872902988,"retro":false,"house":5},"Mars":{"lon":15.06790068909497,"rashi":0,"deg":15.06790068909497,"retro":true,"house":11},"Mercury":{"lon":212.72150119876284,"rashi":7,"deg":2.7215011987628372,"retro":true,"house":6},"Jupiter":{"lon":193.38101115369648,"rashi":6,"deg":13.381011153696477,"retro":false,"house":5},"Venus":{"lon":267.30323744780134,"rashi":8,"deg":27.303237447801337,"retro":false,"house":7},"Saturn":{"lon":107.32406207189909,"rashi":3,"deg":17.324062071899093,"retro":true,"house":2},"Rahu":{"lon":348.3872097052959,"rashi":11,"deg":18.387209705295902,"retro":true,"house":10},"Ketu":{"lon":168.38720970529585,"rashi":5,"deg":18.387209705295845,"retro":true,"house":4}},"nakshatra":{"idx":14,"pada":4,"name":"Swati","lord":"Rahu","deity":"Vayu","symbol":"🌿","nature":"Movable","desc":"Represents independence and flexibility. Swati natives are diplomatic, business-minded, and adaptable."},"dasha":{"mahadasha":{"lord":"Saturn","start":"2025-04-26T23:27:36.658Z","end":"2044-04-26T17:27:36.658Z"},"antardasha":{"lord":"Saturn","start":"2025-04-26T23:27:36.658Z","end":"2028-04-29T18:30:36.658Z"},"pratyantardasha":{"lord":"Venus","start":"2026-05-25T17:05:11.158Z","end":"2026-11-24T20:15:41.158Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Vanshaj Sharma's 7th house lord is Venus, placed in the 7th house itself in Sagittarius, which indicates a strong and independent partner. The presence of Venus in the 7th house suggests a spouse who values fre...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T06:59:01.248Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Vanshaj Sharma","dateStr":"2026-07-12","currentLocation":"Ballabgarh"}
+STRUCTURED DATA: {"Sun":{"lon":85.71966839569555,"rashi":2,"deg":25.71966839569555,"house":1},"Moon":{"lon":55.5336262710322,"rashi":1,"deg":25.533626271032198,"house":12},"Mars":{"lon":45.27632791270074,"rashi":1,"deg":15.276327912700737,"house":12},"Mercury":{"lon":86.98103339922838,"rashi":2,"deg":26.98103339922838,"house":1},"Jupiter":{"lon":98.37498617689407,"rashi":3,"deg":8.374986176894069,"house":2},"Venus":{"lon":128.59946014555595,"rashi":4,"deg":8.599460145555952,"house":3},"Saturn":{"lon":350.3395929490448,"rashi":11,"deg":20.3395929490448,"house":10}}
+INTERPRETATION PREVIEW: {"summary":"Today, Vanshaj Sharma, you can expect a dynamic day with significant opportunities for growth and interaction, but also be prepared for challenges that require patience and resilience. Your natural charisma and communication skills will be highlighted.","scores":{"mood":85,"career":90,"l...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T07:12:28.712Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Anuj Dubey","dob":"2005-11-16","tob":"09:00","pob":"kosi"}
+STRUCTURED DATA: {"lagna":{"lon":239.58040972663008,"rashi":7,"deg":29.58040972663008},"planets":{"Sun":{"lon":209.93583773061434,"rashi":6,"deg":29.935837730614338,"retro":false,"house":12},"Moon":{"lon":31.247581788357287,"rashi":1,"deg":1.2475817883572873,"retro":false,"house":7},"Mars":{"lon":18.144824389312745,"rashi":0,"deg":18.144824389312745,"retro":true,"house":6},"Mercury":{"lon":226.71181536323488,"rashi":7,"deg":16.711815363234876,"retro":true,"house":1},"Jupiter":{"lon":190.5958967389214,"rashi":6,"deg":10.595896738921397,"retro":false,"house":12},"Venus":{"lon":256.31966224148323,"rashi":8,"deg":16.31966224148323,"retro":false,"house":2},"Saturn":{"lon":107.33689406657389,"rashi":3,"deg":17.33689406657389,"retro":false,"house":9},"Rahu":{"lon":349.1498781865656,"rashi":11,"deg":19.149878186565616,"retro":true,"house":5},"Ketu":{"lon":169.14987818656562,"rashi":5,"deg":19.149878186565616,"retro":true,"house":11}},"nakshatra":{"idx":2,"pada":2,"name":"Krittika","lord":"Sun","deity":"Agni","symbol":"🗡️","nature":"Mixed","desc":"Associated with fire and purification. Krittika natives are sharp, determined, and goal-oriented."},"dasha":{"mahadasha":{"lord":"Mars","start":"2019-10-25T01:39:50.720Z","end":"2026-10-24T19:39:50.720Z"},"antardasha":{"lord":"Moon","start":"2026-03-25T18:09:50.719Z","end":"2026-10-24T19:39:50.719Z"},"pratyantardasha":{"lord":"Saturn","start":"2026-06-24T07:24:05.719Z","end":"2026-07-28T01:02:20.719Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Anuj Dubey's 7th house lord is Shukra (Venus), placed in the 2nd house in Dhanu (Sagittarius) at 16.3°. This placement indicates a spouse who is generous, enthusiastic, and possibly from a wealthy or well-educa...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T07:12:35.124Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Anuj Dubey","dateStr":"2026-07-12","currentLocation":"Ballabgarh"}
+STRUCTURED DATA: {"Sun":{"lon":85.71966839569555,"rashi":2,"deg":25.71966839569555,"house":8},"Moon":{"lon":55.5336262710322,"rashi":1,"deg":25.533626271032198,"house":7},"Mars":{"lon":45.27632791270074,"rashi":1,"deg":15.276327912700737,"house":7},"Mercury":{"lon":86.98103339922838,"rashi":2,"deg":26.98103339922838,"house":8},"Jupiter":{"lon":98.37498617689407,"rashi":3,"deg":8.374986176894069,"house":9},"Venus":{"lon":128.59946014555595,"rashi":4,"deg":8.599460145555952,"house":10},"Saturn":{"lon":350.3395929490448,"rashi":11,"deg":20.3395929490448,"house":5}}
+INTERPRETATION PREVIEW: {"summary":"Today, Anuj Dubey, you'll experience a mix of opportunities and challenges. Jupiter's influence can bring new career prospects and wealth gains, but you may need to work harder under Saturn's shadow.","scores":{"mood":72,"career":92,"love":78,"finance":85,"health":88},"highlights":[{"typ...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T07:22:31.393Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Aryan Kumar","dob":"2004-06-24","tob":"00:00","pob":"Aligarh , UP"}
+STRUCTURED DATA: {"lagna":{"lon":333.10573810448017,"rashi":11,"deg":3.1057381044801673},"planets":{"Sun":{"lon":68.68959396642974,"rashi":2,"deg":8.68959396642974,"retro":false,"house":4},"Moon":{"lon":134.57738019871766,"rashi":4,"deg":14.577380198717663,"retro":false,"house":6},"Mars":{"lon":96.02175814562773,"rashi":3,"deg":6.021758145627729,"retro":false,"house":5},"Mercury":{"lon":74.63245578545069,"rashi":2,"deg":14.632455785450688,"retro":false,"house":4},"Jupiter":{"lon":138.44873150800473,"rashi":4,"deg":18.448731508004727,"retro":false,"house":6},"Venus":{"lon":46.464477657879435,"rashi":1,"deg":16.464477657879435,"retro":true,"house":3},"Saturn":{"lon":80.98676248738533,"rashi":2,"deg":20.986762487385334,"retro":false,"house":4},"Rahu":{"lon":15.752174293499353,"rashi":0,"deg":15.752174293499353,"retro":true,"house":2},"Ketu":{"lon":195.75217429349937,"rashi":6,"deg":15.752174293499365,"retro":true,"house":8}},"nakshatra":{"idx":10,"pada":1,"name":"Purva Phalguni","lord":"Venus","deity":"Bhaga","symbol":"💑","nature":"Fierce","desc":"Represents pleasure, love, and creativity. Purva Phalguni natives are romantic, generous, and artistic."},"dasha":{"mahadasha":{"lord":"Sun","start":"2022-08-12T10:01:38.369Z","end":"2028-08-11T22:01:38.369Z"},"antardasha":{"lord":"Mercury","start":"2026-05-31T08:49:38.368Z","end":"2027-04-06T19:55:38.367Z"},"pratyantardasha":{"lord":"Mercury","start":"2026-05-31T08:49:38.368Z","end":"2026-07-14T08:23:59.367Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Aryan, as a Meena lagna native, you have a romantic and empathetic approach to relationships. Your 7th house lord is Venus, placed in Vrishabha (Taurus) in the 3rd house. Venus is retrograde, indicating a possi...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T07:22:38.890Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Aryan Kumar","dateStr":"2026-07-12","currentLocation":"Ballabgarh , Haryana"}
+STRUCTURED DATA: {"Sun":{"lon":85.71966839569555,"rashi":2,"deg":25.71966839569555,"house":4},"Moon":{"lon":55.5336262710322,"rashi":1,"deg":25.533626271032198,"house":3},"Mars":{"lon":45.27632791270074,"rashi":1,"deg":15.276327912700737,"house":3},"Mercury":{"lon":86.98103339922838,"rashi":2,"deg":26.98103339922838,"house":4},"Jupiter":{"lon":98.37498617689407,"rashi":3,"deg":8.374986176894069,"house":5},"Venus":{"lon":128.59946014555595,"rashi":4,"deg":8.599460145555952,"house":6},"Saturn":{"lon":350.3395929490448,"rashi":11,"deg":20.3395929490448,"house":1}}
+INTERPRETATION PREVIEW: {"summary":"Aryan, expect mixed energies today. While your work prospects are promising, you may face challenges at home and in your love life due to Saturn's transit in the 12th House.","scores":{"mood":60,"career":85,"love":40,"finance":60,"health":80},"highlights":[{"type":"up","text":"Excellent ...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T07:34:02.535Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Aryan Kumar","dateStr":"2025-08-12","currentLocation":"Ballabgarh , Haryana"}
+STRUCTURED DATA: {"Sun":{"lon":115.60288459592617,"rashi":3,"deg":25.60288459592617,"house":5},"Moon":{"lon":333.40925015677226,"rashi":11,"deg":3.4092501567722593,"house":1},"Mars":{"lon":159.09487314711248,"rashi":5,"deg":9.09487314711248,"house":7},"Mercury":{"lon":100.08615148494495,"rashi":3,"deg":10.08615148494495,"house":5},"Jupiter":{"lon":79.85491396364436,"rashi":2,"deg":19.854913963644364,"house":4},"Venus":{"lon":79.89515511230499,"rashi":2,"deg":19.89515511230499,"house":4},"Saturn":{"lon":336.97850155518273,"rashi":11,"deg":6.978501555182731,"house":1}}
+INTERPRETATION PREVIEW: {"summary":"Aryan Kumar, today marks a significant turning point in your career journey. With Jupiter's blessings, you can expect new opportunities and wisdom that will elevate your professional growth.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85},"highlights":[{"type":"up","...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T07:34:20.062Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Aryan Kumar","dateStr":"2025-08-18","currentLocation":"Ballabgarh , Haryana"}
+STRUCTURED DATA: {"Sun":{"lon":121.36712450769241,"rashi":4,"deg":1.3671245076924095,"house":6},"Moon":{"lon":58.4350840766794,"rashi":1,"deg":28.435084076679402,"house":3},"Mars":{"lon":162.8821664582656,"rashi":5,"deg":12.882166458265601,"house":7},"Mercury":{"lon":102.88950010625678,"rashi":3,"deg":12.889500106256776,"house":5},"Jupiter":{"lon":81.06052652140222,"rashi":2,"deg":21.060526521402224,"house":4},"Venus":{"lon":86.97089996048054,"rashi":2,"deg":26.970899960480537,"house":4},"Saturn":{"lon":336.66956250030023,"rashi":11,"deg":6.669562500300231,"house":1}}
+INTERPRETATION PREVIEW: {"summary":"Your intuition is heightened today, Aryan, as Jupiter transits your 1st House, amplifying your inner wisdom. However, Saturn's influence in the 12th House demands you manage your workload efficiently.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85},"highlights":[{"ty...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T07:34:32.138Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Aryan Kumar","dateStr":"2025-08-18","currentLocation":"Ballabgarh , Haryana"}
+STRUCTURED DATA: {"Sun":{"lon":121.36712450769241,"rashi":4,"deg":1.3671245076924095,"house":6},"Moon":{"lon":58.4350840766794,"rashi":1,"deg":28.435084076679402,"house":3},"Mars":{"lon":162.8821664582656,"rashi":5,"deg":12.882166458265601,"house":7},"Mercury":{"lon":102.88950010625678,"rashi":3,"deg":12.889500106256776,"house":5},"Jupiter":{"lon":81.06052652140222,"rashi":2,"deg":21.060526521402224,"house":4},"Venus":{"lon":86.97089996048054,"rashi":2,"deg":26.970899960480537,"house":4},"Saturn":{"lon":336.66956250030023,"rashi":11,"deg":6.669562500300231,"house":1}}
+INTERPRETATION PREVIEW: {"summary":"Today is a day of mixed energies for Aryan Kumar, but with a focus on personal growth, career success, and financial progress. Expect a boost in your mood and energy, but also be prepared for increased demands at work.","scores":{"mood":92,"career":95,"love":78,"finance":92,"health":88},...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-12T07:35:08.381Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Aryan Kumar","dateStr":"2025-08-17","currentLocation":"Ballabgarh , Haryana"}
+STRUCTURED DATA: {"Sun":{"lon":120.40533776213779,"rashi":4,"deg":0.4053377621377905,"house":6},"Moon":{"lon":44.336605060186216,"rashi":1,"deg":14.336605060186216,"house":3},"Mars":{"lon":162.24818946506815,"rashi":5,"deg":12.248189465068151,"house":7},"Mercury":{"lon":102.12567188414289,"rashi":3,"deg":12.12567188414289,"house":5},"Jupiter":{"lon":80.86227936530483,"rashi":2,"deg":20.86227936530483,"house":4},"Venus":{"lon":85.78799300313221,"rashi":2,"deg":25.787993003132215,"house":4},"Saturn":{"lon":336.72426948304013,"rashi":11,"deg":6.724269483040132,"house":1}}
+INTERPRETATION PREVIEW: {"summary":"Today, Aryan Kumar is poised for intellectual gains and opportunities for self-improvement, but must also contend with increased work pressure and a need for discipline.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85},"highlights":[{"type":"up","text":"🟢 Jupiter in ...
+========================================
+

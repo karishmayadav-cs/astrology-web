@@ -5,13 +5,23 @@ const cors = require('cors');
 const fs = require('fs');
 const crypto = require('crypto');
 
+const connectDB = require('./config/db');
+const Profile = require('./models/Profile');
+const DailyReading = require('./models/DailyReading');
+const Feedback = require('./models/Feedback');
+
 // Import routes
 const palmRoutes = require('./routes/palmRoutes');
 const faceRoutes = require('./routes/faceRoutes');
 const predictionRoutes = require('./routes/predictionRoutes');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
+
+// Connect to MongoDB Atlas
+connectDB().catch(err => {
+  console.error("Initial MongoDB connection error:", err.message);
+});
 
 // Middleware
 app.use(cors());
@@ -20,27 +30,6 @@ app.use(express.urlencoded({ limit: '10mb', extended: true }));
 
 // Serve static files from the frontend build output directory
 app.use(express.static(path.join(__dirname, '..', 'frontend', 'dist')));
-
-// JSON Database Helper (shared path at root)
-const dbPath = path.join(__dirname, 'database.json');
-function loadDB() {
-  try {
-    if (fs.existsSync(dbPath)) {
-      return JSON.parse(fs.readFileSync(dbPath, 'utf8'));
-    }
-  } catch (err) {
-    console.error("Database load error in server:", err);
-  }
-  return { dailyReadings: {}, feedback: {}, profiles: {} };
-}
-
-function saveDB(db) {
-  try {
-    fs.writeFileSync(dbPath, JSON.stringify(db, null, 2), 'utf8');
-  } catch (err) {
-    console.error("Database save error in server:", err);
-  }
-}
 
 // User unique identifier helper
 function getUserKey(name, dob, tob, pob) {
@@ -54,27 +43,22 @@ app.use('/api', faceRoutes);
 app.use('/api', predictionRoutes);
 
 // API Endpoint to record feedback
-app.post('/api/feedback', (req, res) => {
+app.post('/api/feedback', async (req, res) => {
   try {
     const { name, dob, tob, pob, type, rating, detail, date } = req.body;
     if (!name || !dob || !tob || !pob || !type) {
       return res.status(400).json({ error: 'Missing required parameters for feedback' });
     }
     const userKey = getUserKey(name, dob, tob, pob);
-    const db = loadDB();
 
-    if (!db.feedback[userKey]) {
-      db.feedback[userKey] = [];
-    }
-
-    db.feedback[userKey].push({
-      timestamp: new Date().toISOString(),
+    await Feedback.create({
+      userKey,
+      timestamp: new Date(),
       type,
       rating,
       detail: detail || '',
       date: date || null
     });
-    saveDB(db);
 
     res.json({ success: true, message: 'Feedback recorded successfully' });
   } catch (error) {
@@ -84,19 +68,45 @@ app.post('/api/feedback', (req, res) => {
 });
 
 // API Endpoint to retrieve history of readings and feedback
-app.post('/api/journey-history', (req, res) => {
+app.post('/api/journey-history', async (req, res) => {
   try {
     const { name, dob, tob, pob } = req.body;
     if (!name || !dob || !tob || !pob) {
       return res.status(400).json({ error: 'Missing birth parameters' });
     }
     const userKey = getUserKey(name, dob, tob, pob);
-    const db = loadDB();
+
+    const [profileDoc, readingsDocs, feedbackDocs] = await Promise.all([
+      Profile.findOne({ userKey }).lean(),
+      DailyReading.find({ userKey }).lean(),
+      Feedback.find({ userKey }).sort({ timestamp: -1 }).lean()
+    ]);
+
+    const dailyHoroscopes = {};
+    if (readingsDocs && readingsDocs.length > 0) {
+      readingsDocs.forEach(r => {
+        if (r.cacheKey) {
+          dailyHoroscopes[r.cacheKey] = {
+            date: r.date,
+            currentLocation: r.currentLocation,
+            transitHouses: r.transitHouses,
+            horoscope: r.horoscope,
+            isAIEnhanced: r.isAIEnhanced
+          };
+        }
+      });
+    }
 
     const history = {
-      profile: db.profiles[userKey] || null,
-      dailyHoroscopes: db.dailyReadings[userKey] || {},
-      feedback: db.feedback[userKey] || []
+      profile: profileDoc || null,
+      dailyHoroscopes,
+      feedback: feedbackDocs.map(f => ({
+        timestamp: f.timestamp,
+        type: f.type,
+        rating: f.rating,
+        detail: f.detail,
+        date: f.date
+      }))
     };
 
     res.json(history);
@@ -122,23 +132,23 @@ app.get('/*splat', (req, res) => {
   }
 });
 
-// Start Express Server
-const server = app.listen(PORT, () => {
-  console.log(`========================================`);
-  console.log(`🚀 CosmicSoul Server Running on port ${PORT}`);
-  console.log(`🌍 URL: http://localhost:${PORT}`);
-  console.log(`⚙️  Node Environment: ${process.env.NODE_ENV}`);
-  console.log(`🤖 Groq Primary: ${process.env.GROQ_PRIMARY_MODEL}`);
-  console.log(`🤖 Groq Backup: ${process.env.GROQ_BACKUP_MODEL}`);
-  console.log(`👁️  Groq Vision: ${process.env.GROQ_VISION_MODEL}`);
-  console.log(`========================================`);
-});
+// Start Express Server when not in Vercel serverless mode
+if (!process.env.VERCEL) {
+  const server = app.listen(PORT, () => {
+    console.log(`========================================`);
+    console.log(`🚀 CosmicSoul Server Running on port ${PORT}`);
+    console.log(`🌍 URL: http://localhost:${PORT}`);
+    console.log(`⚙️  Node Environment: ${process.env.NODE_ENV}`);
+    console.log(`🤖 Groq Primary: ${process.env.GROQ_PRIMARY_MODEL}`);
+    console.log(`🤖 Groq Backup: ${process.env.GROQ_BACKUP_MODEL}`);
+    console.log(`👁️  Groq Vision: ${process.env.GROQ_VISION_MODEL}`);
+    console.log(`========================================`);
+  });
 
-// Increase socket timeout to 3 minutes to prevent ECONNRESET
-// during long-running Groq API calls (daily-analysis can take 30-60s)
-server.setTimeout(180000);       // 3 min socket timeout
-server.keepAliveTimeout = 65000; // Must be > load balancer idle timeout
-server.headersTimeout = 66000;   // Must be > keepAliveTimeout
+  server.setTimeout(180000);       // 3 min socket timeout
+  server.keepAliveTimeout = 65000; // Must be > load balancer idle timeout
+  server.headersTimeout = 66000;   // Must be > keepAliveTimeout
+}
 
 // Prevent server from silently dying on unhandled errors
 process.on('uncaughtException', (err) => {
@@ -147,3 +157,5 @@ process.on('uncaughtException', (err) => {
 process.on('unhandledRejection', (reason) => {
   console.error('❌ Unhandled Promise Rejection (server kept alive):', reason?.message || reason);
 });
+
+module.exports = app;

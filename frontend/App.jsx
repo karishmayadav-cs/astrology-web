@@ -66,15 +66,24 @@ const MULANK_DATA = [
 ];
 
 export default function App() {
-  // Starfield Canvas Background Animation
+  // Optimized Starfield Canvas Background Animation
   useEffect(() => {
     const canvas = document.getElementById('cosmos-canvas');
     if (!canvas) return;
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext('2d', { alpha: false });
     let W = window.innerWidth;
     let H = window.innerHeight;
     canvas.width = W;
     canvas.height = H;
+
+    let bgGradient = null;
+    function initBg() {
+      bgGradient = ctx.createRadialGradient(W / 2, H / 2, 0, W / 2, H / 2, Math.max(W, H) * 0.8);
+      bgGradient.addColorStop(0, '#06040f');
+      bgGradient.addColorStop(0.5, '#03020a');
+      bgGradient.addColorStop(1, '#000005');
+    }
+    initBg();
 
     let stars = [];
     let shooters = [];
@@ -91,7 +100,7 @@ export default function App() {
       this.hue = Math.random() < 0.1 ? Math.random() * 60 + 180 : 0;
     }
 
-    const count = Math.floor((W * H) / 2000);
+    const count = Math.min(280, Math.max(120, Math.floor((W * H) / 5000)));
     for (let i = 0; i < count; i++) stars.push(new Star());
 
     function spawnShooter() {
@@ -108,17 +117,20 @@ export default function App() {
     }
 
     let animationId;
+    let lastTime = 0;
+    const targetInterval = 1000 / 35; // ~35 FPS target for smooth visual effect with low GPU overhead
+
     function drawStars(ts) {
-      ctx.clearRect(0, 0, W, H);
-      const bg = ctx.createRadialGradient(W/2, H/2, 0, W/2, H/2, Math.max(W,H)*0.8);
-      bg.addColorStop(0, '#06040f');
-      bg.addColorStop(0.5, '#03020a');
-      bg.addColorStop(1, '#000005');
-      ctx.fillStyle = bg;
+      animationId = requestAnimationFrame(drawStars);
+      if (ts - lastTime < targetInterval) return;
+      lastTime = ts;
+
+      ctx.fillStyle = bgGradient;
       ctx.fillRect(0, 0, W, H);
 
-      stars.forEach(s => {
-        s.brightness += s.speed * s.direction * 0.015;
+      for (let i = 0; i < stars.length; i++) {
+        const s = stars[i];
+        s.brightness += s.speed * s.direction * 0.025;
         if (s.brightness >= s.maxBrightness) { s.brightness = s.maxBrightness; s.direction = -1; }
         if (s.brightness <= s.minBrightness) { s.brightness = s.minBrightness; s.direction = 1; }
 
@@ -140,9 +152,10 @@ export default function App() {
         ctx.beginPath();
         ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
         ctx.fill();
-      });
+      }
 
-      shooters.forEach((sh, i) => {
+      for (let i = shooters.length - 1; i >= 0; i--) {
+        const sh = shooters[i];
         const grd = ctx.createLinearGradient(sh.x, sh.y, sh.x - sh.vx * 12, sh.y - sh.vy * 12);
         grd.addColorStop(0, sh.color.replace(')', `,${sh.life})`).replace('hsl', 'hsla'));
         grd.addColorStop(1, 'rgba(255,255,255,0)');
@@ -157,10 +170,9 @@ export default function App() {
         sh.y += sh.vy;
         sh.life -= sh.decay;
         if (sh.life <= 0) shooters.splice(i, 1);
-      });
+      }
 
-      if (Math.random() < 0.004) spawnShooter();
-      animationId = requestAnimationFrame(drawStars);
+      if (Math.random() < 0.005) spawnShooter();
     }
 
     const handleResize = () => {
@@ -168,6 +180,7 @@ export default function App() {
       H = window.innerHeight;
       canvas.width = W;
       canvas.height = H;
+      initBg();
     };
     window.addEventListener('resize', handleResize);
 
@@ -178,6 +191,7 @@ export default function App() {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+
 
   // Form State
   const [form, setForm] = useState({

@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const fs = require('fs');
-const path = require('path');
 const crypto = require('crypto');
+
+const Profile = require('../models/Profile');
+const DailyReading = require('../models/DailyReading');
 
 const { calculateBlueprint, calculateBlueprintData, getDailyHoroscope } = require('../features/astrologyEngine');
 const { generateFuturePrediction } = require('../features/futurePrediction');
@@ -12,27 +13,6 @@ try {
   groq = require('../config/groqClient');
 } catch (err) {
   console.warn("Groq client not initialized for limits route:", err.message);
-}
-
-// JSON Database Helper
-const dbPath = path.join(__dirname, '../database.json');
-function loadDB() {
-  try {
-    if (fs.existsSync(dbPath)) {
-      return JSON.parse(fs.readFileSync(dbPath, 'utf8'));
-    }
-  } catch (err) {
-    console.error("Database load error in routes:", err);
-  }
-  return { dailyReadings: {}, feedback: {}, profiles: {} };
-}
-
-function saveDB(db) {
-  try {
-    fs.writeFileSync(dbPath, JSON.stringify(db, null, 2), 'utf8');
-  } catch (err) {
-    console.error("Database save error in routes:", err);
-  }
 }
 
 // User unique identifier helper
@@ -62,15 +42,24 @@ router.post('/astrology/calculate', async (req, res) => {
       isBirthTimeApprox: approxBool
     });
 
-    // Save profile to database
+    // Save profile to MongoDB Atlas
     const userKey = getUserKey(name, dob, tob, pob);
-    const db = loadDB();
-    db.profiles[userKey] = {
-      name, dob, tob, pob, tz: result.tz, gender, isBirthTimeApprox: approxBool,
-      lagna: result.lagna,
-      lastActive: new Date().toISOString()
-    };
-    saveDB(db);
+    await Profile.findOneAndUpdate(
+      { userKey },
+      {
+        userKey,
+        name,
+        dob,
+        tob,
+        pob,
+        tz: result.tz,
+        gender: gender || 'male',
+        isBirthTimeApprox: approxBool,
+        lagna: result.lagna,
+        lastActive: new Date()
+      },
+      { upsert: true, returnDocument: 'after' }
+    );
 
     res.json(result);
   } catch (error) {
@@ -84,7 +73,6 @@ router.post('/daily-analysis', async (req, res) => {
   try {
     const { name, dob, tob, pob, tz, gender, isBirthTimeApprox, currentLocation, dateStr } = req.body;
     console.log(`[PredictionRoute] Daily horoscope request received for: "${name}"`);
-    console.log(`[PredictionRoute] Input parameters: DOB="${dob}", TOB="${tob}", POB="${pob}", TZ="${tz}", Gender="${gender}", IsApprox="${isBirthTimeApprox}", CurrentLocation="${currentLocation}", DateStr="${dateStr}"`);
 
     if (!name || !dob || !tob || !pob || !currentLocation) {
       console.warn('[PredictionRoute] Validation failed: Missing required fields');
@@ -94,40 +82,48 @@ router.post('/daily-analysis', async (req, res) => {
     const todayStr = dateStr || new Date().toISOString().split('T')[0];
     const userKey = getUserKey(name, dob, tob, pob);
     const cacheKey = `${todayStr}-${currentLocation.toLowerCase().replace(/[^a-z0-9]/g, '')}`;
-    console.log(`[PredictionRoute] User key: "${userKey}", Cache key: "${cacheKey}"`);
 
-    const db = loadDB();
-
-    // Check if daily horoscope is already calculated and cached
-    if (db.dailyReadings[userKey] && db.dailyReadings[userKey][cacheKey]) {
-      console.log(`[PredictionRoute] Found cached daily horoscope for ${name}`);
-      return res.json(db.dailyReadings[userKey][cacheKey]);
+    // Check if daily horoscope is already calculated and cached in MongoDB
+    const cachedDoc = await DailyReading.findOne({ userKey, cacheKey }).lean();
+    if (cachedDoc) {
+      console.log(`[PredictionRoute] Found cached daily horoscope in MongoDB for ${name}`);
+      return res.json({
+        date: cachedDoc.date,
+        currentLocation: cachedDoc.currentLocation,
+        transitHouses: cachedDoc.transitHouses,
+        horoscope: cachedDoc.horoscope,
+        isAIEnhanced: cachedDoc.isAIEnhanced
+      });
     }
 
     console.log(`[PredictionRoute] Calculating blueprint data locally for ${name}...`);
-    // Load birth profile calculation data (local/offline calculations only, skip AI predictions)
     const approxBool = isBirthTimeApprox === true || isBirthTimeApprox === 'true';
     const blueprint = await calculateBlueprintData({
       name, dob, tob, pob, tz: tz ? parseFloat(tz) : NaN, gender, isBirthTimeApprox: approxBool
     });
-    console.log(`[PredictionRoute] Local blueprint calculated successfully. Lagna: ${blueprint.lagna.rashi}`);
 
     console.log(`[PredictionRoute] Computing daily horoscope and calling Groq API for ${name}...`);
-    // Calculate daily horoscope
     const dailyResult = await getDailyHoroscope({
       birthProfile: blueprint,
       currentLocation,
       dateStr: todayStr
     });
-    console.log(`[PredictionRoute] Daily horoscope computed successfully (AIEnhanced: ${dailyResult.isAIEnhanced})`);
 
-    // Cache the daily reading
-    if (!db.dailyReadings[userKey]) {
-      db.dailyReadings[userKey] = {};
-    }
-    db.dailyReadings[userKey][cacheKey] = dailyResult;
-    saveDB(db);
-    console.log(`[PredictionRoute] Daily horoscope saved to database and sent to client.`);
+    // Cache the daily reading to MongoDB
+    await DailyReading.findOneAndUpdate(
+      { userKey, cacheKey },
+      {
+        userKey,
+        cacheKey,
+        date: dailyResult.date || todayStr,
+        currentLocation: dailyResult.currentLocation || currentLocation,
+        transitHouses: dailyResult.transitHouses || {},
+        horoscope: dailyResult.horoscope || {},
+        isAIEnhanced: !!dailyResult.isAIEnhanced
+      },
+      { upsert: true, returnDocument: 'after' }
+    );
+    console.log(`[PredictionRoute] Daily horoscope saved to MongoDB and sent to client.`);
 
     res.json(dailyResult);
   } catch (error) {
@@ -169,7 +165,6 @@ router.get('/ai-limits', async (req, res) => {
   }
   try {
     console.log('[PredictionRoute] Fetching Groq API rate limits...');
-    // Send a tiny chat completion request to fetch current limits via response headers
     const { response } = await groq.chat.completions.create({
       messages: [{ role: 'user', content: 'Ping' }],
       model: process.env.GROQ_PRIMARY_MODEL || 'llama-3.3-70b-versatile',

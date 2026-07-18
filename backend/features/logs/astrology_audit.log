@@ -1078,3 +1078,30 @@ STRUCTURED DATA: {"Sun":{"lon":90.49086058393708,"rashi":3,"deg":0.4908605839370
 INTERPRETATION PREVIEW: {"summary":"Today, Pulkit, you'll experience a boost in your career and finances, but be cautious of your mood and relationships. With the Sun, Jupiter, and Venus in favorable positions, you'll have opportunities for growth and success.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health...
 ========================================
 
+
+========================================
+TIMESTAMP: 2026-07-18T14:51:12.887Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Sunil","dob":"2000-01-01","tob":"12:00","pob":"Delhi"}
+STRUCTURED DATA: {"lagna":{"lon":343.18913171245214,"rashi":11,"deg":13.189131712452138},"planets":{"Sun":{"lon":256.28208862810874,"rashi":8,"deg":16.28208862810874,"retro":false,"house":10},"Moon":{"lon":196.71168769046724,"rashi":6,"deg":16.711687690467244,"retro":false,"house":8},"Mars":{"lon":303.93234197795,"rashi":10,"deg":3.9323419779499886,"retro":false,"house":12},"Mercury":{"lon":247.67955816683266,"rashi":8,"deg":7.679558166832663,"retro":false,"house":10},"Jupiter":{"lon":1.3905643657975275,"rashi":0,"deg":1.3905643657975275,"retro":false,"house":2},"Venus":{"lon":217.435542761256,"rashi":7,"deg":7.435542761255988,"retro":false,"house":9},"Saturn":{"lon":16.54704407800744,"rashi":0,"deg":16.54704407800744,"retro":true,"house":2},"Rahu":{"lon":100.11188955670941,"rashi":3,"deg":10.111889556709414,"retro":true,"house":5},"Ketu":{"lon":280.1118895567094,"rashi":9,"deg":10.1118895567094,"retro":true,"house":11}},"nakshatra":{"idx":14,"pada":4,"name":"Swati","lord":"Rahu","deity":"Vayu","symbol":"🌿","nature":"Movable","desc":"Represents independence and flexibility. Swati natives are diplomatic, business-minded, and adaptable."},"dasha":{"mahadasha":{"lord":"Saturn","start":"2020-06-09T10:12:58.033Z","end":"2039-06-10T04:12:58.033Z"},"antardasha":{"lord":"Ketu","start":"2026-02-20T08:24:58.033Z","end":"2027-04-01T04:03:58.033Z"},"pratyantardasha":{"lord":"Mars","start":"2026-07-15T09:51:26.533Z","end":"2026-08-08T00:36:13.033Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>The 7th house lord in your birth chart is Guru (Jupiter), placed in the 2nd house in Mesha (Aries) at 1.4°, which indicates a spouse who is likely to be wise, knowledgeable, and possibly from a good family back...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-18T14:52:53.692Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Sunil baghel","dob":"2004-09-02","tob":"02:00","pob":"Ballabgarh "}
+STRUCTURED DATA: {"lagna":{"lon":83.56432042132161,"rashi":2,"deg":23.56432042132161},"planets":{"Sun":{"lon":135.80124591959273,"rashi":4,"deg":15.80124591959273,"retro":false,"house":3},"Moon":{"lon":351.05752479442833,"rashi":11,"deg":21.057524794428332,"retro":false,"house":10},"Mars":{"lon":140.3358705711256,"rashi":4,"deg":20.33587057112561,"retro":false,"house":3},"Mercury":{"lon":121.85025534995161,"rashi":4,"deg":1.8502553499516097,"retro":true,"house":3},"Jupiter":{"lon":151.07408858786528,"rashi":5,"deg":1.0740885878652762,"retro":false,"house":4},"Venus":{"lon":90.69883175891638,"rashi":3,"deg":0.6988317589163842,"retro":false,"house":2},"Saturn":{"lon":89.58516056358445,"rashi":2,"deg":29.585160563584452,"retro":false,"house":1},"Rahu":{"lon":9.448654997832955,"rashi":0,"deg":9.448654997832955,"retro":true,"house":11},"Ketu":{"lon":189.44865499783296,"rashi":6,"deg":9.44865499783296,"retro":true,"house":5}},"nakshatra":{"idx":26,"pada":2,"name":"Revati","lord":"Mercury","deity":"Pushan","symbol":"🐟","nature":"Soft","desc":"Represents nourishment and safe journeys. Revati natives are compassionate, spiritual, and nurturing."},"dasha":{"mahadasha":{"lord":"Venus","start":"2023-01-27T04:54:52.292Z","end":"2043-01-27T04:54:52.292Z"},"antardasha":{"lord":"Sun","start":"2026-05-28T16:54:52.292Z","end":"2027-05-28T22:54:52.292Z"},"pratyantardasha":{"lord":"Mars","start":"2026-07-16T09:42:52.291Z","end":"2026-08-06T17:03:52.290Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Sunil Baghel's 7th house lord is Vrishabha (Taurus), indicating a partner who values stability, comfort, and sensuality. With Mars in Simha (Leo) in the 3rd house, there's a strong desire for romance, passion, ...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-18T14:52:56.036Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Sunil baghel","dateStr":"2026-07-18","currentLocation":"Ballabgarh , Haryana"}
+STRUCTURED DATA: {"Sun":{"lon":91.44529057395067,"rashi":3,"deg":1.4452905739506718,"house":2},"Moon":{"lon":143.2874114741971,"rashi":4,"deg":23.287411474197114,"house":3},"Mars":{"lon":49.4495231518559,"rashi":1,"deg":19.4495231518559,"house":12},"Mercury":{"lon":83.47842211106035,"rashi":2,"deg":23.478422111060354,"house":1},"Jupiter":{"lon":99.6938698163946,"rashi":3,"deg":9.693869816394596,"house":2},"Venus":{"lon":135.19504159033343,"rashi":4,"deg":15.195041590333432,"house":3},"Saturn":{"lon":350.4572913207658,"rashi":11,"deg":20.45729132076582,"house":10}}
+INTERPRETATION PREVIEW: {"summary":"Today is a generally favorable day for Sunil, with opportunities for career growth and financial gains, but beware of emotional turmoil and relationship challenges. Overall, it's a day to stay focused and adaptable.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85},"hi...
+========================================
+

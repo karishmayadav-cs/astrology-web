@@ -10,12 +10,6 @@ if (!fs.existsSync(logsDir)) {
   fs.mkdirSync(logsDir, { recursive: true });
 }
 
-// Ensure database file directory exists
-const dbFile = path.join(__dirname, 'database.json');
-if (!fs.existsSync(dbFile)) {
-  fs.writeFileSync(dbFile, JSON.stringify({ dailyReadings: {}, feedback: {}, profiles: {} }, null, 2));
-}
-
 /* --- DATA TABLES --- */
 const RASHIS = [
   { name: 'Mesha (Aries)', symbol: '♈', lord: 'Mars', element: 'Fire' },

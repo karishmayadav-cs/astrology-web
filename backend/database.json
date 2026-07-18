@@ -1448,6 +1448,244 @@
         },
         "isAIEnhanced": true
       }
+    },
+    "7d8613773af791aae8ee02e148bf2145": {
+      "2026-07-17-haryana": {
+        "date": "2026-07-17",
+        "currentLocation": "Haryana",
+        "transitHouses": {
+          "Sun": {
+            "lon": 90.49086058393708,
+            "rashi": 3,
+            "deg": 0.4908605839370779,
+            "house": 2
+          },
+          "Moon": {
+            "lon": 129.5088379899235,
+            "rashi": 4,
+            "deg": 9.508837989923506,
+            "house": 3
+          },
+          "Mars": {
+            "lon": 48.75693807736581,
+            "rashi": 1,
+            "deg": 18.75693807736581,
+            "house": 12
+          },
+          "Mercury": {
+            "lon": 83.96592664765546,
+            "rashi": 2,
+            "deg": 23.965926647655465,
+            "house": 1
+          },
+          "Jupiter": {
+            "lon": 99.47345777856808,
+            "rashi": 3,
+            "deg": 9.473457778568076,
+            "house": 2
+          },
+          "Venus": {
+            "lon": 134.1030397580301,
+            "rashi": 4,
+            "deg": 14.103039758030093,
+            "house": 3
+          },
+          "Saturn": {
+            "lon": 350.4419162996457,
+            "rashi": 11,
+            "deg": 20.441916299645698,
+            "house": 10
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Khushi Shukla, you can expect a generally positive day with opportunities for growth in your career and finances, but be mindful of your mood and relationships. With the Sun and Jupiter transiting through the 2nd house, you may experience increased wealth and wisdom.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "💫 Venus in 3rd House: Excellent period for creative expression, learning, and social connections."
+            },
+            {
+              "type": "down",
+              "text": "🌪️ Mars in 12th House: Be cautious of unseen expenses and avoid impulsive decisions."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Today, your mood will be mostly positive, with the Moon in the 3rd house, enhancing your communication skills and social interactions. However, the transit of Saturn in the 10th house may cause some emotional turmoil, so be patient and focused.</p>",
+            "career": "<p>Your career is looking promising, with the Sun and Jupiter in the 2nd house, indicating new opportunities for growth and financial gains. With Mercury in the 1st house, your intellectual abilities and communication skills will be sharp, helping you tackle challenging tasks.</p>",
+            "finance": "<p>Financially, this day is favorable, with the potential for increased wealth and gains. However, be cautious of unseen expenses, as Mars in the 12th house may lead to impulsive spending. Keep a close eye on your expenses and make wise financial decisions.</p>",
+            "love": "<p>In your relationships, the Venus in the 3rd house can bring harmony and understanding. However, with the Moon in the 3rd house, you may feel a strong desire for independence, which could lead to conflicts with your partner. Communicate openly and honestly to resolve any issues.</p>",
+            "health": "<p>Today, your energy levels will be moderate, with the Sun in the 2nd house, indicating a need for self-care and nourishment. With Saturn in the 10th house, you may feel some stress and pressure, so engage in relaxation techniques, such as meditation or yoga, to maintain your well-being.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      }
+    },
+    "a15431b6b0938ad1e3cec43474566471": {
+      "2026-07-17-haryana": {
+        "date": "2026-07-17",
+        "currentLocation": "Haryana",
+        "transitHouses": {
+          "Sun": {
+            "lon": 90.49086058393708,
+            "rashi": 3,
+            "deg": 0.4908605839370779,
+            "house": 2
+          },
+          "Moon": {
+            "lon": 129.5088379899235,
+            "rashi": 4,
+            "deg": 9.508837989923506,
+            "house": 3
+          },
+          "Mars": {
+            "lon": 48.75693807736581,
+            "rashi": 1,
+            "deg": 18.75693807736581,
+            "house": 12
+          },
+          "Mercury": {
+            "lon": 83.96592664765546,
+            "rashi": 2,
+            "deg": 23.965926647655465,
+            "house": 1
+          },
+          "Jupiter": {
+            "lon": 99.47345777856808,
+            "rashi": 3,
+            "deg": 9.473457778568076,
+            "house": 2
+          },
+          "Venus": {
+            "lon": 134.1030397580301,
+            "rashi": 4,
+            "deg": 14.103039758030093,
+            "house": 3
+          },
+          "Saturn": {
+            "lon": 350.4419162996457,
+            "rashi": 11,
+            "deg": 20.441916299645698,
+            "house": 10
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Pulkit, you'll experience a dynamic mix of energies, with opportunities for career growth and financial gains, but also potential challenges in relationships and health. Stay balanced and focused to make the most of this day.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "🟢 Mercury and Venus in harmony: Expect enhanced communication skills and creative expression, which can boost your career and personal relationships."
+            },
+            {
+              "type": "down",
+              "text": "🔴 Mars in the 12th House: Be cautious of hidden enemies or unseen challenges that might affect your reputation or career progress."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Today, your mood will be largely influenced by the transit of the Moon through Simha (Leo), making you feel confident and generous. However, the aspect of Saturn on your Lagna might introduce some anxiety or self-doubt, so practice self-care and positive affirmations to stay grounded.</p>",
+            "career": "<p>Your career is looking promising, with the Sun, Jupiter, and Mercury supporting your professional endeavors. Expect recognition or new opportunities, especially if you've been working hard recently. The transit of Mars through the 12th House advises you to be vigilant about office politics or hidden competitors.</p>",
+            "finance": "<p>Financially, this day is moderately favorable, with Venus and Jupiter supporting your wealth and resources. Be cautious with expenses, especially related to luxury items or entertainment, as the influence of Saturn might tempt you to overspend or make imprudent financial decisions.</p>",
+            "love": "<p>In the realm of love and relationships, the transit of Venus through Simha (Leo) can ignite passion and romance. However, the aspect of Saturn on your relationship sector might introduce some tension or seriousness, requiring you to balance your emotional expression with empathy and understanding.</p>",
+            "health": "<p>Today, your health and energy levels are supported by the beneficial transit of Jupiter. Engage in physical activities or meditation to enhance your well-being. Be mindful of your dietary habits, as the influence of the Moon through Simha (Leo) might incline you towards rich or spicy foods that could affect your digestive health.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      }
+    },
+    "7a637f96934e83a50087e8a6d7d3c4d7": {
+      "2026-07-17-haryanaballabgarh": {
+        "date": "2026-07-17",
+        "currentLocation": "Haryana(Ballabgarh)",
+        "transitHouses": {
+          "Sun": {
+            "lon": 90.49086058393708,
+            "rashi": 3,
+            "deg": 0.4908605839370779,
+            "house": 1
+          },
+          "Moon": {
+            "lon": 129.5088379899235,
+            "rashi": 4,
+            "deg": 9.508837989923506,
+            "house": 2
+          },
+          "Mars": {
+            "lon": 48.75693807736581,
+            "rashi": 1,
+            "deg": 18.75693807736581,
+            "house": 11
+          },
+          "Mercury": {
+            "lon": 83.96592664765546,
+            "rashi": 2,
+            "deg": 23.965926647655465,
+            "house": 12
+          },
+          "Jupiter": {
+            "lon": 99.47345777856808,
+            "rashi": 3,
+            "deg": 9.473457778568076,
+            "house": 1
+          },
+          "Venus": {
+            "lon": 134.1030397580301,
+            "rashi": 4,
+            "deg": 14.103039758030093,
+            "house": 2
+          },
+          "Saturn": {
+            "lon": 350.4419162996457,
+            "rashi": 11,
+            "deg": 20.441916299645698,
+            "house": 9
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Pulkit, you'll experience a boost in your career and finances, but be cautious of your mood and relationships. With the Sun, Jupiter, and Venus in favorable positions, you'll have opportunities for growth and success.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "Sun in 1st House: Confidence and charisma will help you achieve your goals and make a great impression."
+            },
+            {
+              "type": "up",
+              "text": "Jupiter in 1st House: Excellent period for wisdom, wealth gains, and new career networks."
+            },
+            {
+              "type": "down",
+              "text": "Mars in 11th House: Be cautious of impulsive decisions and take a balanced approach to your goals and aspirations."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Today, you may feel a mix of emotions, but overall, your mood will be positive and optimistic. The Moon in the 2nd House will bring emotional balance and stability, helping you navigate any challenging situations.</p>",
+            "career": "<p>Your career is looking promising, with the Sun and Jupiter in the 1st House. You'll have opportunities for growth, recognition, and new responsibilities. Be confident and charismatic in your approach, and you'll achieve your goals.</p>",
+            "finance": "<p>Financially, you'll experience a steady flow of income and wealth gains. The Venus in the 2nd House will bring luck and prosperity, but be cautious of unnecessary expenses and maintain a balanced budget.</p>",
+            "love": "<p>In your relationships, you may experience some ups and downs. The Moon in the 2nd House will bring emotional balance, but the Mars in the 11th House can cause impulsive decisions. Communicate effectively and be patient with your partner.</p>",
+            "health": "<p>Take care of your physical and mental health today. The Saturn in the 9th House can cause some stress and pressure, but maintain a healthy lifestyle, exercise regularly, and practice mindfulness to stay energized and focused.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      }
     }
   },
   "feedback": {
@@ -1841,6 +2079,51 @@
         "deg": 3.1057381044801673
       },
       "lastActive": "2026-07-12T07:22:31.397Z"
+    },
+    "7d8613773af791aae8ee02e148bf2145": {
+      "name": "khushi shukla",
+      "dob": "2005-06-15",
+      "tob": "07:00",
+      "pob": "Uttar Pradesh(Prayagraj)",
+      "tz": 5.5,
+      "gender": "female",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 83.61416579859649,
+        "rashi": 2,
+        "deg": 23.61416579859649
+      },
+      "lastActive": "2026-07-17T16:03:52.714Z"
+    },
+    "a15431b6b0938ad1e3cec43474566471": {
+      "name": "pulkit",
+      "dob": "2005-06-15",
+      "tob": "07:00",
+      "pob": "Uttar Pradesh(Prayagraj)",
+      "tz": 5.5,
+      "gender": "female",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 83.61416579859649,
+        "rashi": 2,
+        "deg": 23.61416579859649
+      },
+      "lastActive": "2026-07-17T16:04:09.088Z"
+    },
+    "7a637f96934e83a50087e8a6d7d3c4d7": {
+      "name": "pulkit",
+      "dob": "2005-07-17",
+      "tob": "06:20",
+      "pob": "Haryana(Ballabgarh)",
+      "tz": 5.5,
+      "gender": "male",
+      "isBirthTimeApprox": false,
+      "lagna": {
+        "lon": 99.49352696599273,
+        "rashi": 3,
+        "deg": 9.493526965992729
+      },
+      "lastActive": "2026-07-17T16:05:57.935Z"
     }
   }
 }

@@ -961,6 +961,82 @@
           }
         },
         "isAIEnhanced": true
+      },
+      "2026-07-17-ballabgarhharyana": {
+        "date": "2026-07-17",
+        "currentLocation": "Ballabgarh , Haryana",
+        "transitHouses": {
+          "Sun": {
+            "lon": 90.49086058393708,
+            "rashi": 3,
+            "deg": 0.4908605839370779,
+            "house": 2
+          },
+          "Moon": {
+            "lon": 129.5088379899235,
+            "rashi": 4,
+            "deg": 9.508837989923506,
+            "house": 3
+          },
+          "Mars": {
+            "lon": 48.75693807736581,
+            "rashi": 1,
+            "deg": 18.75693807736581,
+            "house": 12
+          },
+          "Mercury": {
+            "lon": 83.96592664765546,
+            "rashi": 2,
+            "deg": 23.965926647655465,
+            "house": 1
+          },
+          "Jupiter": {
+            "lon": 99.47345777856808,
+            "rashi": 3,
+            "deg": 9.473457778568076,
+            "house": 2
+          },
+          "Venus": {
+            "lon": 134.1030397580301,
+            "rashi": 4,
+            "deg": 14.103039758030093,
+            "house": 3
+          },
+          "Saturn": {
+            "lon": 350.4419162996457,
+            "rashi": 11,
+            "deg": 20.441916299645698,
+            "house": 10
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Sunil, you can expect a dynamic and eventful day with a mix of positive and challenging aspects, especially in your career and relationships. Your energetic approach will help you tackle obstacles and achieve success.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "🟢 Venus and Moon in the 3rd house: Excellent period for creative expression, learning, and communication skills."
+            },
+            {
+              "type": "down",
+              "text": "🔴 Saturn in the 10th house: High pressure at work and possible stress in your professional life, requiring patience and discipline."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Today, your mood will be energetic and optimistic, thanks to the Sun, Mars, and Mercury's positive influence in your 3rd house. However, be prepared for some mood swings due to the Moon's transit in the same house.</p>",
+            "career": "<p>Your career is looking promising, with Jupiter's transit in the 2nd house indicating new opportunities and financial gains. Your hard work and discipline will pay off, but be prepared to handle the pressure and challenges that come with it.</p>",
+            "finance": "<p>Financially, this is a good day for investments and new ventures. With Venus in the 3rd house, you may receive unexpected financial gains or gifts. However, be cautious with your expenses and avoid unnecessary spending.</p>",
+            "love": "<p>In your personal relationships, today may be a bit challenging. The Moon's transit in the 3rd house can create some misunderstandings or communication gaps with your loved ones. Be patient and try to resolve issues through open and honest communication.</p>",
+            "health": "<p>Take care of your physical and mental health today, as the Saturn transit in the 10th house can cause some stress and anxiety. Engage in relaxation techniques, such as meditation or yoga, to maintain your overall well-being.</p>"
+          }
+        },
+        "isAIEnhanced": true
       }
     },
     "670d08c48224bac21d3cd63feee8a402": {
@@ -1713,13 +1789,13 @@
       "pob": "Ballabgarh ",
       "tz": 5.5,
       "gender": "male",
-      "isBirthTimeApprox": false,
+      "isBirthTimeApprox": true,
       "lagna": {
-        "lon": 81.50673481991231,
+        "lon": 83.56432042132161,
         "rashi": 2,
-        "deg": 21.50673481991231
+        "deg": 23.56432042132161
       },
-      "lastActive": "2026-07-13T10:15:56.284Z"
+      "lastActive": "2026-07-17T15:21:57.061Z"
     },
     "670d08c48224bac21d3cd63feee8a402": {
       "name": "Vanshaj Sharma",

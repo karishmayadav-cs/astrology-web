@@ -1006,3 +1006,30 @@ STRUCTURED DATA: {"lagna":{"lon":81.50673481991231,"rashi":2,"deg":21.5067348199
 INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Sunil Baghel's 7th house lord is Vrishabha (Taurus), and its ruler Venus is placed in the 2nd house in Karka (Cancer). This placement indicates a strong emphasis on emotional connection, loyalty, and stability ...
 ========================================
 
+
+========================================
+TIMESTAMP: 2026-07-17T14:37:05.865Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Sunil baghel","dob":"2004-09-02","tob":"02:00","pob":"Ballabgarh "}
+STRUCTURED DATA: {"lagna":{"lon":83.56432042132161,"rashi":2,"deg":23.56432042132161},"planets":{"Sun":{"lon":135.80124591959273,"rashi":4,"deg":15.80124591959273,"retro":false,"house":3},"Moon":{"lon":351.05752479442833,"rashi":11,"deg":21.057524794428332,"retro":false,"house":10},"Mars":{"lon":140.3358705711256,"rashi":4,"deg":20.33587057112561,"retro":false,"house":3},"Mercury":{"lon":121.85025534995161,"rashi":4,"deg":1.8502553499516097,"retro":true,"house":3},"Jupiter":{"lon":151.07408858786528,"rashi":5,"deg":1.0740885878652762,"retro":false,"house":4},"Venus":{"lon":90.69883175891638,"rashi":3,"deg":0.6988317589163842,"retro":false,"house":2},"Saturn":{"lon":89.58516056358445,"rashi":2,"deg":29.585160563584452,"retro":false,"house":1},"Rahu":{"lon":9.448654997832955,"rashi":0,"deg":9.448654997832955,"retro":true,"house":11},"Ketu":{"lon":189.44865499783296,"rashi":6,"deg":9.44865499783296,"retro":true,"house":5}},"nakshatra":{"idx":26,"pada":2,"name":"Revati","lord":"Mercury","deity":"Pushan","symbol":"🐟","nature":"Soft","desc":"Represents nourishment and safe journeys. Revati natives are compassionate, spiritual, and nurturing."},"dasha":{"mahadasha":{"lord":"Venus","start":"2023-01-27T04:54:52.292Z","end":"2043-01-27T04:54:52.292Z"},"antardasha":{"lord":"Sun","start":"2026-05-28T16:54:52.292Z","end":"2027-05-28T22:54:52.292Z"},"pratyantardasha":{"lord":"Mars","start":"2026-07-16T09:42:52.291Z","end":"2026-08-06T17:03:52.290Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Sunil Baghel's 7th house lord is Vrishchika (Scorpio), and since the 7th house is empty in the D1 chart, we look at the natural significator of the 7th house, which is Venus. Venus is placed in the 2nd house in...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-17T14:37:08.208Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Sunil baghel","dateStr":"2026-07-17","currentLocation":"Ballabgarh , Haryana"}
+STRUCTURED DATA: {"Sun":{"lon":90.49086058393708,"rashi":3,"deg":0.4908605839370779,"house":2},"Moon":{"lon":129.5088379899235,"rashi":4,"deg":9.508837989923506,"house":3},"Mars":{"lon":48.75693807736581,"rashi":1,"deg":18.75693807736581,"house":12},"Mercury":{"lon":83.96592664765546,"rashi":2,"deg":23.965926647655465,"house":1},"Jupiter":{"lon":99.47345777856808,"rashi":3,"deg":9.473457778568076,"house":2},"Venus":{"lon":134.1030397580301,"rashi":4,"deg":14.103039758030093,"house":3},"Saturn":{"lon":350.4419162996457,"rashi":11,"deg":20.441916299645698,"house":10}}
+INTERPRETATION PREVIEW: {"summary":"Today, Sunil, you can expect a dynamic and eventful day with a mix of positive and challenging aspects, especially in your career and relationships. Your energetic approach will help you tackle obstacles and achieve success.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-17T15:21:57.034Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Sunil baghel","dob":"2004-09-02","tob":"02:00","pob":"Ballabgarh "}
+STRUCTURED DATA: {"lagna":{"lon":83.56432042132161,"rashi":2,"deg":23.56432042132161},"planets":{"Sun":{"lon":135.80124591959273,"rashi":4,"deg":15.80124591959273,"retro":false,"house":3},"Moon":{"lon":351.05752479442833,"rashi":11,"deg":21.057524794428332,"retro":false,"house":10},"Mars":{"lon":140.3358705711256,"rashi":4,"deg":20.33587057112561,"retro":false,"house":3},"Mercury":{"lon":121.85025534995161,"rashi":4,"deg":1.8502553499516097,"retro":true,"house":3},"Jupiter":{"lon":151.07408858786528,"rashi":5,"deg":1.0740885878652762,"retro":false,"house":4},"Venus":{"lon":90.69883175891638,"rashi":3,"deg":0.6988317589163842,"retro":false,"house":2},"Saturn":{"lon":89.58516056358445,"rashi":2,"deg":29.585160563584452,"retro":false,"house":1},"Rahu":{"lon":9.448654997832955,"rashi":0,"deg":9.448654997832955,"retro":true,"house":11},"Ketu":{"lon":189.44865499783296,"rashi":6,"deg":9.44865499783296,"retro":true,"house":5}},"nakshatra":{"idx":26,"pada":2,"name":"Revati","lord":"Mercury","deity":"Pushan","symbol":"🐟","nature":"Soft","desc":"Represents nourishment and safe journeys. Revati natives are compassionate, spiritual, and nurturing."},"dasha":{"mahadasha":{"lord":"Venus","start":"2023-01-27T04:54:52.292Z","end":"2043-01-27T04:54:52.292Z"},"antardasha":{"lord":"Sun","start":"2026-05-28T16:54:52.292Z","end":"2027-05-28T22:54:52.292Z"},"pratyantardasha":{"lord":"Mars","start":"2026-07-16T09:42:52.291Z","end":"2026-08-06T17:03:52.290Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Sunil Baghel's 7th house lord is Vrishchika (Scorpio), and the 7th house is occupied by no planets in the D1 chart but aspected by Jupiter from the 4th house. This indicates a strong and intense relationship wi...
+========================================
+

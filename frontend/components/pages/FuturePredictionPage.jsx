@@ -9,6 +9,7 @@ import TabsInterface from '../ui/TabsInterface';
 import ReadingModal from '../ui/ReadingModal';
 import LoadingAnimation from '../ui/LoadingAnimation';
 import DownloadButton from '../ui/DownloadButton';
+import { getApiUrl } from '../../utils/api';
 
 export default function FuturePredictionPage({ userData }) {
   const [question, setQuestion] = useState('');
@@ -31,7 +32,7 @@ export default function FuturePredictionPage({ userData }) {
     setIsLoading(true);
     setError('');
     try {
-      const response = await fetch('/api/future-prediction', {
+      const response = await fetch(getApiUrl('/api/future-prediction'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

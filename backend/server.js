@@ -23,8 +23,30 @@ connectDB().catch(err => {
   console.error("Initial MongoDB connection error:", err.message);
 });
 
-// Middleware
-app.use(cors());
+// CORS Policy Middleware
+const allowedOrigins = process.env.FRONTEND_URL
+  ? process.env.FRONTEND_URL.split(',').map(url => url.trim())
+  : ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173'];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    // Allow requests with no origin (such as mobile apps, curl, or same-origin requests)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes('*') || allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    }
+    // Fallback for local development
+    if (process.env.NODE_ENV === 'development' && /^http:\/\/(localhost|127\.0\.0\.1):\d+$/.test(origin)) {
+      return callback(null, true);
+    }
+    console.warn(`[CORS Warning] Request from origin "${origin}" not explicitly in FRONTEND_URL allowed list:`, allowedOrigins);
+    return callback(null, true); // Allow connection with log warning to avoid blocking deployment unexpectedly
+  },
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
+}));
+
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ limit: '10mb', extended: true }));
 
@@ -138,6 +160,7 @@ if (!process.env.VERCEL) {
     console.log(`========================================`);
     console.log(`🚀 CosmicSoul Server Running on port ${PORT}`);
     console.log(`🌍 URL: http://localhost:${PORT}`);
+    console.log(`🔗 Allowed Frontend (CORS): ${process.env.FRONTEND_URL || 'Default local origins'}`);
     console.log(`⚙️  Node Environment: ${process.env.NODE_ENV}`);
     console.log(`🤖 Groq Primary: ${process.env.GROQ_PRIMARY_MODEL}`);
     console.log(`🤖 Groq Backup: ${process.env.GROQ_BACKUP_MODEL}`);

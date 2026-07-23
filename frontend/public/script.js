@@ -1,3 +1,10 @@
+const API_BASE_URL = (typeof window !== 'undefined' && window.VITE_BACKEND_URL) || '';
+function getApiUrl(path) {
+  const cleanBase = API_BASE_URL.replace(/\/+$/, '');
+  const cleanPath = path.startsWith('/') ? path : '/' + path;
+  return cleanBase ? cleanBase + cleanPath : cleanPath;
+}
+
 /* ============================================================
    PART 1 — ANIMATED STARFIELD CANVAS
    ============================================================ */
@@ -225,7 +232,7 @@ document.getElementById('astro-form').addEventListener('submit', async function 
       tz: timezone === 'auto' ? '' : timezone
     };
 
-    const response = await fetch('/api/astrology/calculate', {
+    const response = await fetch(getApiUrl('/api/astrology/calculate'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
@@ -492,7 +499,7 @@ async function loadDailyHoroscope() {
       dateStr
     };
 
-    const res = await fetch('/api/daily-analysis', {
+    const res = await fetch(getApiUrl('/api/daily-analysis'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
@@ -633,7 +640,7 @@ function setupImageUpload(section) {
     zone.classList.add('scanning');
 
     try {
-      const response = await fetch(`/api/${section}-reading`, {
+      const response = await fetch(getApiUrl(`/api/${section}-reading`), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ image: base64Image, mimeType: 'image/jpeg' })
@@ -673,7 +680,7 @@ async function loadJourneyHistory() {
   contentEl.style.display = 'none';
 
   try {
-    const res = await fetch('/api/journey-history', {
+    const res = await fetch(getApiUrl('/api/journey-history'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -802,7 +809,7 @@ async function submitFeedback(type, rating, btn) {
 
   try {
     const dateInput = document.getElementById('daily-date-input').value;
-    const res = await fetch('/api/feedback', {
+    const res = await fetch(getApiUrl('/api/feedback'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -852,7 +859,7 @@ document.getElementById('future-submit-btn').addEventListener('click', async () 
   resultCard.style.display = 'none';
   
   try {
-    const response = await fetch('/api/future-prediction', {
+    const response = await fetch(getApiUrl('/api/future-prediction'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

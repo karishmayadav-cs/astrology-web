@@ -11,6 +11,7 @@ import TabsInterface from '../ui/TabsInterface';
 import ReadingModal from '../ui/ReadingModal';
 import LoadingAnimation from '../ui/LoadingAnimation';
 import DownloadButton from '../ui/DownloadButton';
+import { getApiUrl } from '../../utils/api';
 
 export default function FaceReadingPage({ userData }) {
   const [image, setImage] = useState(null);
@@ -74,7 +75,7 @@ export default function FaceReadingPage({ userData }) {
     setIsLoading(true);
     setError('');
     try {
-      const response = await fetch('/api/face-reading', {
+      const response = await fetch(getApiUrl('/api/face-reading'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ image, mimeType: 'image/jpeg' })

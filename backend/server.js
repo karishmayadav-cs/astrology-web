@@ -140,8 +140,12 @@ app.post('/api/journey-history', async (req, res) => {
 
 // Diagnostic check of logs directory
 const logsDir = path.join(__dirname, 'logs');
-if (!fs.existsSync(logsDir)) {
-  fs.mkdirSync(logsDir, { recursive: true });
+try {
+  if (!fs.existsSync(logsDir)) {
+    fs.mkdirSync(logsDir, { recursive: true });
+  }
+} catch (e) {
+  // Ignore filesystem errors on serverless read-only environment
 }
 
 // Fallback index.html router for SPA behavior

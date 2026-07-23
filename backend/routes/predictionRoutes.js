@@ -64,7 +64,7 @@ router.post('/astrology/calculate', async (req, res) => {
     res.json(result);
   } catch (error) {
     console.error('Error calculating blueprint:', error);
-    res.status(500).json({ error: 'Internal server error during calculation' });
+    res.status(500).json({ error: error.message || 'Internal server error during calculation' });
   }
 });
 

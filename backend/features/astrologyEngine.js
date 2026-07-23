@@ -6,8 +6,12 @@ const moment = require('moment-timezone');
 
 // Helper to ensure logs directory exists
 const logsDir = path.join(__dirname, 'logs');
-if (!fs.existsSync(logsDir)) {
-  fs.mkdirSync(logsDir, { recursive: true });
+try {
+  if (!fs.existsSync(logsDir)) {
+    fs.mkdirSync(logsDir, { recursive: true });
+  }
+} catch (e) {
+  // Ignore filesystem errors on serverless read-only environment
 }
 
 /* --- DATA TABLES --- */
@@ -94,20 +98,24 @@ let swephInstance = null;
 const swephPromise = (async () => {
   try {
     const { load, Constants } = await import('@fusionstrings/swiss-eph');
-    // Ensure WASM is in the expected path
-    const wasmSrc = path.join(__dirname, 'node_modules', '@fusionstrings', 'swiss-eph', 'wasm', 'swiss_eph.wasm');
-    const wasmDestDir = path.join(__dirname, 'node_modules', '@fusionstrings', 'swiss-eph', 'lib', 'wasi');
-    const wasmDest = path.join(wasmDestDir, 'swiss_eph.wasm');
-    if (fs.existsSync(wasmSrc) && !fs.existsSync(wasmDest)) {
-      fs.mkdirSync(wasmDestDir, { recursive: true });
-      fs.copyFileSync(wasmSrc, wasmDest);
+    try {
+      const rootNodeModules = path.join(__dirname, '..', 'node_modules');
+      const wasmSrc = path.join(rootNodeModules, '@fusionstrings', 'swiss-eph', 'wasm', 'swiss_eph.wasm');
+      const wasmDestDir = path.join(rootNodeModules, '@fusionstrings', 'swiss-eph', 'lib', 'wasi');
+      const wasmDest = path.join(wasmDestDir, 'swiss_eph.wasm');
+      if (fs.existsSync(wasmSrc) && !fs.existsSync(wasmDest)) {
+        fs.mkdirSync(wasmDestDir, { recursive: true });
+        fs.copyFileSync(wasmSrc, wasmDest);
+      }
+    } catch (fsErr) {
+      // Ignore file copy errors in read-only serverless environments
     }
 
     swephInstance = await load();
     swephInstance.swe_set_sid_mode(Constants.SE_SIDM_LAHIRI, 0, 0);
     return { sweph: swephInstance, Constants };
   } catch (err) {
-    console.error("Failed to load Swiss Ephemeris module:", err);
+    console.error("Failed to load Swiss Ephemeris module:", err.message);
     throw err;
   }
 })();
@@ -124,6 +132,7 @@ let aiClient = !!process.env.GROQ_API_KEY;
 /* --- AUDIT LOGGING --- */
 function logAudit(type, input, structuredData, interpretation) {
   try {
+    if (process.env.VERCEL) return;
     const timestamp = new Date().toISOString();
     const logFile = path.join(logsDir, 'astrology_audit.log');
     const logEntry = `
@@ -137,7 +146,7 @@ INTERPRETATION PREVIEW: ${interpretation.substring(0, 300)}...
 \n`;
     fs.appendFileSync(logFile, logEntry);
   } catch (err) {
-    console.error("Error writing audit log:", err);
+    // Ignore logging errors in serverless/read-only mode
   }
 }
 

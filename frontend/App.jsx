@@ -3,6 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import PalmReadingPage from './components/pages/PalmReadingPage';
 import FaceReadingPage from './components/pages/FaceReadingPage';
 import FuturePredictionPage from './components/pages/FuturePredictionPage';
+import { getApiUrl } from './utils/api';
+
 
 // ErrorBoundary catches any React render crash and shows a friendly message
 class ErrorBoundary extends Component {
@@ -253,7 +255,7 @@ export default function App() {
         tz: form.timezone === 'auto' ? '' : form.timezone
       };
 
-      const response = await fetch('/api/astrology/calculate', {
+      const response = await fetch(getApiUrl('/api/astrology/calculate'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
@@ -304,7 +306,7 @@ export default function App() {
         dateStr: targetDate
       };
 
-      const res = await fetch('/api/daily-analysis', {
+      const res = await fetch(getApiUrl('/api/daily-analysis'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
@@ -325,7 +327,7 @@ export default function App() {
     setJourneyLoading(true);
     setJourneyData(null);
     try {
-      const res = await fetch('/api/journey-history', {
+      const res = await fetch(getApiUrl('/api/journey-history'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -358,7 +360,7 @@ export default function App() {
   const submitFeedback = async (type, rating) => {
     if (!activeProfile) return;
     try {
-      const res = await fetch('/api/feedback', {
+      const res = await fetch(getApiUrl('/api/feedback'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

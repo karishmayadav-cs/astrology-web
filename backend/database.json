@@ -470,6 +470,158 @@
           }
         },
         "isAIEnhanced": true
+      },
+      "2026-07-18-haryanaballabgarh": {
+        "date": "2026-07-18",
+        "currentLocation": "Haryana (Ballabgarh)",
+        "transitHouses": {
+          "Sun": {
+            "lon": 91.44529057395067,
+            "rashi": 3,
+            "deg": 1.4452905739506718,
+            "house": 9
+          },
+          "Moon": {
+            "lon": 143.2874114741971,
+            "rashi": 4,
+            "deg": 23.287411474197114,
+            "house": 10
+          },
+          "Mars": {
+            "lon": 49.4495231518559,
+            "rashi": 1,
+            "deg": 19.4495231518559,
+            "house": 7
+          },
+          "Mercury": {
+            "lon": 83.47842211106035,
+            "rashi": 2,
+            "deg": 23.478422111060354,
+            "house": 8
+          },
+          "Jupiter": {
+            "lon": 99.6938698163946,
+            "rashi": 3,
+            "deg": 9.693869816394596,
+            "house": 9
+          },
+          "Venus": {
+            "lon": 135.19504159033343,
+            "rashi": 4,
+            "deg": 15.195041590333432,
+            "house": 10
+          },
+          "Saturn": {
+            "lon": 350.4572913207658,
+            "rashi": 11,
+            "deg": 20.45729132076582,
+            "house": 5
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Karishma, you can expect a dynamic and potentially rewarding day with a focus on career advancements and financial growth, despite some mood fluctuations. Your natural charisma and strong personality will help you navigate various social and professional situations.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "🟢 Venus in 1st House and Jupiter in 9th House: Excellent period for personal charm, wisdom, wealth gains, and new career networks."
+            },
+            {
+              "type": "down",
+              "text": "🔴 Moon in 10th House and Saturn in 5th House: Emotional ups and downs may impact relationships and creativity, requiring patience and self-reflection."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Today, your mood may oscillate due to the Moon's transit through the 10th house, potentially causing emotional highs and lows. Practice self-care and meditation to maintain balance and composure.</p>",
+            "career": "<p>Your career is poised for a significant boost, thanks to Jupiter's favorable position in the 9th house. Expect new opportunities, recognitions, or promotions that can elevate your professional standing.</p>",
+            "finance": "<p>Financially, this period looks promising, with Venus in the 1st house indicating increased income or unexpected gains. However, be cautious of unnecessary expenses and maintain a budget to ensure long-term stability.</p>",
+            "love": "<p>In the realm of love and relationships, the transit of Venus through the 10th house may bring romantic opportunities or strengthen existing bonds. Nevertheless, the influence of Saturn in the 5th house advises caution and patience in matters of the heart.</p>",
+            "health": "<p>Health-wise, you're likely to experience a surge in energy levels, but the Moon's position in the 10th house can also lead to stress or anxiety. Prioritize a balanced diet, regular exercise, and sufficient rest to maintain your well-being.</p>"
+          }
+        },
+        "isAIEnhanced": true
+      },
+      "2026-07-19-haryanaballabgarh": {
+        "date": "2026-07-19",
+        "currentLocation": "Haryana (Ballabgarh)",
+        "transitHouses": {
+          "Sun": {
+            "lon": 92.39976906267844,
+            "rashi": 3,
+            "deg": 2.3997690626784447,
+            "house": 9
+          },
+          "Moon": {
+            "lon": 156.62185888762986,
+            "rashi": 5,
+            "deg": 6.621858887629855,
+            "house": 11
+          },
+          "Mars": {
+            "lon": 50.140913492743024,
+            "rashi": 1,
+            "deg": 20.140913492743024,
+            "house": 7
+          },
+          "Mercury": {
+            "lon": 83.05217351852923,
+            "rashi": 2,
+            "deg": 23.05217351852923,
+            "house": 8
+          },
+          "Jupiter": {
+            "lon": 99.91446922557046,
+            "rashi": 3,
+            "deg": 9.914469225570457,
+            "house": 9
+          },
+          "Venus": {
+            "lon": 136.28391665868253,
+            "rashi": 4,
+            "deg": 16.28391665868253,
+            "house": 10
+          },
+          "Saturn": {
+            "lon": 350.47096354981187,
+            "rashi": 11,
+            "deg": 20.47096354981187,
+            "house": 5
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Karishma, you can expect a generally positive day with opportunities for growth in your career and finances, despite some challenges in your love life and health. Your mood will be mostly optimistic, with a score of 85, driven by supportive planetary positions.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "🟢 Venus in 1st House and Jupiter in 9th House: Excellent period for personal growth, wisdom, and new opportunities in career and finance."
+            },
+            {
+              "type": "down",
+              "text": "🔴 Moon and Mars in 6th House: Potential for tension and conflicts in relationships and at work, requiring patience and diplomacy."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Your mood today will be influenced by the position of the Moon in the 11th house, which can bring a sense of detachment and objectivity to your emotions. However, with Venus in your 1st house, you will have a strong desire for harmony and beauty in your surroundings, which can help to uplift your mood.</p>",
+            "career": "<p>Today is a great day for your career, Karishma, with Jupiter in the 9th house, indicating opportunities for growth, recognition, and new networks. Your hard work and dedication will be rewarded, and you may receive praise from your superiors or peers.</p>",
+            "finance": "<p>Your financial situation will be stable today, with Venus in your 1st house, indicating a strong sense of self-worth and value. You may receive unexpected gains or gifts, and your expenses will be under control.</p>",
+            "love": "<p>Your love life may be a bit challenging today, Karishma, with the Moon and Mars in the 6th house, indicating potential for tension and conflicts. However, with Venus in your 1st house, you will have a strong desire for harmony and beauty in your relationships, which can help to resolve any issues.</p>",
+            "health": "<p>Your health will be generally good today, Karishma, with the Sun in the 9th house, indicating a strong immune system and plenty of energy. However, you may need to be careful with your diet and exercise routine, as the position of Saturn in the 5th house can indicate potential for health issues related to overindulgence.</p>"
+          }
+        },
+        "isAIEnhanced": true
       }
     },
     "fb8143e13bfccb5654565a95c59e44c7": {
@@ -645,6 +797,82 @@
           "finance": "<p>With the Saturn transit through your 5th house, you may feel a slight dip in your finances, but your Jupiter in the 12th house will help you find ways to make the most of what you have. Be cautious with your expenses and look for opportunities to save.</p>",
           "love": "<p>As Venus transits through your 10th house, you may feel a strong desire to express your love and affection, but be patient and let things unfold naturally. Your romantic relationships may see a new phase of growth and understanding.</p>",
           "health": "<p>With the Saturn transit through your 5th house, you may feel a bit drained and tired, so make sure to get plenty of rest and stay hydrated. Take care of your physical and mental health to maintain your energy levels.</p>"
+        },
+        "isAIEnhanced": true
+      },
+      "2026-07-18-haryana": {
+        "date": "2026-07-18",
+        "currentLocation": "Haryana",
+        "transitHouses": {
+          "Sun": {
+            "lon": 91.44529057395067,
+            "rashi": 3,
+            "deg": 1.4452905739506718,
+            "house": 9
+          },
+          "Moon": {
+            "lon": 143.2874114741971,
+            "rashi": 4,
+            "deg": 23.287411474197114,
+            "house": 10
+          },
+          "Mars": {
+            "lon": 49.4495231518559,
+            "rashi": 1,
+            "deg": 19.4495231518559,
+            "house": 7
+          },
+          "Mercury": {
+            "lon": 83.47842211106035,
+            "rashi": 2,
+            "deg": 23.478422111060354,
+            "house": 8
+          },
+          "Jupiter": {
+            "lon": 99.6938698163946,
+            "rashi": 3,
+            "deg": 9.693869816394596,
+            "house": 9
+          },
+          "Venus": {
+            "lon": 135.19504159033343,
+            "rashi": 4,
+            "deg": 15.195041590333432,
+            "house": 10
+          },
+          "Saturn": {
+            "lon": 350.4572913207658,
+            "rashi": 11,
+            "deg": 20.45729132076582,
+            "house": 5
+          }
+        },
+        "horoscope": {
+          "summary": "Today, Karishma, you'll experience a mix of energies with a strong focus on career and personal growth, while also navigating emotional depths. Your natural charisma and charm will be on full display, potentially attracting new opportunities and connections.",
+          "scores": {
+            "mood": 85,
+            "career": 90,
+            "love": 75,
+            "finance": 80,
+            "health": 85
+          },
+          "highlights": [
+            {
+              "type": "up",
+              "text": "💫 Venus in the 1st House and Sun, Jupiter in the 9th House: These alignments amplify your creativity, charisma, and wisdom, making it an excellent day for networking, learning, and showcasing your talents."
+            },
+            {
+              "type": "down",
+              "text": "🌪️ Moon and Mars in challenging houses may bring a sense of restlessness or tension, particularly in your relationships and daily tasks, requiring patience and strategic communication."
+            }
+          ],
+          "breakdown": {
+            "mood": "<p>Today, your mood will be significantly influenced by the transit of the Moon through the 10th House, which may bring emotional fluctuations. However, with Venus in your Lagna, your natural charm and appeal will help you navigate social situations with grace.</p>",
+            "career": "<p>The presence of Jupiter and the Sun in the 9th House is exceptionally beneficial for your career, indicating a period of growth, recognition, and potential new opportunities. Your hard work and dedication will be noticed.</p>",
+            "finance": "<p>Your financial situation looks promising, with Venus in the 1st House suggesting an increase in your income or valuable assets. However, be cautious of unnecessary expenses, as the transit of Saturn through the 5th House may indicate some financial constraints or delays.</p>",
+            "love": "<p>In the realm of love and relationships, the day may bring mixed signals. While Venus in your Lagna enhances your attractiveness and charm, the challenging aspects of Mars and the Moon may introduce some tension or misunderstandings, requiring thoughtful communication.</p>",
+            "health": "<p>Health-wise, you're entering a period where your energy levels will be relatively high, thanks to the positive influences of Jupiter. Nonetheless, the transit of Saturn through the 5th House advises you to maintain a balanced lifestyle, including regular exercise and a healthy diet, to avoid any potential health issues.</p>"
+          }
         },
         "isAIEnhanced": true
       }
@@ -1793,7 +2021,7 @@
         "rashi": 7,
         "deg": 19.844843073350546
       },
-      "lastActive": "2026-07-11T08:05:44.757Z"
+      "lastActive": "2026-07-19T15:05:57.418Z"
     },
     "664f42b1119b92d28e5abb3a2a8baceb": {
       "name": "Aman",
@@ -1964,7 +2192,7 @@
       "name": "karishma",
       "dob": "2005-10-18",
       "tob": "10:00",
-      "pob": "Uttar pradesh",
+      "pob": "Uttar Pradesh",
       "tz": 5.5,
       "gender": "female",
       "isBirthTimeApprox": false,
@@ -1973,7 +2201,7 @@
         "rashi": 7,
         "deg": 20.27238704456329
       },
-      "lastActive": "2026-07-10T12:55:54.205Z"
+      "lastActive": "2026-07-18T16:19:01.023Z"
     },
     "a1d491ff685812e43d9be4101c2a68ff": {
       "name": "Test",

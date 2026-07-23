@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Camera, Trash2, Award } from 'lucide-react';
+import { FilesetResolver, HandLandmarker } from '@mediapipe/tasks-vision';
 import InteractivePalm from '../visualizations/InteractivePalm';
 import ReadingCards from '../visualizations/ReadingCards';
 import PersonalityChart from '../visualizations/PersonalityChart';
@@ -24,6 +25,40 @@ export default function PalmReadingPage({ userData }) {
   // Selected line for modal
   const [selectedLine, setSelectedLine] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // Hand Landmark Detection state
+  const [handLandmarker, setHandLandmarker] = useState(null);
+  const [landmarks, setLandmarks] = useState(null);
+  const [handedness, setHandedness] = useState('');
+
+  // Pre-initialize hand landmarker on mount
+  useEffect(() => {
+    let active = true;
+    async function init() {
+      try {
+        const vision = await FilesetResolver.forVisionTasks(
+          "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.8/wasm"
+        );
+        const landmarker = await HandLandmarker.createFromOptions(vision, {
+          baseOptions: {
+            modelAssetPath: "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
+            delegate: "GPU"
+          },
+          runningMode: "IMAGE",
+          numHands: 1
+        });
+        if (active) {
+          setHandLandmarker(landmarker);
+        }
+      } catch (err) {
+        console.error("Failed to load hand landmarker:", err);
+      }
+    }
+    init();
+    return () => {
+      active = false;
+    };
+  }, []);
 
   const handleDragOver = (e) => {
     e.preventDefault();
@@ -54,10 +89,75 @@ export default function PalmReadingPage({ userData }) {
 
   const processFile = (file) => {
     setError('');
+    setLandmarks(null);
+    setHandedness('');
+
     const reader = new FileReader();
-    reader.onload = (evt) => {
-      setPreview(evt.target.result);
-      setImage(evt.target.result);
+    reader.onload = async (evt) => {
+      const dataUrl = evt.target.result;
+      setPreview(dataUrl);
+      
+      setIsLoading(true);
+      try {
+        let landmarker = handLandmarker;
+        if (!landmarker) {
+          const vision = await FilesetResolver.forVisionTasks(
+            "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.8/wasm"
+          );
+          landmarker = await HandLandmarker.createFromOptions(vision, {
+            baseOptions: {
+              modelAssetPath: "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
+              delegate: "GPU"
+            },
+            runningMode: "IMAGE",
+            numHands: 1
+          });
+          setHandLandmarker(landmarker);
+        }
+
+        // Load image to HTMLImageElement for MediaPipe
+        const img = new Image();
+        img.src = dataUrl;
+        await new Promise((resolve, reject) => {
+          img.onload = resolve;
+          img.onerror = () => reject(new Error('Failed to parse uploaded image.'));
+        });
+
+        const detections = landmarker.detect(img);
+        if (!detections || !detections.landmarks || detections.landmarks.length === 0) {
+          setError('No hand detected. Please upload a clear, well-lit photo of your palm facing the camera.');
+          setIsLoading(false);
+          return;
+        }
+
+        const handLandmarks = detections.landmarks[0];
+        const handClass = detections.handedness[0][0];
+        const isLeftHand = handClass.categoryName === 'Left' || handClass.displayName === 'Left' || handClass.label === 'Left';
+
+        // Verify orientation: palm facing vs back-of-hand
+        const wrist = handLandmarks[0];
+        const indexMcp = handLandmarks[5];
+        const middleMcp = handLandmarks[9];
+        const pinkyMcp = handLandmarks[17];
+
+        const v1 = { x: middleMcp.x - wrist.x, y: middleMcp.y - wrist.y };
+        const v2 = { x: pinkyMcp.x - indexMcp.x, y: pinkyMcp.y - indexMcp.y };
+        const cross = v2.x * v1.y - v2.y * v1.x;
+        const isPalm = isLeftHand ? (cross < 0) : (cross > 0);
+
+        if (!isPalm) {
+          setError('Back of hand detected. Please upload a photo of your palm facing the camera.');
+        } else {
+          setLandmarks(handLandmarks);
+          setHandedness(isLeftHand ? 'Left' : 'Right');
+          setImage(dataUrl); // Only set valid image to submit
+        }
+      } catch (err) {
+        console.error('Hand landmark detection error:', err);
+        setError('Failed to analyze hand structure. Please make sure the hand is fully visible and try again.');
+      } finally {
+        setIsLoading(false);
+      }
     };
     reader.readAsDataURL(file);
   };
@@ -67,6 +167,8 @@ export default function PalmReadingPage({ userData }) {
     setPreview('');
     setResult(null);
     setError('');
+    setLandmarks(null);
+    setHandedness('');
   };
 
   const handleAnalyze = async () => {
@@ -316,7 +418,7 @@ export default function PalmReadingPage({ userData }) {
           {activeTab === 'visual' && (
             <div className="tab-fade-in" style={{ display: 'flex', flexDirection: 'column', gap: '30px', alignItems: 'center' }}>
               <div style={{ background: 'rgba(255,255,255,0.01)', border: '1px solid rgba(255,255,255,0.03)', padding: '20px', borderRadius: '24px', width: '100%', maxWidth: '500px' }}>
-                <InteractivePalm linesData={result.lines} onLineClick={openLineDetails} uploadedImage={preview} />
+                <InteractivePalm linesData={result.lines} onLineClick={openLineDetails} uploadedImage={preview} landmarks={landmarks} handedness={handedness} />
               </div>
               <div style={{ width: '100%', maxWidth: '850px' }}>
                 <h4 style={{ fontFamily: "'Cinzel', serif", color: '#FFD700', textAlign: 'center', marginBottom: '10px', fontSize: '1rem', letterSpacing: '0.06em' }}>

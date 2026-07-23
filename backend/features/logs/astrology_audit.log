@@ -1080,15 +1080,24 @@ INTERPRETATION PREVIEW: {"summary":"Today, Pulkit, you'll experience a boost in 
 
 
 ========================================
+<<<<<<< Updated upstream
 TIMESTAMP: 2026-07-18T14:51:12.887Z
 TYPE: BIRTH_READING
 INPUT: {"name":"Sunil","dob":"2000-01-01","tob":"12:00","pob":"Delhi"}
 STRUCTURED DATA: {"lagna":{"lon":343.18913171245214,"rashi":11,"deg":13.189131712452138},"planets":{"Sun":{"lon":256.28208862810874,"rashi":8,"deg":16.28208862810874,"retro":false,"house":10},"Moon":{"lon":196.71168769046724,"rashi":6,"deg":16.711687690467244,"retro":false,"house":8},"Mars":{"lon":303.93234197795,"rashi":10,"deg":3.9323419779499886,"retro":false,"house":12},"Mercury":{"lon":247.67955816683266,"rashi":8,"deg":7.679558166832663,"retro":false,"house":10},"Jupiter":{"lon":1.3905643657975275,"rashi":0,"deg":1.3905643657975275,"retro":false,"house":2},"Venus":{"lon":217.435542761256,"rashi":7,"deg":7.435542761255988,"retro":false,"house":9},"Saturn":{"lon":16.54704407800744,"rashi":0,"deg":16.54704407800744,"retro":true,"house":2},"Rahu":{"lon":100.11188955670941,"rashi":3,"deg":10.111889556709414,"retro":true,"house":5},"Ketu":{"lon":280.1118895567094,"rashi":9,"deg":10.1118895567094,"retro":true,"house":11}},"nakshatra":{"idx":14,"pada":4,"name":"Swati","lord":"Rahu","deity":"Vayu","symbol":"🌿","nature":"Movable","desc":"Represents independence and flexibility. Swati natives are diplomatic, business-minded, and adaptable."},"dasha":{"mahadasha":{"lord":"Saturn","start":"2020-06-09T10:12:58.033Z","end":"2039-06-10T04:12:58.033Z"},"antardasha":{"lord":"Ketu","start":"2026-02-20T08:24:58.033Z","end":"2027-04-01T04:03:58.033Z"},"pratyantardasha":{"lord":"Mars","start":"2026-07-15T09:51:26.533Z","end":"2026-08-08T00:36:13.033Z"}}}
 INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>The 7th house lord in your birth chart is Guru (Jupiter), placed in the 2nd house in Mesha (Aries) at 1.4°, which indicates a spouse who is likely to be wise, knowledgeable, and possibly from a good family back...
+=======
+TIMESTAMP: 2026-07-18T15:06:41.118Z
+TYPE: BIRTH_READING
+INPUT: {"name":"karishma","dob":"2005-10-18","tob":"10:00","pob":"Uttar Pradesh"}
+STRUCTURED DATA: {"lagna":{"lon":230.2723870445633,"rashi":7,"deg":20.27238704456329},"planets":{"Sun":{"lon":180.96026868891346,"rashi":6,"deg":0.9602686889134588,"retro":false,"house":12},"Moon":{"lon":9.813364963525853,"rashi":0,"deg":9.813364963525853,"retro":false,"house":6},"Mars":{"lon":27.489143729683107,"rashi":0,"deg":27.489143729683107,"retro":true,"house":6},"Mercury":{"lon":200.06402755915565,"rashi":6,"deg":20.064027559155647,"retro":false,"house":12},"Jupiter":{"lon":184.33656822491162,"rashi":6,"deg":4.336568224911616,"retro":false,"house":12},"Venus":{"lon":227.18527672261462,"rashi":7,"deg":17.185276722614617,"retro":false,"house":1},"Saturn":{"lon":106.24761815205053,"rashi":3,"deg":16.247618152050535,"retro":false,"house":9},"Rahu":{"lon":349.712312066599,"rashi":11,"deg":19.712312066598997,"retro":true,"house":5},"Ketu":{"lon":169.712312066599,"rashi":5,"deg":19.712312066598997,"retro":true,"house":11}},"nakshatra":{"idx":0,"pada":3,"name":"Ashwini","lord":"Ketu","deity":"Ashvins","symbol":"🐴","nature":"Light, Swift","desc":"Symbolizes quick healing, new beginnings, and pioneering spirit. Ashwini natives are fast movers with natural leadership abilities."},"dasha":{"mahadasha":{"lord":"Venus","start":"2007-08-23T23:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"antardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"pratyantardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2026-07-18T16:59:50.719Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Karishma, with your Ascendant in Vrischika (Scorpio) and Venus, the 7th house lord, placed in the 1st house in its own sign, indicates a strong sense of individuality and independence in your relationships. You...
+>>>>>>> Stashed changes
 ========================================
 
 
 ========================================
+<<<<<<< Updated upstream
 TIMESTAMP: 2026-07-18T14:52:53.692Z
 TYPE: BIRTH_READING
 INPUT: {"name":"Sunil baghel","dob":"2004-09-02","tob":"02:00","pob":"Ballabgarh "}
@@ -1103,5 +1112,102 @@ TYPE: DAILY_HOROSCOPE
 INPUT: {"name":"Sunil baghel","dateStr":"2026-07-18","currentLocation":"Ballabgarh , Haryana"}
 STRUCTURED DATA: {"Sun":{"lon":91.44529057395067,"rashi":3,"deg":1.4452905739506718,"house":2},"Moon":{"lon":143.2874114741971,"rashi":4,"deg":23.287411474197114,"house":3},"Mars":{"lon":49.4495231518559,"rashi":1,"deg":19.4495231518559,"house":12},"Mercury":{"lon":83.47842211106035,"rashi":2,"deg":23.478422111060354,"house":1},"Jupiter":{"lon":99.6938698163946,"rashi":3,"deg":9.693869816394596,"house":2},"Venus":{"lon":135.19504159033343,"rashi":4,"deg":15.195041590333432,"house":3},"Saturn":{"lon":350.4572913207658,"rashi":11,"deg":20.45729132076582,"house":10}}
 INTERPRETATION PREVIEW: {"summary":"Today is a generally favorable day for Sunil, with opportunities for career growth and financial gains, but beware of emotional turmoil and relationship challenges. Overall, it's a day to stay focused and adaptable.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85},"hi...
+=======
+TIMESTAMP: 2026-07-18T15:06:44.192Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"karishma","dateStr":"2026-07-18","currentLocation":"Haryana"}
+STRUCTURED DATA: {"Sun":{"lon":91.44529057395067,"rashi":3,"deg":1.4452905739506718,"house":9},"Moon":{"lon":143.2874114741971,"rashi":4,"deg":23.287411474197114,"house":10},"Mars":{"lon":49.4495231518559,"rashi":1,"deg":19.4495231518559,"house":7},"Mercury":{"lon":83.47842211106035,"rashi":2,"deg":23.478422111060354,"house":8},"Jupiter":{"lon":99.6938698163946,"rashi":3,"deg":9.693869816394596,"house":9},"Venus":{"lon":135.19504159033343,"rashi":4,"deg":15.195041590333432,"house":10},"Saturn":{"lon":350.4572913207658,"rashi":11,"deg":20.45729132076582,"house":5}}
+INTERPRETATION PREVIEW: {"summary":"Today, Karishma, you'll experience a mix of energies with a strong focus on career and personal growth, while also navigating emotional depths. Your natural charisma and charm will be on full display, potentially attracting new opportunities and connections.","scores":{"mood":85,"career"...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-18T16:19:00.978Z
+TYPE: BIRTH_READING
+INPUT: {"name":"karishma","dob":"2005-10-18","tob":"10:00","pob":"Uttar Pradesh"}
+STRUCTURED DATA: {"lagna":{"lon":230.2723870445633,"rashi":7,"deg":20.27238704456329},"planets":{"Sun":{"lon":180.96026868891346,"rashi":6,"deg":0.9602686889134588,"retro":false,"house":12},"Moon":{"lon":9.813364963525853,"rashi":0,"deg":9.813364963525853,"retro":false,"house":6},"Mars":{"lon":27.489143729683107,"rashi":0,"deg":27.489143729683107,"retro":true,"house":6},"Mercury":{"lon":200.06402755915565,"rashi":6,"deg":20.064027559155647,"retro":false,"house":12},"Jupiter":{"lon":184.33656822491162,"rashi":6,"deg":4.336568224911616,"retro":false,"house":12},"Venus":{"lon":227.18527672261462,"rashi":7,"deg":17.185276722614617,"retro":false,"house":1},"Saturn":{"lon":106.24761815205053,"rashi":3,"deg":16.247618152050535,"retro":false,"house":9},"Rahu":{"lon":349.712312066599,"rashi":11,"deg":19.712312066598997,"retro":true,"house":5},"Ketu":{"lon":169.712312066599,"rashi":5,"deg":19.712312066598997,"retro":true,"house":11}},"nakshatra":{"idx":0,"pada":3,"name":"Ashwini","lord":"Ketu","deity":"Ashvins","symbol":"🐴","nature":"Light, Swift","desc":"Symbolizes quick healing, new beginnings, and pioneering spirit. Ashwini natives are fast movers with natural leadership abilities."},"dasha":{"mahadasha":{"lord":"Venus","start":"2007-08-23T23:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"antardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"pratyantardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2026-07-18T16:59:50.719Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Karishma, with your Vrischika Lagna and Venus in the 1st house, you are likely to attract a partner who is passionate, intense, and possibly from a complex or mysterious background. Your 7th house lord is Jupit...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-18T16:37:39.377Z
+TYPE: BIRTH_READING
+INPUT: {"name":"karishma","dob":"2005-10-18","tob":"10:00","pob":"Uttar Pradesh  (Etah) ,sakeet"}
+STRUCTURED DATA: {"lagna":{"lon":229.84484307335055,"rashi":7,"deg":19.844843073350546},"planets":{"Sun":{"lon":180.96026868891346,"rashi":6,"deg":0.9602686889134588,"retro":false,"house":12},"Moon":{"lon":9.813364963525853,"rashi":0,"deg":9.813364963525853,"retro":false,"house":6},"Mars":{"lon":27.489143729683107,"rashi":0,"deg":27.489143729683107,"retro":true,"house":6},"Mercury":{"lon":200.06402755915565,"rashi":6,"deg":20.064027559155647,"retro":false,"house":12},"Jupiter":{"lon":184.33656822491162,"rashi":6,"deg":4.336568224911616,"retro":false,"house":12},"Venus":{"lon":227.18527672261462,"rashi":7,"deg":17.185276722614617,"retro":false,"house":1},"Saturn":{"lon":106.24761815205053,"rashi":3,"deg":16.247618152050535,"retro":false,"house":9},"Rahu":{"lon":349.712312066599,"rashi":11,"deg":19.712312066598997,"retro":true,"house":5},"Ketu":{"lon":169.712312066599,"rashi":5,"deg":19.712312066598997,"retro":true,"house":11}},"nakshatra":{"idx":0,"pada":3,"name":"Ashwini","lord":"Ketu","deity":"Ashvins","symbol":"🐴","nature":"Light, Swift","desc":"Symbolizes quick healing, new beginnings, and pioneering spirit. Ashwini natives are fast movers with natural leadership abilities."},"dasha":{"mahadasha":{"lord":"Venus","start":"2007-08-23T23:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"antardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"pratyantardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2026-07-18T16:59:50.719Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Karishma's 7th house lord is <b>Vrischika (Scorpio)</b> itself, as the Ascendant is Vrischika, indicating a strong influence of Scorpio traits in the spouse. The 7th house is aspected by <b>Saturn in the 9th ho...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-18T16:37:41.983Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"karishma","dateStr":"2026-07-18","currentLocation":"Haryana (Ballabgarh)"}
+STRUCTURED DATA: {"Sun":{"lon":91.44529057395067,"rashi":3,"deg":1.4452905739506718,"house":9},"Moon":{"lon":143.2874114741971,"rashi":4,"deg":23.287411474197114,"house":10},"Mars":{"lon":49.4495231518559,"rashi":1,"deg":19.4495231518559,"house":7},"Mercury":{"lon":83.47842211106035,"rashi":2,"deg":23.478422111060354,"house":8},"Jupiter":{"lon":99.6938698163946,"rashi":3,"deg":9.693869816394596,"house":9},"Venus":{"lon":135.19504159033343,"rashi":4,"deg":15.195041590333432,"house":10},"Saturn":{"lon":350.4572913207658,"rashi":11,"deg":20.45729132076582,"house":5}}
+INTERPRETATION PREVIEW: {"summary":"Today, Karishma, you can expect a dynamic and potentially rewarding day with a focus on career advancements and financial growth, despite some mood fluctuations. Your natural charisma and strong personality will help you navigate various social and professional situations.","scores":{"mo...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-18T16:50:35.195Z
+TYPE: BIRTH_READING
+INPUT: {"name":"karishma","dob":"2005-10-18","tob":"10:00","pob":"Uttar Pradesh  (Etah) ,sakeet"}
+STRUCTURED DATA: {"lagna":{"lon":229.84484307335055,"rashi":7,"deg":19.844843073350546},"planets":{"Sun":{"lon":180.96026868891346,"rashi":6,"deg":0.9602686889134588,"retro":false,"house":12},"Moon":{"lon":9.813364963525853,"rashi":0,"deg":9.813364963525853,"retro":false,"house":6},"Mars":{"lon":27.489143729683107,"rashi":0,"deg":27.489143729683107,"retro":true,"house":6},"Mercury":{"lon":200.06402755915565,"rashi":6,"deg":20.064027559155647,"retro":false,"house":12},"Jupiter":{"lon":184.33656822491162,"rashi":6,"deg":4.336568224911616,"retro":false,"house":12},"Venus":{"lon":227.18527672261462,"rashi":7,"deg":17.185276722614617,"retro":false,"house":1},"Saturn":{"lon":106.24761815205053,"rashi":3,"deg":16.247618152050535,"retro":false,"house":9},"Rahu":{"lon":349.712312066599,"rashi":11,"deg":19.712312066598997,"retro":true,"house":5},"Ketu":{"lon":169.712312066599,"rashi":5,"deg":19.712312066598997,"retro":true,"house":11}},"nakshatra":{"idx":0,"pada":3,"name":"Ashwini","lord":"Ketu","deity":"Ashvins","symbol":"🐴","nature":"Light, Swift","desc":"Symbolizes quick healing, new beginnings, and pioneering spirit. Ashwini natives are fast movers with natural leadership abilities."},"dasha":{"mahadasha":{"lord":"Venus","start":"2007-08-23T23:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"antardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"pratyantardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2026-07-18T16:59:50.719Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Karishma's 7th house lord is <b>Vrishabha (Taurus)</b>, but since the whole sign house system is used, the actual 7th lord becomes <b>Mesha (Aries)</b> which is occupied by <b>Moon</b> and <b>Mars (Retrograde)<...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-18T16:52:09.445Z
+TYPE: BIRTH_READING
+INPUT: {"name":"karishma","dob":"2005-10-18","tob":"10:00","pob":"Uttar Pradesh  (Etah) ,sakeet"}
+STRUCTURED DATA: {"lagna":{"lon":229.84484307335055,"rashi":7,"deg":19.844843073350546},"planets":{"Sun":{"lon":180.96026868891346,"rashi":6,"deg":0.9602686889134588,"retro":false,"house":12},"Moon":{"lon":9.813364963525853,"rashi":0,"deg":9.813364963525853,"retro":false,"house":6},"Mars":{"lon":27.489143729683107,"rashi":0,"deg":27.489143729683107,"retro":true,"house":6},"Mercury":{"lon":200.06402755915565,"rashi":6,"deg":20.064027559155647,"retro":false,"house":12},"Jupiter":{"lon":184.33656822491162,"rashi":6,"deg":4.336568224911616,"retro":false,"house":12},"Venus":{"lon":227.18527672261462,"rashi":7,"deg":17.185276722614617,"retro":false,"house":1},"Saturn":{"lon":106.24761815205053,"rashi":3,"deg":16.247618152050535,"retro":false,"house":9},"Rahu":{"lon":349.712312066599,"rashi":11,"deg":19.712312066598997,"retro":true,"house":5},"Ketu":{"lon":169.712312066599,"rashi":5,"deg":19.712312066598997,"retro":true,"house":11}},"nakshatra":{"idx":0,"pada":3,"name":"Ashwini","lord":"Ketu","deity":"Ashvins","symbol":"🐴","nature":"Light, Swift","desc":"Symbolizes quick healing, new beginnings, and pioneering spirit. Ashwini natives are fast movers with natural leadership abilities."},"dasha":{"mahadasha":{"lord":"Venus","start":"2007-08-23T23:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"antardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"pratyantardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2026-07-18T16:59:50.719Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Karishma's 7th house lord is Venus, which is placed in the 1st house in the D1 chart, indicating a strong influence of Venus on the spouse. The Navamsa chart shows Mars and Venus in the 1st house, suggesting a ...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-18T18:17:10.616Z
+TYPE: BIRTH_READING
+INPUT: {"name":"karishma","dob":"2005-10-18","tob":"10:00","pob":"Uttar Pradesh  (Etah) ,sakeet"}
+STRUCTURED DATA: {"lagna":{"lon":229.84484307335055,"rashi":7,"deg":19.844843073350546},"planets":{"Sun":{"lon":180.96026868891346,"rashi":6,"deg":0.9602686889134588,"retro":false,"house":12},"Moon":{"lon":9.813364963525853,"rashi":0,"deg":9.813364963525853,"retro":false,"house":6},"Mars":{"lon":27.489143729683107,"rashi":0,"deg":27.489143729683107,"retro":true,"house":6},"Mercury":{"lon":200.06402755915565,"rashi":6,"deg":20.064027559155647,"retro":false,"house":12},"Jupiter":{"lon":184.33656822491162,"rashi":6,"deg":4.336568224911616,"retro":false,"house":12},"Venus":{"lon":227.18527672261462,"rashi":7,"deg":17.185276722614617,"retro":false,"house":1},"Saturn":{"lon":106.24761815205053,"rashi":3,"deg":16.247618152050535,"retro":false,"house":9},"Rahu":{"lon":349.712312066599,"rashi":11,"deg":19.712312066598997,"retro":true,"house":5},"Ketu":{"lon":169.712312066599,"rashi":5,"deg":19.712312066598997,"retro":true,"house":11}},"nakshatra":{"idx":0,"pada":3,"name":"Ashwini","lord":"Ketu","deity":"Ashvins","symbol":"🐴","nature":"Light, Swift","desc":"Symbolizes quick healing, new beginnings, and pioneering spirit. Ashwini natives are fast movers with natural leadership abilities."},"dasha":{"mahadasha":{"lord":"Venus","start":"2007-08-23T23:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"antardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"pratyantardasha":{"lord":"Venus","start":"2026-07-18T16:59:50.719Z","end":"2026-09-27T17:29:50.719Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Karishma, as a Vrischika (Scorpio) ascendant, you have a natural allure that draws people to you. With Venus in the 1st house, you exude charm and magnetism, making you attractive to potential partners. The pla...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-19T15:05:57.403Z
+TYPE: BIRTH_READING
+INPUT: {"name":"karishma","dob":"2005-10-18","tob":"10:00","pob":"Uttar Pradesh  (Etah) ,sakeet"}
+STRUCTURED DATA: {"lagna":{"lon":229.84484307335055,"rashi":7,"deg":19.844843073350546},"planets":{"Sun":{"lon":180.96026868891346,"rashi":6,"deg":0.9602686889134588,"retro":false,"house":12},"Moon":{"lon":9.813364963525853,"rashi":0,"deg":9.813364963525853,"retro":false,"house":6},"Mars":{"lon":27.489143729683107,"rashi":0,"deg":27.489143729683107,"retro":true,"house":6},"Mercury":{"lon":200.06402755915565,"rashi":6,"deg":20.064027559155647,"retro":false,"house":12},"Jupiter":{"lon":184.33656822491162,"rashi":6,"deg":4.336568224911616,"retro":false,"house":12},"Venus":{"lon":227.18527672261462,"rashi":7,"deg":17.185276722614617,"retro":false,"house":1},"Saturn":{"lon":106.24761815205053,"rashi":3,"deg":16.247618152050535,"retro":false,"house":9},"Rahu":{"lon":349.712312066599,"rashi":11,"deg":19.712312066598997,"retro":true,"house":5},"Ketu":{"lon":169.712312066599,"rashi":5,"deg":19.712312066598997,"retro":true,"house":11}},"nakshatra":{"idx":0,"pada":3,"name":"Ashwini","lord":"Ketu","deity":"Ashvins","symbol":"🐴","nature":"Light, Swift","desc":"Symbolizes quick healing, new beginnings, and pioneering spirit. Ashwini natives are fast movers with natural leadership abilities."},"dasha":{"mahadasha":{"lord":"Venus","start":"2007-08-23T23:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"antardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"pratyantardasha":{"lord":"Venus","start":"2026-07-18T16:59:50.719Z","end":"2026-09-27T17:29:50.719Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Karishma, with your Lagna in Vrischika (Scorpio), the 7th house lord is Vrishabha (Taurus), and its lord, Venus, is placed in the 1st house in Vrischika (Scorpio). This placement indicates a strong sense of att...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-19T15:06:00.319Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"karishma","dateStr":"2026-07-19","currentLocation":"Haryana (Ballabgarh)"}
+STRUCTURED DATA: {"Sun":{"lon":92.39976906267844,"rashi":3,"deg":2.3997690626784447,"house":9},"Moon":{"lon":156.62185888762986,"rashi":5,"deg":6.621858887629855,"house":11},"Mars":{"lon":50.140913492743024,"rashi":1,"deg":20.140913492743024,"house":7},"Mercury":{"lon":83.05217351852923,"rashi":2,"deg":23.05217351852923,"house":8},"Jupiter":{"lon":99.91446922557046,"rashi":3,"deg":9.914469225570457,"house":9},"Venus":{"lon":136.28391665868253,"rashi":4,"deg":16.28391665868253,"house":10},"Saturn":{"lon":350.47096354981187,"rashi":11,"deg":20.47096354981187,"house":5}}
+INTERPRETATION PREVIEW: {"summary":"Today, Karishma, you can expect a generally positive day with opportunities for growth in your career and finances, despite some challenges in your love life and health. Your mood will be mostly optimistic, with a score of 85, driven by supportive planetary positions.","scores":{"mood":8...
+>>>>>>> Stashed changes
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-22T14:24:15.872Z
+TYPE: BIRTH_READING
+INPUT: {"name":"karishma","dob":"2005-10-18","tob":"10:00","pob":"Uttar Pradesh"}
+STRUCTURED DATA: {"lagna":{"lon":230.2723870445633,"rashi":7,"deg":20.27238704456329},"planets":{"Sun":{"lon":180.96026868891346,"rashi":6,"deg":0.9602686889134588,"retro":false,"house":12},"Moon":{"lon":9.813364963525853,"rashi":0,"deg":9.813364963525853,"retro":false,"house":6},"Mars":{"lon":27.489143729683107,"rashi":0,"deg":27.489143729683107,"retro":true,"house":6},"Mercury":{"lon":200.06402755915565,"rashi":6,"deg":20.064027559155647,"retro":false,"house":12},"Jupiter":{"lon":184.33656822491162,"rashi":6,"deg":4.336568224911616,"retro":false,"house":12},"Venus":{"lon":227.18527672261462,"rashi":7,"deg":17.185276722614617,"retro":false,"house":1},"Saturn":{"lon":106.24761815205053,"rashi":3,"deg":16.247618152050535,"retro":false,"house":9},"Rahu":{"lon":349.712312066599,"rashi":11,"deg":19.712312066598997,"retro":true,"house":5},"Ketu":{"lon":169.712312066599,"rashi":5,"deg":19.712312066598997,"retro":true,"house":11}},"nakshatra":{"idx":0,"pada":3,"name":"Ashwini","lord":"Ketu","deity":"Ashvins","symbol":"🐴","nature":"Light, Swift","desc":"Symbolizes quick healing, new beginnings, and pioneering spirit. Ashwini natives are fast movers with natural leadership abilities."},"dasha":{"mahadasha":{"lord":"Venus","start":"2007-08-23T23:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"antardasha":{"lord":"Ketu","start":"2026-06-23T20:25:20.719Z","end":"2027-08-23T23:25:20.719Z"},"pratyantardasha":{"lord":"Venus","start":"2026-07-18T16:59:50.719Z","end":"2026-09-27T17:29:50.719Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Karishma, as a Vrischika (Scorpio) ascendant, your 7th house lord is Vrischika itself, which indicates a strong desire for intense, profound relationships. With Venus, your lagna lord, placed in the 1st house i...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-22T14:24:19.564Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"karishma","dateStr":"2026-07-22","currentLocation":"Haryana"}
+STRUCTURED DATA: {"Sun":{"lon":95.26353254166253,"rashi":3,"deg":5.263532541662528,"house":9},"Moon":{"lon":194.41070401177865,"rashi":6,"deg":14.410704011778648,"house":12},"Mars":{"lon":52.20790300777183,"rashi":1,"deg":22.207903007771833,"house":7},"Mercury":{"lon":82.21760554467316,"rashi":2,"deg":22.217605544673162,"house":8},"Jupiter":{"lon":100.5771888843697,"rashi":3,"deg":10.577188884369704,"house":9},"Venus":{"lon":139.53079826042048,"rashi":4,"deg":19.530798260420482,"house":10},"Saturn":{"lon":350.5017529257838,"rashi":11,"deg":20.50175292578382,"house":5}}
+INTERPRETATION PREVIEW: {"summary":"Today, Karishma, you'll experience a mix of energizing and challenging influences, with a strong focus on career growth and emotional balance. Your natural charisma and confidence will be amplified, helping you navigate through various aspects of your life.","scores":{"mood":85,"career":...
 ========================================
 

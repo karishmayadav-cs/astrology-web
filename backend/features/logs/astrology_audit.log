@@ -1105,3 +1105,39 @@ STRUCTURED DATA: {"Sun":{"lon":91.44529057395067,"rashi":3,"deg":1.4452905739506
 INTERPRETATION PREVIEW: {"summary":"Today is a generally favorable day for Sunil, with opportunities for career growth and financial gains, but beware of emotional turmoil and relationship challenges. Overall, it's a day to stay focused and adaptable.","scores":{"mood":85,"career":90,"love":75,"finance":80,"health":85},"hi...
 ========================================
 
+
+========================================
+TIMESTAMP: 2026-07-23T06:25:00.465Z
+TYPE: BIRTH_READING
+INPUT: {"name":"prachi sharma","dob":"2005-07-14","tob":"06:40","pob":"tigoan, faridabad"}
+STRUCTURED DATA: {"lagna":{"lon":99.63289900203625,"rashi":3,"deg":9.632899002036254},"planets":{"Sun":{"lon":87.7786518186966,"rashi":2,"deg":27.778651818696602,"retro":false,"house":12},"Moon":{"lon":170.92970168684224,"rashi":5,"deg":20.929701686842236,"retro":false,"house":3},"Mars":{"lon":357.4295912623222,"rashi":11,"deg":27.42959126232222,"retro":false,"house":9},"Mercury":{"lon":113.35362954921135,"rashi":3,"deg":23.353629549211348,"retro":false,"house":1},"Jupiter":{"lon":167.134934314917,"rashi":5,"deg":17.13493431491699,"retro":false,"house":3},"Venus":{"lon":115.21973850781742,"rashi":3,"deg":25.219738507817425,"retro":false,"house":1},"Saturn":{"lon":95.74887323725142,"rashi":3,"deg":5.748873237251416,"retro":false,"house":1},"Rahu":{"lon":353.76405880818845,"rashi":11,"deg":23.76405880818845,"retro":true,"house":9},"Ketu":{"lon":173.76405880818845,"rashi":5,"deg":23.76405880818845,"retro":true,"house":3}},"nakshatra":{"idx":12,"pada":4,"name":"Hasta","lord":"Moon","deity":"Savitar","symbol":"✋","nature":"Light","desc":"Represents skill, dexterity, and self-control. Hasta natives are practical, articulate, and resourceful."},"dasha":{"mahadasha":{"lord":"Rahu","start":"2014-05-03T04:40:33.525Z","end":"2032-05-02T16:40:33.525Z"},"antardasha":{"lord":"Venus","start":"2025-11-19T19:58:33.525Z","end":"2028-11-19T13:58:33.525Z"},"pratyantardasha":{"lord":"Moon","start":"2026-07-15T05:52:33.525Z","end":"2026-10-14T13:22:33.525Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Prachi Sharma's 7th house lord is Leo, and it's empty, but the Ascendant lord Moon aspects it, indicating a strong emotional connection with the partner. Venus, the planet of love, is in the 1st house, conjunct...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-23T06:25:04.705Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"prachi sharma","dateStr":"2026-07-23","currentLocation":"faridabad"}
+STRUCTURED DATA: {"Sun":{"lon":96.21825824797855,"rashi":3,"deg":6.218258247978554,"house":1},"Moon":{"lon":206.4937406945022,"rashi":6,"deg":26.493740694502208,"house":4},"Mars":{"lon":52.89450656065285,"rashi":1,"deg":22.89450656065285,"house":11},"Mercury":{"lon":82.10803822061942,"rashi":2,"deg":22.10803822061942,"house":12},"Jupiter":{"lon":100.79833871996007,"rashi":3,"deg":10.798338719960071,"house":1},"Venus":{"lon":140.60618174899787,"rashi":4,"deg":20.60618174899787,"house":2},"Saturn":{"lon":350.5086051588095,"rashi":11,"deg":20.508605158809473,"house":9}}
+INTERPRETATION PREVIEW: {"summary":"Today, Prachi Sharma, with your Lagna in Karka, will experience a mix of energies with the Sun, Jupiter, and Venus influencing your life significantly. Expect a day of highs and lows, but overall, it's a favourable period for new beginnings and career growth.","scores":{"mood":85,"career...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-23T06:40:13.803Z
+TYPE: BIRTH_READING
+INPUT: {"name":"Dev Shekhawat","dob":"2004-11-23","tob":"00:29","pob":"Jaipur, Rajasthan "}
+STRUCTURED DATA: {"lagna":{"lon":131.77743664797623,"rashi":4,"deg":11.77743664797623},"planets":{"Sun":{"lon":216.90322480310897,"rashi":7,"deg":6.903224803108969,"retro":false,"house":4},"Moon":{"lon":350.5693977787805,"rashi":11,"deg":20.569397778780512,"retro":false,"house":8},"Mars":{"lon":193.79868273491675,"rashi":6,"deg":13.798682734916753,"retro":false,"house":3},"Mercury":{"lon":238.86351414133836,"rashi":7,"deg":28.863514141338356,"retro":false,"house":4},"Jupiter":{"lon":167.93282589134714,"rashi":5,"deg":17.932825891347136,"retro":false,"house":2},"Venus":{"lon":186.35811178008237,"rashi":6,"deg":6.358111780082368,"retro":false,"house":3},"Saturn":{"lon":93.22397124797543,"rashi":3,"deg":3.2239712479754274,"retro":true,"house":12},"Rahu":{"lon":8.053507268842072,"rashi":0,"deg":8.053507268842072,"retro":false,"house":9},"Ketu":{"lon":188.05350726884208,"rashi":6,"deg":8.053507268842083,"retro":true,"house":3}},"nakshatra":{"idx":26,"pada":2,"name":"Revati","lord":"Mercury","deity":"Pushan","symbol":"🐟","nature":"Soft","desc":"Represents nourishment and safe journeys. Revati natives are compassionate, spiritual, and nurturing."},"dasha":{"mahadasha":{"lord":"Venus","start":"2023-12-02T12:32:21.611Z","end":"2043-12-02T12:32:21.611Z"},"antardasha":{"lord":"Venus","start":"2023-12-02T12:32:21.611Z","end":"2027-04-03T00:32:21.611Z"},"pratyantardasha":{"lord":"Saturn","start":"2026-01-21T18:02:21.611Z","end":"2026-08-02T12:32:21.611Z"}}}
+INTERPRETATION PREVIEW: [{"icon":"💖","title":"Spousal Character & Attraction","type":"love","stars":4,"body":"<p>Based on the birth chart, the 7th house lord is Gemini, and its lord Mercury is placed in the 4th house in Scorpio, indicating a strong and intense emotional connection with the partner. The placement of Mars i...
+========================================
+
+
+========================================
+TIMESTAMP: 2026-07-23T06:40:16.746Z
+TYPE: DAILY_HOROSCOPE
+INPUT: {"name":"Dev Shekhawat","dateStr":"2026-07-23","currentLocation":"Faridabad"}
+STRUCTURED DATA: {"Sun":{"lon":96.21825824797855,"rashi":3,"deg":6.218258247978554,"house":12},"Moon":{"lon":206.4937406945022,"rashi":6,"deg":26.493740694502208,"house":3},"Mars":{"lon":52.89450656065285,"rashi":1,"deg":22.89450656065285,"house":10},"Mercury":{"lon":82.10803822061942,"rashi":2,"deg":22.10803822061942,"house":11},"Jupiter":{"lon":100.79833871996007,"rashi":3,"deg":10.798338719960071,"house":12},"Venus":{"lon":140.60618174899787,"rashi":4,"deg":20.60618174899787,"house":1},"Saturn":{"lon":350.5086051588095,"rashi":11,"deg":20.508605158809473,"house":8}}
+INTERPRETATION PREVIEW: {"summary":"Today, Dev Shekhawat, with Venus transiting through your 1st house, you can expect a boost in confidence and charm, while Saturn's transit through your 8th house may bring some emotional challenges. Keep a balance between your professional and personal life to make the most of this day."...
+========================================
+
